@@ -16,8 +16,9 @@ class LinearIterativeSolution {
 
     public int[] twoSum(int[] nums, int target) {
         int[] results = new int[2];
-        HashMap<Integer, Integer> hashmap = new HashMap<>(nums.length/2 <= 16 ?
-                                      nums.length : nums.length/2);
+        HashMap<Integer, Integer> hashmap =
+                new HashMap<Integer, Integer>(nums.length/2 <= 16 ?
+                                              nums.length : nums.length/2);
 
         for (int i = 0;; i++) {
             /* Index of other addend already in hashmap ? */
