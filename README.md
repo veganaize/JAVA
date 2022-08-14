@@ -1,6 +1,6 @@
 # JAVA
 
-* [JDK 7]() _(LTS - 07/2022)_
+* [JDK 7](https://wiki.openjdk.org/display/jdk7u/Main) _(LTS - 07/2022)_
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
   - [_Platform Ducumentation_](https://docs.oracle.com/javase/7/docs/)
 * [JDK 8](https://wiki.openjdk.org/display/jdk8u) _(LTS - 12/2030)_
