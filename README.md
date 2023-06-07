@@ -47,6 +47,7 @@
 * [JDK 16](https://jdk.java.net/java-se-ri/16)
 * [JDK 17](https://github.com/adoptium/temurin17-binaries/releases) _(LTS >= 09/2029)_
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
+  - [_Features_](https://openjdk.org/projects/jdk/17/)
 * [JDK 18](https://jdk.java.net/18/)
 * [JDK 19](https://jdk.java.net/19/)
 * [JDK 20](https://jdk.java.net/20/)
