@@ -1,0 +1,24 @@
+*.apk
+*.dex
+*.class
+
+bin/
+gen/
+libs/
+
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# Log/OS Files
+*.log
+
+
+# Keystore files
+*.jks
+*.keystore
+
+
+# Android Profiling
+*.hprof
