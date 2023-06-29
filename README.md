@@ -10,7 +10,7 @@
     - [diamond operator](https://docs.oracle.com/javase/7/docs/technotes/guides/language/type-inference-generic-instance-creation.html)
     - [try with resources](https://docs.oracle.com/javase/7/docs/technotes/guides/language/try-with-resources.html)
     - [catch multiple exceptions](https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html)
-    - [file nio 2](https://docs.oracle.com/javase/7/docs/api/java/nio/file/package-summary.html)
+    - [file nio 2](https://www.oracle.com/technical-resources/articles/javase/nio.html)
       - [wikipedia](https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)#JDK_7_and_NIO.2)
       - [tutorial](https://docs.oracle.com/javase/tutorial/essential/io/fileio.html)
       - [zip filesystem](https://docs.oracle.com/javase/7/docs/technotes/guides/io/fsp/zipfilesystemprovider.html)
