@@ -3,6 +3,17 @@
 * [JDK 7](https://wiki.openjdk.org/display/jdk7u/Main) _(LTS - 07/2022)_
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
   - [_Platform Ducumentation_](https://docs.oracle.com/javase/7/docs/)
+  - [_Features_](https://openjdk.org/projects/jdk7/features/)
+    - [binary literals](https://docs.oracle.com/javase/7/docs/technotes/guides/language/binary-literals.html)
+    - [numeric literal underscores](https://docs.oracle.com/javase/7/docs/technotes/guides/language/underscores-literals.html)
+    - [strings in switch](https://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html)
+    - [diamond operator](https://docs.oracle.com/javase/7/docs/technotes/guides/language/type-inference-generic-instance-creation.html)
+    - [try with resources](https://docs.oracle.com/javase/7/docs/technotes/guides/language/try-with-resources.html)
+    - [catch multiple exceptions](https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html)
+    - [file nio 2]
+      - [wikipedia](https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)#JDK_7_and_NIO.2)
+      - [tutorial](https://docs.oracle.com/javase/tutorial/essential/io/fileio.html)
+      - [zip filesystem](https://docs.oracle.com/javase/7/docs/technotes/guides/io/fsp/zipfilesystemprovider.html)
 * [JDK 8](https://wiki.openjdk.org/display/jdk8u) _(LTS - 12/2030)_
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
