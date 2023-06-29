@@ -14,6 +14,10 @@
       - [wikipedia](https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)#JDK_7_and_NIO.2)
       - [tutorial](https://docs.oracle.com/javase/tutorial/essential/io/fileio.html)
       - [zip filesystem](https://docs.oracle.com/javase/7/docs/technotes/guides/io/fsp/zipfilesystemprovider.html)
+    - [ecc cryptography](https://openjdk.org/projects/jdk7/features/#f73)
+    - [tls 1.2](https://openjdk.org/projects/jdk7/features/#fa534339)
+    - [unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
+    - [nimbus theme](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html) (6u10)
 * [JDK 8](https://wiki.openjdk.org/display/jdk8u) _(LTS - 12/2030)_
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
