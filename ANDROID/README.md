@@ -1,4 +1,5 @@
 * [Android-x86](https://www.android-x86.org/)
+* [Android Version History](https://en.wikipedia.org/wiki/Android_version_history)
 
 
 Old Skool Dev Docs
