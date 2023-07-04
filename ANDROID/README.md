@@ -5,7 +5,7 @@ Old Skool Dev Docs
 ------------------
 
 * [Android 1.6 Donut - API 4 - Online App Developer Documentation](https://minimum-viable-product.github.io/donut-docs/index.html)
-* [Android 2.3 Gingerbread - API 9 - Online App Developer Documentation](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
+* [Android 2.3.3 Gingerbread - API 10 - Online App Developer Documentation](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
 * [Android 4.4 Kitkat - API 19 - Online App Developer Documentation](https://minimum-viable-product.github.io/kitkat-docs/training/index.html)
 * [Android 6.0 Marshmallow - API 23 - Online App Developer Documentation](https://minimum-viable-product.github.io/marshmallow-docs/training/index.html)
 
@@ -21,6 +21,6 @@ Old Skool SDK Tools
 
 ---
 
-* [Support Library r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip)
+* [Support Library - r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip)
 * [Download Developer Docs - API 23](https://dl.google.com/android/repository/docs-23_r01.zip)
 * [Download Developer Docs - API 19](https://dl.google.com/android/repository/docs-19_r02.zip)
