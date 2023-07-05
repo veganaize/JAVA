@@ -2,7 +2,7 @@
 
 * [JDK 7](https://wiki.openjdk.org/display/jdk7u/Main) _(LTS - 07/2022)_
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
-  - [_Platform Ducumentation_](https://docs.oracle.com/javase/7/docs/)
+  - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
     - [binary literals](https://docs.oracle.com/javase/7/docs/technotes/guides/language/binary-literals.html)
     - [numeric literal underscores](https://docs.oracle.com/javase/7/docs/technotes/guides/language/underscores-literals.html)
@@ -19,9 +19,10 @@
     - [unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
     - [nimbus theme](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html) (6u10)
 * [JDK 8](https://wiki.openjdk.org/display/jdk8u) _(LTS - 12/2030)_
+  - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
-  - [_Platform Documentation_](https://docs.oracle.com/javase/8/docs/)
+  - [_Developer Guides_](https://docs.oracle.com/javase/8/docs/)
   - [_Tutorial_](https://docs.oracle.com/javase/tutorial/)
 * [JDK 9](https://jdk.java.net/java-se-ri/9)
   - [_Features_](https://openjdk.org/projects/jdk9/)
