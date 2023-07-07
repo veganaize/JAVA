@@ -25,7 +25,7 @@ public class MainActivity extends Activity
     }
 
     /**
-     * Activity's become visible (it's now "resumed").
+     * Activity's become visible (it's now "resumed" / "running").
      */
     @Override
     protected void onResume()
@@ -44,7 +44,7 @@ public class MainActivity extends Activity
     }
 
     /**
-     * The activity's no longer visible (it's now "stopped").
+     * Activity's no longer visible (it's "stopped").
      */
     @Override
     protected void onStop()
@@ -59,7 +59,7 @@ public class MainActivity extends Activity
     }
 
     /**
-     * The activity's about to be destroyed.
+     * Activity's about to be destroyed.
      */
     @Override
     protected void onDestroy()
