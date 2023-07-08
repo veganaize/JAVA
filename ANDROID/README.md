@@ -18,7 +18,7 @@ REM -- UNPACK TOOLS --
 cd %ANDROID_HOME%
 mkdir cmdline-tools
 cd cmdline-tools
-jar -xf path\to\commandlinetools-win-9123335_latest.zip.zip
+jar -xf path\to\commandlinetools-win-9123335_latest.zip
 rename cmdline-tools 8.0
 
 REM -- INSTALL OTHERS --
