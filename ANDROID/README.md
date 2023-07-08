@@ -2,6 +2,33 @@
 * [Android Version History](https://en.wikipedia.org/wiki/Android_version_history)
 
 
+New Skool SDK Tools
+-------------------
+* [cmdline-tools 8.0 (windows; jdk8)](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip)
+* [cmdline-tools 8.0 (linux; jdk8)](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip)
+* [cmdline-tools 8.0 (mac; jdk8)](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip)
+
+```cmd
+REM -- SET PATHS --
+set JAVA_HOME=c:\progra~1\java\jdk1.8.0_121
+set ANDROID_HOME=c:\android-sdk
+set PATH=%ANDROID_HOME%\cmdline-tools\8.0\bin;%ANDROID_HOME%\platform-tools;%JAVA_HOME%\bin;%PATH%;%ANDROID_HOME%\build-tools\28.0.3;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin
+
+REM -- UNPACK TOOLS --
+cd %ANDROID_HOME%
+mkdir cmdline-tools
+cd cmdline-tools
+c:\progra~1\7-zip\7z.exe x path\to\commandlinetools-*.zip
+rename cmdline-tools 8.0
+
+REM -- INSTALL OTHERS --
+sdkmanager --licenses
+sdkmanager --list_installed [--include_obsolete]
+sdkmanager --list [--include_obsolete]
+sdkmanager "platform-tools" "build-tools;28.0.3" "platforms;android-19" "platforms;android-14" "platforms;android-10"
+```
+
+
 Old Skool Dev Docs
 ------------------
 
@@ -23,5 +50,5 @@ Old Skool SDK Tools
 ---
 
 * [Support Library - r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip)
-* [Download Developer Docs - API 23](https://dl.google.com/android/repository/docs-23_r01.zip)
-* [Download Developer Docs - API 19](https://dl.google.com/android/repository/docs-19_r02.zip)
+* [Developer Docs - API 23 (zip archive)](https://dl.google.com/android/repository/docs-23_r01.zip)
+* [Developer Docs - API 19 (zip archive)](https://dl.google.com/android/repository/docs-19_r02.zip)
