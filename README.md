@@ -23,6 +23,7 @@
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
   - [_Developer Guides_](https://docs.oracle.com/javase/8/docs/)
+  - [_JDK Tools and Utilities_](https://docs.oracle.com/javase/8/docs/technotes/tools/)
   - [_Tutorial_](https://docs.oracle.com/javase/tutorial/)
 * [JDK 9](https://jdk.java.net/java-se-ri/9)
   - [_Features_](https://openjdk.org/projects/jdk9/)
