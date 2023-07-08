@@ -18,7 +18,7 @@ REM -- UNPACK TOOLS --
 cd %ANDROID_HOME%
 mkdir cmdline-tools
 cd cmdline-tools
-c:\progra~1\7-zip\7z.exe x path\to\commandlinetools-*.zip
+jar -xf path\to\commandlinetools-*.zip
 rename cmdline-tools 8.0
 
 REM -- INSTALL OTHERS --
