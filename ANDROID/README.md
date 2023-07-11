@@ -52,5 +52,5 @@ Old Skool SDK Tools
 * [Support Library - r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip)
 * [Offline Developer Docs - API 14 - Ice Cream Sandwich (zip archive)](https://dl.google.com/android/repository/docs-14_r01.zip)
 * [Offline Developer Docs - API 19 - Kitkat (zip archive)](https://dl.google.com/android/repository/docs-19_r02.zip)
-* [Offline Developer Docs - API 23 - Marshmallow (zip archive)](https://dl.google.com/android/repository/docs-23_r01.zip) - Last release to also include non-IDE / command-line instructions in dev guides.
+* [Offline Developer Docs - API 23 - Marshmallow (zip archive)](https://dl.google.com/android/repository/docs-23_r01.zip) - Last to also include non-IDE / command-line instructions in dev guides.
 * [Offline Developer Docs - API 24 - Nougat (zip archive)](https://dl.google.com/android/repository/docs-24_r01.zip)
