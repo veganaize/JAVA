@@ -50,6 +50,7 @@ Old Skool SDK Tools
 ---
 
 * [Support Library - r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip)
+* [Developer Docs - API 24 (zip archive)](https://dl.google.com/android/repository/docs-24_r01.zip)
 * [Developer Docs - API 23 (zip archive)](https://dl.google.com/android/repository/docs-23_r01.zip)
 * [Developer Docs - API 19 (zip archive)](https://dl.google.com/android/repository/docs-19_r02.zip)
 * [Developer Docs - API 14 (zip archive)](https://dl.google.com/android/repository/docs-14_r01.zip)
