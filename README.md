@@ -1,6 +1,18 @@
 # JAVA
 
-* [JDK 7](https://wiki.openjdk.org/display/jdk7u/Main) _(LTS - 07/2022)_
+<details>
+<summary>Coding Conventions</summary>
+  
+  * [Java Code Conventions](http://web.archive.org/web/20120401065047/http://www.oracle.com/technetwork/java/codeconventions-150003.pdf) (1997)
+  * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+</details>
+
+---
+
+<details>
+<summary>JDK 7 <i>(LTS - 07/2022)</i></summary>
+  
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
   - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
@@ -18,14 +30,21 @@
     - [tls 1.2](https://openjdk.org/projects/jdk7/features/#fa534339)
     - [unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
     - [nimbus theme](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html) (6u10)
-* [JDK 8](https://wiki.openjdk.org/display/jdk8u) _(LTS - 12/2030)_
+</details>
+<details>
+<summary>JDK 8 <i>(LTS - 12/2030)</i></summary>
+  
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
   - [_Developer Guides_](https://docs.oracle.com/javase/8/docs/)
   - [_JDK Tools and Utilities_](https://docs.oracle.com/javase/8/docs/technotes/tools/)
   - [_Tutorial_](https://docs.oracle.com/javase/tutorial/)
-* [JDK 9](https://jdk.java.net/java-se-ri/9)
+  - [_Download_](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
+</details>
+<details>
+<summary>JDK 9</summary>
+  
   - [_Features_](https://openjdk.org/projects/jdk9/)
     - [ahead-of-time compilation](https://openjdk.org/jeps/295)
     - [compile for old platform versions](https://openjdk.org/jeps/247)
@@ -44,11 +63,17 @@
     - [sha-3 hash algorithms](https://openjdk.org/jeps/287)
     - [tiff image i/o](https://openjdk.org/jeps/262)
     - [unicode 8.0](https://openjdk.org/jeps/267)
-* [JDK 10](https://jdk.java.net/java-se-ri/10)
+</details>
+<details>
+<summary>JDK 10</summary>
+  
   - [_Features_](https://openjdk.org/projects/jdk/10/)
     - [local-variable type inference](https://openjdk.org/jeps/286)
     - [root certificates](https://openjdk.org/jeps/319)
-* [JDK 11](https://github.com/openjdk/jdk11u) _(LTS - 09/2026)_
+</details>
+<details>
+<summary>JDK 11 <i>(LTS - 09/2026)</i></summary>
+  
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/11/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/11/)
     - [flight recorder](https://openjdk.org/jeps/328)
@@ -57,14 +82,35 @@
     - [local-variable syntax for lambda parameters](https://openjdk.org/jeps/323)
     - [transport layer security (tls) 1.3](https://openjdk.org/jeps/332)
     - [unicode 10](https://openjdk.org/jeps/327)
-* [JDK 12](https://jdk.java.net/java-se-ri/12)
-* [JDK 13](https://jdk.java.net/java-se-ri/13)
-* [JDK 14](https://jdk.java.net/java-se-ri/14)
-* [JDK 15](https://jdk.java.net/java-se-ri/15)
-* [JDK 16](https://jdk.java.net/java-se-ri/16)
-* [JDK 17](https://github.com/adoptium/temurin17-binaries/releases) _(LTS >= 09/2029)_
+</details>
+<details>
+<summary>JDK 12</summary>
+</details>
+<details>
+<summary>JDK 13</summary>
+</details>
+<details>
+<summary>JDK 14</summary>
+</details>
+<details>
+<summary>JDK 15</summary>
+</details>
+<details>
+<summary>JDK 16</summary>
+</details>
+<details>
+<summary>JDK 17 <i>(LTS >= 09/2029)</i></summary>
+  
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/17/)
-* [JDK 18](https://jdk.java.net/18/)
-* [JDK 19](https://jdk.java.net/19/)
-* [JDK 20](https://jdk.java.net/20/)
+  - [_Download_](https://github.com/adoptium/temurin17-binaries/releases)
+</details>
+<details>
+<summary>JDK 18</summary>
+</details>
+<details>
+<summary>JDK 19</summary>
+</details>
+<details>
+<summary>JDK 20</summary>
+</details>
