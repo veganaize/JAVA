@@ -60,3 +60,8 @@ Old Skool SDK Tools
 * [Offline Developer Docs - API 19 - Kitkat (zip archive)](https://dl.google.com/android/repository/docs-19_r02.zip) 🗜️
 * [Offline Developer Docs - API 23 - Marshmallow (zip archive)](https://dl.google.com/android/repository/docs-23_r01.zip) 🗜️ - Last to also include non-IDE / command-line instructions in dev guides.
 * [Offline Developer Docs - API 24 - Nougat (zip archive)](https://dl.google.com/android/repository/docs-24_r01.zip) 🗜️
+
+Resources
+---------
+
+* [Creating Icons Tutorial](https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
