@@ -5,7 +5,14 @@
   
   * [Java Code Conventions](http://web.archive.org/web/20120401065047/http://www.oracle.com/technetwork/java/codeconventions-150003.pdf) (1997)
   * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+</details>
 
+<details>
+<summary>Tutorials</summary>
+  
+  * [Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - wikibooks
+  * [Official Tutorial](https://docs.oracle.com/javase/tutorial/) - oracle
+  * [Java Tutorials](http://tutorials.jenkov.com/) - jakob jenkov
 </details>
 
 ---
@@ -30,6 +37,8 @@
     - [tls 1.2](https://openjdk.org/projects/jdk7/features/#fa534339)
     - [unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
     - [nimbus theme](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html) (6u10)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se7/html/index.html)
+
 </details>
 <details>
 <summary>JDK 8 <i>(LTS - 12/2030)</i></summary>
@@ -37,6 +46,7 @@
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
   - [_Developer Guides_](https://docs.oracle.com/javase/8/docs/)
   - [_JDK Tools and Utilities_](https://docs.oracle.com/javase/8/docs/technotes/tools/)
   - [_Tutorial_](https://docs.oracle.com/javase/tutorial/)
@@ -82,6 +92,7 @@
     - [local-variable syntax for lambda parameters](https://openjdk.org/jeps/323)
     - [transport layer security (tls) 1.3](https://openjdk.org/jeps/332)
     - [unicode 10](https://openjdk.org/jeps/327)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
 </details>
 <details>
 <summary>JDK 12</summary>
@@ -103,6 +114,7 @@
   
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/17/)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
   - [_Download_](https://github.com/adoptium/temurin17-binaries/releases)
 </details>
 <details>
