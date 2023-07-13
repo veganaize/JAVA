@@ -18,6 +18,12 @@
 ---
 
 <details>
+<summary>JDK 6</summary>
+  
+  - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
+</details>
+
+<details>
 <summary>JDK 7 <i>(LTS - 07/2022)</i></summary>
   
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
