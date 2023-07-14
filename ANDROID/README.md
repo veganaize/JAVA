@@ -48,6 +48,12 @@ _⚠️ You need to manually extract executable from downloaded .jar archive..._
 * [aapt2 8.0.2-9289358 (linux)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-linux.jar)
 * [aapt2 8.0.2-9289358 (mac)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-osx.jar)
 
+---
+
+* [D8 dexer and R8 shrinker (8.0.40)](https://dl.google.com/android/maven2/com/android/tools/r8/8.0.40/r8-8.0.40.jar)
+    - D8 is a dexer that converts java byte code to dex code.
+    - R8 is an alternative to the ProGuard shrinking and minification tool that converts java byte code to optimized dex code.
+
 <!--
 ---
 
