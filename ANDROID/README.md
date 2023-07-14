@@ -1,3 +1,6 @@
+🤖 ANDROID
+==========
+
 * [Android Version History](https://en.wikipedia.org/wiki/Android_version_history)
 
 * [Android-x86](https://www.android-x86.org/)
@@ -6,9 +9,10 @@
     - [💿 Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
 
 
-New Skool SDK Tools
--------------------
-* [💻 cmdline-tools 8.0 (windows; jdk8)](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip) 🗜️
+💻 New Skool SDK Tools
+----------------------
+
+* [cmdline-tools 8.0 (windows; jdk8)](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip) 🗜️
     <details>
     <summary><i>Install command-line tools (windows)...</i></summary>
     
@@ -34,42 +38,48 @@ New Skool SDK Tools
     
     </details>
 
-* [💻 cmdline-tools 8.0 (linux; jdk8)](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
-* [💻 cmdline-tools 8.0 (mac; jdk8)](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
+* [cmdline-tools 8.0 (linux; jdk8)](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
+* [cmdline-tools 8.0 (mac; jdk8)](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
 
 
-Old Skool Dev Docs
-------------------
+📚 Old Skool Dev Docs
+---------------------
 
-* [📚 Android 1.6 Donut - API 4 - Online App Developer Documentation](https://minimum-viable-product.github.io/donut-docs/index.html)
-* [📚 Android 2.3.3 Gingerbread - API 10 - Online App Developer Documentation](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
-* [📚 Android 4.0 Ice Cream Sandwich - API 14 - Online App Developer Documentation](https://minimum-viable-product.github.io/ics-docs/)
-* [📚 Android 4.2 Jelly Bean - API 17 - Online App Developer Documentation](https://stuff.mit.edu/afs/sipb/project/android/docs/design/index.html)
-* [📚 Android 4.4 Kitkat - API 19 - Online App Developer Documentation](https://minimum-viable-product.github.io/kitkat-docs/training/index.html)
-* [📚 Android L (preview) - API 20 - Online App Developer Documentation](https://spot.pcc.edu/~mgoodman/developer.android.com/guide/index.html)
-* [📚 Android 6.0 Marshmallow - API 23 - Online App Developer Documentation](https://minimum-viable-product.github.io/marshmallow-docs/training/index.html)
+* _Online_
+    * [Android 1.6 Donut](https://minimum-viable-product.github.io/donut-docs/index.html) - API 4
+    * [Android 2.3.3 Gingerbread](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html) - API 10
+    * [Android 4.0 Ice Cream Sandwich](https://minimum-viable-product.github.io/ics-docs/) - API 14
+    * [Android 4.2 Jelly Bean](https://stuff.mit.edu/afs/sipb/project/android/docs/design/index.html) - API 17
+    * [Android 4.4 Kitkat](https://minimum-viable-product.github.io/kitkat-docs/training/index.html) - API 19
+    * [Android L (preview)](https://spot.pcc.edu/~mgoodman/developer.android.com/guide/index.html) - API 20
+    * [Android 6.0 Marshmallow](https://minimum-viable-product.github.io/marshmallow-docs/training/index.html) - API 23
+* _Offline_
+    * [Ice Cream Sandwich - API 14](https://dl.google.com/android/repository/docs-14_r01.zip) 🗜️
+    * [Kitkat - API 19](https://dl.google.com/android/repository/docs-19_r02.zip) 🗜️
+    * [Marshmallow - API 23](https://dl.google.com/android/repository/docs-23_r01.zip) 🗜️ - _Last to also include non-IDE / command-line instructions in dev guides._
+    * [Nougat  - API 24](https://dl.google.com/android/repository/docs-24_r01.zip) 🗜️
 
 
-Old Skool SDK Tools
--------------------
+🧰 Old Skool SDK Tools
+----------------------
 
-* [🧰 Tools - r25.2.5 (linux)](https://dl.google.com/android/repository/tools_r25.2.5-linux.zip) 🗜️
-* [🧰 Tools - r25.2.5 (mac osx)](https://dl.google.com/android/repository/tools_r25.2.5-macosx.zip) 🗜️
-* [🧰 Tools - r25.2.5 (windows)](https://dl.google.com/android/repository/tools_r25.2.5-windows.zip) 🗜️
-* [🧰 Tools - r24.4.1 (windows xp)](https://dl.google.com/android/repository/tools_r24.4.1-windows.zip) 🗜️
+* [Tools - r25.2.5 (linux)](https://dl.google.com/android/repository/tools_r25.2.5-linux.zip) 🗜️
+* [Tools - r25.2.5 (mac osx)](https://dl.google.com/android/repository/tools_r25.2.5-macosx.zip) 🗜️
+* [Tools - r25.2.5 (windows)](https://dl.google.com/android/repository/tools_r25.2.5-windows.zip) 🗜️
+
+---
+
+* [Tools - r24.4.1 (windows xp)](https://dl.google.com/android/repository/tools_r24.4.1-windows.zip) 🗜️
 * [🔌 Platform Tools - r23.1.0 (windows xp)](https://dl.google.com/android/repository/platform-tools_r23.1.0-windows.zip) 🗜️
 
 ---
 
-* [Offline Developer Docs - API 14 - Ice Cream Sandwich (zip archive)](https://dl.google.com/android/repository/docs-14_r01.zip) 🗜️
-* [Offline Developer Docs - API 19 - Kitkat (zip archive)](https://dl.google.com/android/repository/docs-19_r02.zip) 🗜️
-* [Offline Developer Docs - API 23 - Marshmallow (zip archive)](https://dl.google.com/android/repository/docs-23_r01.zip) 🗜️ - Last to also include non-IDE / command-line instructions in dev guides.
-* [Offline Developer Docs - API 24 - Nougat (zip archive)](https://dl.google.com/android/repository/docs-24_r01.zip) 🗜️
 * [💼 Support Library - r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip) 🗜️
 * [🧩 Samples - Android 6.0](https://dl-ssl.google.com/android/repository/samples-23_r02.zip) 🗜️
 
-Resources
----------
+
+📎 Resources
+------------
 
 * [Creating Icons Tutorial](https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
 * [Learn Android](https://www.tutorialspoint.com/android/android_overview.htm) - Tutorials Point
