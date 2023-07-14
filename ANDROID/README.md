@@ -46,18 +46,18 @@
 ---------------------
 
 * _Online_
-    * [Android 1.6 Donut](https://minimum-viable-product.github.io/donut-docs/index.html) - API 4
-    * [Android 2.3.3 Gingerbread](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html) - API 10
-    * [Android 4.0 Ice Cream Sandwich](https://minimum-viable-product.github.io/ics-docs/) - API 14
-    * [Android 4.2 Jelly Bean](https://stuff.mit.edu/afs/sipb/project/android/docs/design/index.html) - API 17
-    * [Android 4.4 Kitkat](https://minimum-viable-product.github.io/kitkat-docs/training/index.html) - API 19
-    * [Android L (preview)](https://spot.pcc.edu/~mgoodman/developer.android.com/guide/index.html) - API 20
-    * [Android 6.0 Marshmallow](https://minimum-viable-product.github.io/marshmallow-docs/training/index.html) - API 23
+    * [Android 1.6 - Donut - API 4](https://minimum-viable-product.github.io/donut-docs/index.html)
+    * [Android 2.3.3 - Gingerbread - API 10](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
+    * [Android 4.0 - Ice Cream Sandwich - API 14](https://minimum-viable-product.github.io/ics-docs/)
+    * [Android 4.2 - Jelly Bean - API 17](https://stuff.mit.edu/afs/sipb/project/android/docs/design/index.html)
+    * [Android 4.4 - Kitkat - API 19](https://minimum-viable-product.github.io/kitkat-docs/training/index.html)
+    * [Android L (preview) - API 20](https://spot.pcc.edu/~mgoodman/developer.android.com/guide/index.html)
+    * [Android 6.0 - Marshmallow - API 23](https://minimum-viable-product.github.io/marshmallow-docs/training/index.html)
 * _Offline_
-    * [Ice Cream Sandwich - API 14](https://dl.google.com/android/repository/docs-14_r01.zip) 🗜️
-    * [Kitkat - API 19](https://dl.google.com/android/repository/docs-19_r02.zip) 🗜️
-    * [Marshmallow - API 23](https://dl.google.com/android/repository/docs-23_r01.zip) 🗜️ - _Last to also include non-IDE / command-line instructions in dev guides._
-    * [Nougat  - API 24](https://dl.google.com/android/repository/docs-24_r01.zip) 🗜️
+    * [Android 4.0 - Ice Cream Sandwich - API 14](https://dl.google.com/android/repository/docs-14_r01.zip) 🗜️
+    * [Android 4.4 - Kitkat - API 19](https://dl.google.com/android/repository/docs-19_r02.zip) 🗜️
+    * [Android 6.0 - Marshmallow - API 23](https://dl.google.com/android/repository/docs-23_r01.zip) 🗜️ - _Last to also include non-IDE / command-line instructions in dev guides._
+    * [Android 7.0 - Nougat - API 24](https://dl.google.com/android/repository/docs-24_r01.zip) 🗜️
 
 
 🧰 Old Skool SDK Tools
