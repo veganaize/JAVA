@@ -38,6 +38,7 @@ Old Skool Dev Docs
 
 * [📚 Android 1.6 Donut - API 4 - Online App Developer Documentation](https://minimum-viable-product.github.io/donut-docs/index.html)
 * [📚 Android 2.3.3 Gingerbread - API 10 - Online App Developer Documentation](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
+* [📚 Android 4.0 Ice Cream Sandwich - API 14 - Online App Developer Documentation](https://minimum-viable-product.github.io/ics-docs/)
 * [📚 Android 4.2 Jelly Bean - API 17 - Online App Developer Documentation](https://stuff.mit.edu/afs/sipb/project/android/docs/design/index.html)
 * [📚 Android 4.4 Kitkat - API 19 - Online App Developer Documentation](https://minimum-viable-product.github.io/kitkat-docs/training/index.html)
 * [📚 Android L (preview) - API 20 - Online App Developer Documentation](https://spot.pcc.edu/~mgoodman/developer.android.com/guide/index.html)
