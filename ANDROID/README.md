@@ -66,3 +66,4 @@ Resources
 ---------
 
 * [Creating Icons Tutorial](https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
+* [Learn Android](https://www.tutorialspoint.com/android/android_overview.htm) - Tutorials Point
