@@ -54,6 +54,11 @@ _⚠️ You need to manually extract executable from downloaded .jar archive..._
     - D8 is a dexer that converts java byte code to dex code.
     - R8 is an alternative to the ProGuard shrinking and minification tool that converts java byte code to optimized dex code.
 
+---
+
+* [bundletool (1.15.1)](https://github.com/google/bundletool/releases/download/1.15.1/bundletool-all-1.15.1.jar)
+    - Command-line tool to manipulate Android App Bundles.
+
 <!--
 ---
 
