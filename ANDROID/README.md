@@ -41,6 +41,20 @@
 * [cmdline-tools 8.0 (linux; jdk8)](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
 * [cmdline-tools 8.0 (mac; jdk8)](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
 
+---
+
+_⚠️ You need to manually extract executable from downloaded .jar archive..._
+* [aapt2 8.0.2-9289358 (windows)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-windows.jar)
+* [aapt2 8.0.2-9289358 (linux)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-linux.jar)
+* [aapt2 8.0.2-9289358 (mac)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-osx.jar)
+
+<!--
+---
+
+* [d8 (windows)](https://dl.google.com/android/repository/build-tools_r30.0.1-windows.zip)
+* [d8 (linux)](https://dl.google.com/android/repository/build-tools_r30.0.1-windows.zip)
+* [d8 (mac)](https://dl.google.com/android/repository/build-tools_r30.0.1-windows.zip)
+-->
 
 📚 Old Skool Dev Docs
 ---------------------
