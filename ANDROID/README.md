@@ -44,8 +44,8 @@
         
     ```bash
     ## SET PATHS ##
-    export ANDROID_HOME=/home/username/android-sdk
-    export PATH=${ANDROID_HOME}/cmdline-tools/8.0/bin:${ANDROID_HOME}/platform-tools:${JAVA_HOME}/bin:${PATH}:${ANDROID_HOME}/build-tools/30.0.3:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin
+    export ANDROID_HOME=${HOME}/android-sdk
+    export PATH=${ANDROID_HOME}/cmdline-tools/8.0/bin:${ANDROID_HOME}/platform-tools:${PATH}:${ANDROID_HOME}/build-tools/30.0.3:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin
     
     ## UNPACK TOOLS ##
     cd ${ANDROID_HOME}
