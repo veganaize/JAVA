@@ -39,6 +39,31 @@
     </details>
 
 * [cmdline-tools 8.0 (linux; jdk8)](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
+    <details>
+    <summary><i>Install command-line tools (linux)...</i></summary>
+        
+    ```bash
+    ## SET PATHS ##
+    export ANDROID_HOME=/home/username/android-sdk
+    export PATH=${ANDROID_HOME}/cmdline-tools/8.0/bin:${ANDROID_HOME}/platform-tools:${JAVA_HOME}/bin:${PATH}:${ANDROID_HOME}/build-tools/30.0.3:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin
+    
+    ## UNPACK TOOLS ##
+    cd ${ANDROID_HOME}
+    mkdir cmdline-tools
+    cd cmdline-tools
+    jar -xvf path/to/commandlinetools-linux-9123335_latest.zip
+    mv cmdline-tools 8.0
+    chmod a+x 8.0/bin/*
+    
+    ## INSTALL OTHERS ##
+    sdkmanager --version
+    sdkmanager --licenses
+    sdkmanager --list_installed [--include_obsolete]
+    sdkmanager --list [--include_obsolete]
+    sdkmanager "platform-tools" "build-tools;30.0.3" "platforms;android-19" "platforms;android-14" "platforms;android-10"
+    ```
+    </details>
+
 * [cmdline-tools 8.0 (mac; jdk8)](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
 
 ---
