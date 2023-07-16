@@ -23,6 +23,8 @@
 <summary>JDK 6</summary>
   
   - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
+  - _Features_
+    - [jar and zip enhancements](https://docs.oracle.com/javase/6/docs/technotes/guides/jar/changes6.html)
 </details>
 
 <details>
