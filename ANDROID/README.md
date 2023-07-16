@@ -76,9 +76,9 @@ _⚠️ You need to manually extract executable from downloaded .jar archive..._
 
 ---
 
-* [D8 dexer and R8 shrinker (8.0.40)](https://dl.google.com/android/maven2/com/android/tools/r8/8.0.40/r8-8.0.40.jar)
-    - D8 is a dexer that converts java byte code to dex code.
-    - R8 is an alternative to the ProGuard shrinking and minification tool that converts java byte code to optimized dex code.
+* [D8 dexer and R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar)
+    - [D8](https://developer.android.com/tools/d8) is a dexer that converts java byte code to dex code.
+    - [R8](https://r8.googlesource.com/r8) is an alternative to the ProGuard [shrinking and minification](https://developer.android.com/build/shrink-code) tool that converts java byte code to optimized dex code.
 
 ---
 
