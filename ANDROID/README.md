@@ -20,7 +20,8 @@
     REM -- SET PATHS --
     set JAVA_HOME=c:\progra~1\java\jdk1.8.0_121
     set ANDROID_HOME=c:\android-sdk
-    set PATH=%ANDROID_HOME%\cmdline-tools\8.0\bin;%ANDROID_HOME%\platform-tools;%JAVA_HOME%\bin;%PATH%;%ANDROID_HOME%\build-tools\28.0.3;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin
+    set ANT_HOME=c:\apache-ant
+    set PATH=%ANDROID_HOME%\cmdline-tools\8.0\bin;%ANDROID_HOME%\platform-tools;%JAVA_HOME%\bin;%ANT_HOME%\bin;%PATH%;%ANDROID_HOME%\build-tools\28.0.3;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin
     
     REM -- UNPACK TOOLS --
     cd %ANDROID_HOME%
