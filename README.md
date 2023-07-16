@@ -24,6 +24,7 @@
   
   - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
   - _Features_
+    - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-6.html)
     - [jar and zip enhancements](https://docs.oracle.com/javase/6/docs/technotes/guides/jar/changes6.html)
 </details>
 
@@ -33,6 +34,7 @@
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
   - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
+    - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-7.html)
     - [binary literals](https://docs.oracle.com/javase/7/docs/technotes/guides/language/binary-literals.html)
     - [numeric literal underscores](https://docs.oracle.com/javase/7/docs/technotes/guides/language/underscores-literals.html)
     - [strings in switch](https://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html)
@@ -56,6 +58,7 @@
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
+    - [swing enhancements](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/enhancements-8.html)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
   - [_Developer Guides_](https://docs.oracle.com/javase/8/docs/)
   - [_JDK Tools and Utilities_](https://docs.oracle.com/javase/8/docs/technotes/tools/)
