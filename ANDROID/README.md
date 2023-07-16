@@ -9,89 +9,6 @@
     - [💿 Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
 
 
-💻 New Skool SDK Tools
-----------------------
-
-* [cmdline-tools 8.0 (windows; jdk8)](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip) 🗜️
-    <details>
-    <summary><i>Install command-line tools (windows)...</i></summary>
-    
-    ```cmd
-    REM -- SET PATHS --
-    set JAVA_HOME=c:\progra~1\java\jdk1.8.0_121
-    set ANDROID_HOME=c:\android-sdk
-    set ANT_HOME=c:\apache-ant
-    set PATH=%ANDROID_HOME%\cmdline-tools\8.0\bin;%ANDROID_HOME%\platform-tools;%JAVA_HOME%\bin;%ANT_HOME%\bin;%PATH%;%ANDROID_HOME%\build-tools\28.0.3;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin
-    
-    REM -- UNPACK TOOLS --
-    cd %ANDROID_HOME%
-    mkdir cmdline-tools
-    cd cmdline-tools
-    jar -xf path\to\commandlinetools-win-9123335_latest.zip
-    rename cmdline-tools 8.0
-    
-    REM -- INSTALL OTHERS --
-    sdkmanager --licenses
-    sdkmanager --list_installed [--include_obsolete]
-    sdkmanager --list [--include_obsolete]
-    sdkmanager "platform-tools" "build-tools;28.0.3" "platforms;android-19" "platforms;android-14" "platforms;android-10"
-    ```
-    
-    </details>
-
-* [cmdline-tools 8.0 (linux; jdk8)](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
-    <details>
-    <summary><i>Install command-line tools (linux)...</i></summary>
-        
-    ```bash
-    ## SET PATHS ##
-    export ANDROID_HOME=${HOME}/android-sdk
-    export PATH=${ANDROID_HOME}/cmdline-tools/8.0/bin:${ANDROID_HOME}/platform-tools:${PATH}:${ANDROID_HOME}/build-tools/30.0.3:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin
-    
-    ## UNPACK TOOLS ##
-    cd ${ANDROID_HOME}
-    mkdir cmdline-tools
-    cd cmdline-tools
-    jar -xvf path/to/commandlinetools-linux-9123335_latest.zip
-    mv cmdline-tools 8.0
-    chmod a+x 8.0/bin/*
-    
-    ## INSTALL OTHERS ##
-    sdkmanager --version
-    sdkmanager --licenses
-    sdkmanager --list_installed [--include_obsolete]
-    sdkmanager --list [--include_obsolete]
-    sdkmanager "platform-tools" "build-tools;30.0.3" "platforms;android-19" "platforms;android-14" "platforms;android-10"
-    ```
-    </details>
-
-* [cmdline-tools 8.0 (mac; jdk8)](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
-
----
-
-_⚠️ You need to manually extract executable from downloaded .jar archive..._
-* [aapt2 8.0.2-9289358 (windows)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-windows.jar)
-* [aapt2 8.0.2-9289358 (linux)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-linux.jar)
-* [aapt2 8.0.2-9289358 (mac)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-osx.jar)
-
----
-
-* [D8 dexer and R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar)
-    - [D8](https://developer.android.com/tools/d8) is a dexer that converts java byte code to dex code.
-    - [R8](https://r8.googlesource.com/r8) is an alternative to the ProGuard [shrinking and minification](https://developer.android.com/build/shrink-code) tool that converts java byte code to optimized dex code.
-
----
-
-* [bundletool (1.15.1)](https://github.com/google/bundletool/releases/download/1.15.1/bundletool-all-1.15.1.jar)
-    - Command-line tool to manipulate Android App Bundles.
-
-<!--
----
-
-* [d8 (windows)](https://dl.google.com/android/repository/build-tools_r30.0.1-windows.zip)
-* [d8 (linux)](https://dl.google.com/android/repository/build-tools_r30.0.1-windows.zip)
-* [d8 (mac)](https://dl.google.com/android/repository/build-tools_r30.0.1-windows.zip)
--->
 
 📚 Old Skool Dev Docs
 ---------------------
@@ -127,6 +44,115 @@ _⚠️ You need to manually extract executable from downloaded .jar archive..._
 
 * [💼 Support Library - r23.2.1](https://dl.google.com/android/repository/support_r23.2.1.zip) 🗜️
 * [🧩 Samples - Android 6.0](https://dl-ssl.google.com/android/repository/samples-23_r02.zip) 🗜️
+
+---
+
+💻 New Skool SDK Tools
+----------------------
+
+* **cmdline-tools 8.0 (jdk 8 compatible)**
+
+    - [Download for Windows](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip) 🗜️
+        <details>
+        <summary><i>Install instructions (windows)...</i></summary>
+        
+        ```cmd
+        REM -- SET PATHS --
+        set JAVA_HOME=c:\progra~1\java\jdk1.8.0_121
+        set ANDROID_HOME=c:\android-sdk
+        set ANT_HOME=c:\apache-ant
+        set PATH=%ANDROID_HOME%\cmdline-tools\8.0\bin;%ANDROID_HOME%\platform-tools;%JAVA_HOME%\bin;%ANT_HOME%\bin;%PATH%;%ANDROID_HOME%\build-tools\28.0.3;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin
+        
+        REM -- UNPACK TOOLS --
+        cd %ANDROID_HOME%
+        mkdir cmdline-tools
+        cd cmdline-tools
+        jar -xf path\to\commandlinetools-win-9123335_latest.zip
+        rename cmdline-tools 8.0
+        
+        REM -- INSTALL OTHERS --
+        sdkmanager --licenses
+        sdkmanager --list_installed [--include_obsolete]
+        sdkmanager --list [--include_obsolete]
+        sdkmanager "platform-tools" "build-tools;28.0.3" "platforms;android-19" "platforms;android-14" "platforms;android-10"
+        ```
+        
+        </details>
+    
+    - [Download for Linux](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
+        <details>
+        <summary><i>Install command-line tools (linux)...</i></summary>
+            
+        ```bash
+        ## SET PATHS ##
+        export ANDROID_HOME=${HOME}/android-sdk
+        export PATH=${ANDROID_HOME}/cmdline-tools/8.0/bin:${ANDROID_HOME}/platform-tools:${PATH}:${ANDROID_HOME}/build-tools/30.0.3:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin
+        
+        ## UNPACK TOOLS ##
+        cd ${ANDROID_HOME}
+        mkdir cmdline-tools
+        cd cmdline-tools
+        jar -xvf path/to/commandlinetools-linux-9123335_latest.zip
+        mv cmdline-tools 8.0
+        chmod a+x 8.0/bin/*
+        
+        ## INSTALL OTHERS ##
+        sdkmanager --version
+        sdkmanager --licenses
+        sdkmanager --list_installed [--include_obsolete]
+        sdkmanager --list [--include_obsolete]
+        sdkmanager "platform-tools" "build-tools;30.0.3" "platforms;android-19" "platforms;android-14" "platforms;android-10"
+        ```
+        </details>
+    
+    - [Download for Mac](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
+
+
+New Skool Standalone Tools
+---------------------------
+
+* [aapt2 8.0.2-9289358 (windows)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-windows.jar)
+* [aapt2 8.0.2-9289358 (linux)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-linux.jar)
+* [aapt2 8.0.2-9289358 (mac)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-osx.jar)
+
+1. _Manually extract executable from .jar archive:_
+
+        jar xvf aapt2-8.0.2-9289358-*.jar aapt2*
+2. _Compile resources (incrementally)_:
+
+        aapt2 compile -o compiled/ res/<folder>/file.[xml|png] ...
+   _Or simpler (non-incremental) -- suboptimal for large projects:_
+   
+        aapt2 compile --dir res/ -o res.zip
+   _List files in resulting archive:_
+   
+        jar tvf res.zip
+
+---
+
+* [D8 dexer and R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar)
+    - [D8](https://developer.android.com/tools/d8) is a dexer that converts java byte code to dex code:
+ 
+          java -cp path/to/r8.jar com.android.tools.r8.D8 \
+               --debug \
+               --min-api <min-api> \
+               --output compiled/ \
+               --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
+               <input.jar | compiled/org/example/pkgname/*.class>
+    - [R8](https://r8.googlesource.com/r8) is a whole-program-optimizing-compiler alternative to the ProGuard [shrinking and minification](https://developer.android.com/build/shrink-code) tool that converts java byte code to optimized dex code:
+ 
+          java -cp path/to/r8.jar com.android.tools.r8.R8 \
+               --release \
+               --min-api <min-api> \
+               --output compiled/ \
+               --pg-conf proguard.cfg \
+               --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
+               <input.jar | compiled/org/example/pkgname/*.class>
+
+---
+
+* [bundletool (1.15.1)](https://github.com/google/bundletool/releases/download/1.15.1/bundletool-all-1.15.1.jar)
+    - Command-line tool to manipulate Android App Bundles.
 
 
 📎 Resources
