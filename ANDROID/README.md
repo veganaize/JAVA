@@ -198,13 +198,25 @@ _Sign apk:_
 
     apksigner sign \
         --ks debug.keystore \
-        --out signed.apk \
-        unsigned.apk
+        --out compiled/signed.apk \
+        compiled/unsigned.apk
 
-    apksigner verify signed.apk
+    apksigner verify compiled/signed.apk
 _Align apk:_
 
-    zipalign -v -p 4 signed.apk release.apk
+    zipalign -v -p 4 compiled/signed.apk compiled/release.apk
+
+---
+
+</details>
+<details>
+<summary><b><i>⚙️ ADB...</i></b></summary>
+    
+    adb install compiled/release.apk
+
+    adb shell am start org.example.pkgname/.ActivityName
+
+    adb uninstall org.example.pkgname
 
 ---
 
