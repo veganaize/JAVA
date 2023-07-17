@@ -3,10 +3,10 @@
 
 * [Android Version History](https://en.wikipedia.org/wiki/Android_version_history)
 
-* [Android-x86](https://www.android-x86.org/)
-    - [💿 Android-x86 4.4 Kitkat](https://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-r5.iso/download)
-    - [💿 Android-x86 2.2 Froyo](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download)
-    - [💿 Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
+* [Android-x86](https://www.android-x86.org/) 💿
+    - [Android-x86 4.4 Kitkat](https://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-r5.iso/download)
+    - [Android-x86 2.2 Froyo](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download)
+    - [Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
 
 
 
@@ -114,7 +114,7 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
 -----------------------------
 
 <details>
-<summary><b><i>AAPT2...</i></b></summary>
+<summary><b><i>⚙️ AAPT2...</i></b></summary>
 
 1. Download aapt2:
     - [aapt2 8.0.2-9289358 (windows 7+)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-windows.jar) 🗜️
@@ -149,7 +149,7 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
 
 </details>
 <details>
-<summary><b><i>D8/R8...</i></b></summary>
+<summary><b><i>⚙️ D8/R8...</i></b></summary>
     
 1. [Download D8 dexer / R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar) 🗜️
 * [D8](https://developer.android.com/tools/d8) is a dexer that converts java byte code to dex code:
@@ -174,7 +174,7 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
 
 </details>
 <details>
-<summary><b><i>Bundletool...</i></b></summary>
+<summary><b><i>⚙️ Bundletool...</i></b></summary>
     
 * [bundletool (1.15.1)](https://github.com/google/bundletool/releases/download/1.15.1/bundletool-all-1.15.1.jar) 🗜️ is a command-line tool to manipulate Android App Bundles (AABs).
 
