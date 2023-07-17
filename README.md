@@ -25,6 +25,7 @@
   - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
   - _Features_
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-6.html)
+    - [writer for .gif format](https://docs.oracle.com/javase/8/docs/technotes/guides/imageio/enhancements60.html#gif)
     - [jar and zip enhancements](https://docs.oracle.com/javase/6/docs/technotes/guides/jar/changes6.html)
 </details>
 
