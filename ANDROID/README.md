@@ -110,71 +110,75 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
     - [Download for Mac](https://dl.google.com/android/repository/commandlinetools-mac-9123335_latest.zip) 🗜️
 
 
-New Skool Standalone Tools
----------------------------
+🔧 New Skool Standalone Tools
+-----------------------------
 
-* [aapt2 8.0.2-9289358 (windows)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-windows.jar) 🗜️
-* [aapt2 8.0.2-9289358 (linux)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-linux.jar) 🗜️
-* [aapt2 8.0.2-9289358 (mac)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-osx.jar) 🗜️
+* ***AAPT2***
+    * [aapt2 8.0.2-9289358 (windows 7+)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-windows.jar) 🗜️
+    * [aapt2 8.0.2-9289358 (linux)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-linux.jar) 🗜️
+    * [aapt2 8.0.2-9289358 (mac)](https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.0.2-9289358/aapt2-8.0.2-9289358-osx.jar) 🗜️
 
-<details>
-<summary>Manually extract `aapt2` executable from .jar archive...</summary>
-    
-        jar xvf aapt2-8.0.2-9289358-*.jar aapt2*
-</details>
-<details>
-<summary>Compile app resources...</summary>
-    
-   _Incrementally:_
-    
-        aapt2 compile -o compiled/ res/<folder>/file.[xml|png] ...
-   _Non-incrementally (simpler, but suboptimal for large projects:_
-   
-        aapt2 compile --dir res/ -o res.zip
-   _List files in resulting archive:_
-   
-        jar tvf res.zip
-</details>
-<details>
-<summary>Link compiled resources...</summary>
-    
-        aapt2 link \
-            compiled/file.flat ... \
-            -o compiled/unsigned.apk \
-            --manifest AndroidManifest.xml \
-            -I ${ANDROID_HOME}/platforms/android-14/android.jar \
-            --java gen    
-</details>
-
----
-
-* [D8 dexer and R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar)
-    <details>
-    <summary><a href="https://developer.android.com/tools/d8">D8</a> is a dexer that converts java byte code to dex code...</summary>
-     
-          java -cp path/to/r8.jar com.android.tools.r8.D8 \
-               --debug \
-               --min-api <min-api> \
-               --output compiled/ \
-               --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
-               <input.jar | compiled/org/example/pkgname/*.class>
-    </details>
-    <details>
-    <summary><a href="https://r8.googlesource.com/r8">R8</a> is a whole-program-optimizing-compiler (alternative to the ProGuard <a href="https://developer.android.com/build/shrink-code">shrinking and minification</a> tool) that converts java byte code to optimized dex code...</summary>
-     
-          java -cp path/to/r8.jar com.android.tools.r8.R8 \
-               --release \
-               --min-api <min-api> \
-               --output compiled/ \
-               --pg-conf proguard.cfg \
-               --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
-               <input.jar | compiled/org/example/pkgname/*.class>
-    </details>
+        <details>
+        <summary>1. Manually extract aapt2 executable from .jar archive...</summary>
+            
+            jar xvf aapt2-8.0.2-9289358-*.jar aapt2*
+        </details>
+        
+        <details>
+        <summary>2. Compile app resources...</summary>
+            
+        _Incrementally:_
+            
+            aapt2 compile -o compiled/ res/<folder>/file.[xml|png] ...
+        _Non-incrementally (simpler, but suboptimal for large projects:_
+           
+            aapt2 compile --dir res/ -o res.zip
+        _List files in resulting archive:_
+           
+            jar tvf res.zip
+        </details>
+        
+        <details>
+        <summary>3. Link compiled resources...</summary>
+            
+                aapt2 link \
+                    compiled/file.flat ... \
+                    -o compiled/unsigned.apk \
+                    --manifest AndroidManifest.xml \
+                    -I ${ANDROID_HOME}/platforms/android-14/android.jar \
+                    --java gen    
+        </details>
 
 ---
 
-* [bundletool (1.15.1)](https://github.com/google/bundletool/releases/download/1.15.1/bundletool-all-1.15.1.jar)
-    - Command-line tool to manipulate Android App Bundles.
+* ***D8/R8***
+    - [Download D8 dexer / R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar)
+        <details>
+        <summary><a href="https://developer.android.com/tools/d8">D8</a> is a dexer that converts java byte code to dex code...</summary>
+         
+              java -cp path/to/r8.jar com.android.tools.r8.D8 \
+                   --debug \
+                   --min-api <min-api> \
+                   --output compiled/ \
+                   --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
+                   <input.jar | compiled/org/example/pkgname/*.class>
+        </details>
+        <details>
+        <summary><a href="https://r8.googlesource.com/r8">R8</a> is a whole-program-optimizing-compiler (alternative to the ProGuard <a href="https://developer.android.com/build/shrink-code">shrinking and minification</a> tool) that converts java byte code to optimized dex code...</summary>
+         
+              java -cp path/to/r8.jar com.android.tools.r8.R8 \
+                   --release \
+                   --min-api <min-api> \
+                   --output compiled/ \
+                   --pg-conf proguard.cfg \
+                   --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
+                   <input.jar | compiled/org/example/pkgname/*.class>
+        </details>
+
+---
+
+* ***Bundletool***
+    - [bundletool (1.15.1)](https://github.com/google/bundletool/releases/download/1.15.1/bundletool-all-1.15.1.jar) is a command-line tool to manipulate Android App Bundles (AAB).
 
 ---
 
