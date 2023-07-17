@@ -151,8 +151,12 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
 <details>
 <summary><b><i>⚙️ D8/R8...</i></b></summary>
     
-1. [Download D8 dexer / R8 shrinker (4.0.63; jdk8)](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar) 🗜️
-* [D8](https://developer.android.com/tools/d8) is a dexer that converts java byte code to dex code:
+* [_Download D8 dexer / R8 shrinker (4.0.63; jdk8)_](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar) 🗜️
+
+---
+
+1.
+   * [D8](https://developer.android.com/tools/d8) is a dexer that converts java byte code to dex code:
          
               java -cp path/to/r8.jar com.android.tools.r8.D8 \
                    --debug \
@@ -160,7 +164,7 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
                    --output compiled/ \
                    --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
                    <input.jar | compiled/org/example/pkgname/*.class>
-* [R8](https://r8.googlesource.com/r8) is a whole-program-optimizing-compiler (alternative to ProGuard [shrinking and minification](https://developer.android.com/build/shrink-code) tool) that converts java byte code to optimized dex code:
+   * [R8](https://r8.googlesource.com/r8) is a whole-program-optimizing-compiler (alternative to ProGuard [shrinking and minification](https://developer.android.com/build/shrink-code) tool) that converts java byte code to optimized dex code:
          
               java -cp path/to/r8.jar com.android.tools.r8.R8 \
                    --release \
@@ -169,6 +173,38 @@ _These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (se
                    --pg-conf proguard.cfg \
                    --lib <${ANDROID_HOME}/platforms/android-14/android.jar | rt.jar> \
                    <input.jar | compiled/org/example/pkgname/*.class>
+2. _Add dex into apk:_
+
+        jar Muvf compiled/unsigned.apk compiled/classes.dex
+   
+---
+
+</details>
+<details>
+<summary><b><i>⚙️ Apksigner...</i></b></summary>
+
+_Generate debug key:_
+
+    keytool -genkey -v \
+        -keystore debug.keystore \
+        -storepass android \
+        -alias androiddebugkey \
+        -keypass android \
+        -dname "CN=Android Debug, O=Android, C=US" \
+        -keyalg RSA \
+        -keysize 2048 \
+        -validity 10000
+_Sign apk:_
+
+    apksigner sign \
+        --ks debug.keystore \
+        --out signed.apk \
+        unsigned.apk
+
+    apksigner verify signed.apk
+_Align apk:_
+
+    zipalign -v -p 4 signed.apk release.apk
 
 ---
 
