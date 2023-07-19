@@ -31,14 +31,14 @@
 🧰 Old Skool SDK Tools
 ----------------------
 
-_These include classic `android` command, GUI SDK Manager, and `sdkmanager`..._
+_These include classic `android` command, SDK Manager GUI, and `sdkmanager` command..._
 * [Tools - r25.2.5 (linux)](https://dl.google.com/android/repository/tools_r25.2.5-linux.zip) 🗜️
 * [Tools - r25.2.5 (mac osx)](https://dl.google.com/android/repository/tools_r25.2.5-macosx.zip) 🗜️
 * [Tools - r25.2.5 (windows)](https://dl.google.com/android/repository/tools_r25.2.5-windows.zip) 🗜️
 
 ---
 
-_These include XP-compatible `android`, GUI SDK Manager, but no `sdkmanager` (see: [New Skool SDK Tools](#-new-skool-sdk-tools))..._
+_These include XP-compatible `android`, SDK Manager GUI (no ~~`sdkmanager`~~ command; see [new skool sdk tools](#-new-skool-sdk-tools) below)..._
 * [Tools - r24.4.1 (windows xp)](https://dl.google.com/android/repository/tools_r24.4.1-windows.zip) 🗜️
 * [🔌 Platform Tools - r23.1.0 (windows xp)](https://dl.google.com/android/repository/platform-tools_r23.1.0-windows.zip) 🗜️
 
