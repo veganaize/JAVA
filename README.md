@@ -7,6 +7,7 @@
   
   * [Java Code Conventions](http://web.archive.org/web/20120401065047/http://www.oracle.com/technetwork/java/codeconventions-150003.pdf) (1997)
   * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+  * [Secure Coding Guidelines](https://www.oracle.com/java/technologies/javase/seccodeguide.html) - oracle
 </details>
 
 <details>
