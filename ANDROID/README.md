@@ -149,6 +149,28 @@ _These include XP-compatible `android`, SDK Manager GUI (no ~~`sdkmanager`~~ com
 
 </details>
 <details>
+<summary><b><i>⚙️ JAVAC...</i></b></summary>
+
+* Download jdk8:
+    - [oracle jdk 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
+    - [openjdk 8](https://adoptium.net/temurin/archive/?version=8)
+    - [graalvm ce java8](https://github.com/graalvm/graalvm-ce-builds/releases/tag/vm-21.3.1)
+
+---
+
+    javac \
+        [-g] \
+        -source 1.7 \
+        -target 1.7 \
+        -bootclasspath ${ANDROID_HOME}/platforms/android-14/android.jar \
+        -cp gen \
+        -d compiled/ \
+        src/org/example/pkg/*.java
+
+---
+
+</details>
+<details>
 <summary><b><i>⚙️ D8/R8...</i></b></summary>
     
 * [_Download D8 dexer / R8 shrinker (4.0.63; jdk8)_](https://dl.google.com/android/maven2/com/android/tools/r8/4.0.63/r8-4.0.63.jar) 🗜️
