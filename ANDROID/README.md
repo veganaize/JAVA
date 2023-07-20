@@ -233,5 +233,6 @@ _Align apk:_
 📎 Resources
 ------------
 
+* [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - Roman Nurik
 * [Creating Icons Tutorial](https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
 * [Learn Android](https://www.tutorialspoint.com/android/android_overview.htm) - Tutorials Point
