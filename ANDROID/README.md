@@ -4,10 +4,13 @@
 * [Android Version History](https://en.wikipedia.org/wiki/Android_version_history)
 
 * [Android-x86](https://www.android-x86.org/) 💿
-    - [Android-x86 4.4 Kitkat](https://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-r5.iso/download)
-    - [Android-x86 2.2 Froyo](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download)
-    - [Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
-
+    - _Download_
+        - [Android-x86 4.4 Kitkat](https://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-r5.iso/download)
+        - [Android-x86 2.2 Froyo](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download)
+        - [Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
+    - _HowTo_
+        - [Debug Android-x86](https://www.android-x86.org/documentation/debug.html)
+        - [Run Android-x86 in VirtualBox](https://www.android-x86.org/documentation/virtualbox.html)
 
 
 📚 Old Skool Dev Docs
