@@ -65,8 +65,7 @@ IF NOT "%1"=="" (
 
 @ECHO Compiling resources...
 mkdir compiled 2>NUL
-aapt2 ^
-    compile ^
+aapt2 compile ^
     -o compiled\res.zip ^
     --dir res
 IF NOT "%ERRORLEVEL%"=="0" GOTO :EOF
@@ -74,8 +73,7 @@ IF NOT "%ERRORLEVEL%"=="0" GOTO :EOF
 
 @ECHO Linking resources...
 mkdir gen 2>NUL
-aapt2 ^
-    link ^
+aapt2 link ^
     compiled\res.zip ^
     -o compiled\unsigned.apk ^
     --manifest AndroidManifest.xml ^
