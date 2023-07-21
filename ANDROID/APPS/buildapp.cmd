@@ -23,7 +23,7 @@ IF "%*"=="--help" (
     @ECHO Usage
     @ECHO -----
     @ECHO.
-    @ECHO    buildapp ["VARIABLE=value" ["VARIABLE=value" ...]]
+    @ECHO    buildapp [VARIABLE=value [VARIABLE=value ...]]
     @ECHO.
     @ECHO.
     @ECHO Variables
