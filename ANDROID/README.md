@@ -26,6 +26,7 @@
     * [Android 6.0 - Marshmallow - API 23](https://minimum-viable-product.github.io/marshmallow-docs/training/index.html)
 * _Offline_
     * [Android 4.0 - Ice Cream Sandwich - API 14](https://dl.google.com/android/repository/docs-14_r01.zip) 🗜️
+    * [Android 4.2 - Jelly Bean - API 17](https://code.google.com/archive/p/android-chm-documentation/downloads) - CHM format
     * [Android 4.4 - Kitkat - API 19](https://dl.google.com/android/repository/docs-19_r02.zip) 🗜️
     * [Android 6.0 - Marshmallow - API 23](https://dl.google.com/android/repository/docs-23_r01.zip) 🗜️ - _Last to also include non-IDE / command-line instructions in dev guides._
     * [Android 7.0 - Nougat - API 24](https://dl.google.com/android/repository/docs-24_r01.zip) 🗜️
