@@ -89,7 +89,7 @@ IF NOT "%ERRORLEVEL%"=="0" GOTO :EOF
 
 IF "%PACKAGE_NAME%"=="" (
     @ECHO Discovering package name...
-    FOR /F %%r IN ('apkanalyzer manifest application-id compiled\unsigned.apk') DO (
+    FOR /F %%r IN ('apkanalyzer manifest application-id %BUILD_DIR%\unsigned.apk') DO (
         @ECHO     %%r
         SET PACKAGE_NAME=%%r
     )
