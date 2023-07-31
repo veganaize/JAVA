@@ -42,7 +42,7 @@ _These include classic `android` command, SDK Manager GUI, and `sdkmanager` comm
 
 ---
 
-_These include XP-compatible `android`, SDK Manager GUI (no ~~`sdkmanager`~~ command; see [new skool sdk tools](#-new-skool-sdk-tools) below)..._
+_*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanager`~~ command... ([cmdline-tools 8.0](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip) are also **xp/jdk8** compatible, they do include the `sdkmanager` command, and will work happily along side these tools)_
 * [Tools - r24.4.1 (windows xp)](https://dl.google.com/android/repository/tools_r24.4.1-windows.zip) 🗜️
 * [🔌 Platform Tools - r23.1.0 (windows xp)](https://dl.google.com/android/repository/platform-tools_r23.1.0-windows.zip) 🗜️
 
@@ -56,11 +56,11 @@ _These include XP-compatible `android`, SDK Manager GUI (no ~~`sdkmanager`~~ com
 💻 New Skool SDK Tools
 ----------------------
 
-* **cmdline-tools 8.0 (jdk 8 compatible)**
+* **cmdline-tools 8.0** _(jdk 8 compatible; win xp compatible; includes `sdkmanager`)_
 
     - [Download for Windows](https://dl.google.com/android/repository/commandlinetools-win-9123335_latest.zip) 🗜️
         <details>
-        <summary>Install instructions (windows)...</summary>
+        <summary>Windows install instructions...</summary>
         
         ```cmd
         REM -- SET PATHS --
@@ -87,7 +87,7 @@ _These include XP-compatible `android`, SDK Manager GUI (no ~~`sdkmanager`~~ com
     
     - [Download for Linux](https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip) 🗜️
         <details>
-        <summary>Install command-line tools (linux)...</summary>
+        <summary>Linux install instructions...</summary>
             
         ```bash
         ## SET PATHS ##
