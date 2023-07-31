@@ -157,7 +157,7 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
 
 * Download jdk8:
     - [oracle jdk 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
-    - [openjdk 8](https://adoptium.net/temurin/archive/?version=8)
+    - [openjdk 8](https://wiki.openjdk.org/display/jdk8u/Main)
     - [graalvm ce java8](https://github.com/graalvm/graalvm-ce-builds/releases/tag/vm-21.3.1)
 
 ---
