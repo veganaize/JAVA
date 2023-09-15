@@ -1,7 +1,5 @@
 # JAVA
 
-[Java Version History](https://en.wikipedia.org/wiki/Java_version_history)
-
 <details>
 <summary>Coding Conventions</summary>
   
@@ -25,7 +23,21 @@
 
 </details>
 
+<details>
+<summary>Database</summary>
+  
+  * [Apache Derby](https://db.apache.org/derby/) - full-featured, open source relational database management system (RDBMS) that is based on Java technology and SQL.
+
+    Derby is written and implemented completely in the Java programming language. Derby provides users with a small-footprint standards-based database engine that can be tightly embedded into any Java based solution.  Derby ensures data integrity and provides sophisticated transaction support. In the default configuration there is no separate database server to be installed or maintained by the end user.
+
+    The on-disk database format used by Derby is portable and platform-independent. You can move Derby databases from machine to machine without needing to modify the data. A Derby application can include a pre-built, populated database if it needs to, and that database will work in any Derby configuration. 
+
+</details>
+
 ---
+
+<img src="https://user-images.githubusercontent.com/7102064/159777738-8d923779-60d7-44e8-a6ec-4cefb6c9b0d0.png" width="16px"
+/> <a href="https://en.wikipedia.org/wiki/Java_version_history">Java Version History</a>
 
 <details>
 <summary>JDK 6</summary>
