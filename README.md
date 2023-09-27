@@ -172,5 +172,5 @@
 <summary>JDK 21</summary>
 
   - [_Features_](https://openjdk.org/projects/jdk/21/)
-    - [unnamed classes / instance main methods (preview)](https://openjdk.org/jeps/445)
+    - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
 </details>
