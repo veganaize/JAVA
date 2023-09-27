@@ -168,3 +168,9 @@
 <details>
 <summary>JDK 20</summary>
 </details>
+<details>
+<summary>JDK 21</summary>
+
+  - [_Features_](https://openjdk.org/projects/jdk/21/)
+    - [unnamed classes / instance main methods (preview)](https://openjdk.org/jeps/445)
+</details>
