@@ -170,7 +170,7 @@
 <summary>JDK 20</summary>
 </details>
 <details>
-<summary>JDK 21 <i>(LTS = 09/2031)</i></summary>
+<summary>JDK 21 <i>(LTS - 09/2031)</i></summary>
 
   - [_Features_](https://openjdk.org/projects/jdk/21/)
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
