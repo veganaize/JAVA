@@ -175,4 +175,5 @@
   - [_Features_](https://openjdk.org/projects/jdk/21/)
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
+- [_Download_](https://jdk.java.net/21/)
 </details>
