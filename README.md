@@ -189,5 +189,6 @@
     - [virtual threads](https://openjdk.org/jeps/444)
     - [sequenced collections](https://openjdk.org/jeps/431)
 - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se21/html/index.html)
+- [_JDK Tools_](https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html)
 - [_Download_](https://jdk.java.net/21/)
 </details>
