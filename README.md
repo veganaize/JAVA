@@ -26,7 +26,8 @@
 
 <details>
 <summary>Testing</summary>
-  
+
+  * [Programming With Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) - oracle
   * [ArchUnit](https://github.com/TNG/ArchUnit)
   * [JUnit 5](https://junit.org/junit5/)
   * [JUnit 4](https://junit.org/junit4/)
