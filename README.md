@@ -166,6 +166,12 @@
 </details>
 <details>
 <summary>JDK 18</summary>
+
+  - [_Features_](https://openjdk.org/projects/jdk/18/)
+    - [utf-8 by default](https://openjdk.org/jeps/400)
+    - [simple web server](https://openjdk.org/jeps/408)
+    - [code snippets in api docs](https://openjdk.org/jeps/413)
+    - [inet address resolution](https://openjdk.org/jeps/418)
 </details>
 <details>
 <summary>JDK 19</summary>
@@ -179,5 +185,6 @@
   - [_Features_](https://openjdk.org/projects/jdk/21/)
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
+    - [sequenced collections](https://openjdk.org/jeps/431)
 - [_Download_](https://jdk.java.net/21/)
 </details>
