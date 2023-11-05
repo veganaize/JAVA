@@ -187,5 +187,6 @@
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
     - [sequenced collections](https://openjdk.org/jeps/431)
+- [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se21/html/index.html)
 - [_Download_](https://jdk.java.net/21/)
 </details>
