@@ -151,6 +151,10 @@
 </details>
 <details>
 <summary>JDK 16</summary>
+
+  - [_Features_](https://openjdk.org/projects/jdk/16/)
+    - [unix-domain socket channels](https://openjdk.org/jeps/380)
+    - [records](https://openjdk.org/jeps/395) ([record classes](https://docs.oracle.com/en/java/javase/16/language/records.html)) ([serializable records](https://docs.oracle.com/en/java/javase/16/serializable-records/index.html))
 </details>
 <details>
 <summary>JDK 17 <i>(LTS >= 09/2029)</i></summary>
