@@ -162,6 +162,7 @@
   
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/17/)
+    - [sealed classes](https://openjdk.org/jeps/409)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
   - [_Download_](https://github.com/adoptium/temurin17-binaries/releases)
 </details>
