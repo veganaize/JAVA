@@ -52,7 +52,8 @@
 
 <details>
 <summary>JDK 6</summary>
-  
+
+  - [_API Documentation_](https://javadoc.allimant.org/dist/j2se6.zip) - .chm
   - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
   - _Features_
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-6.html)
@@ -63,7 +64,7 @@
 <details>
 <summary>JDK 7 <i>(LTS - 07/2022)</i></summary>
   
-  - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)
+  - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)  (_.chm: [tutorial](https://javadoc.allimant.org/dist/java-tutorial-2011-07-20.zip); [api docs](https://javadoc.allimant.org/dist/j2se7.zip)_)
   - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-7.html)
@@ -88,7 +89,7 @@
 <summary>JDK 8 <i>(LTS - 12/2030)</i></summary>
   
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
-  - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/)
+  - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se8.zip))
   - [_Features_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
     - [lambda expressions](https://openjdk.org/projects/lambda/) ([java tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)) ([quick start](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html)) ([part 1](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html)) ([part2](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part2.html)) ([oreilly 1](https://www.oreilly.com/content/whats-new-in-java-8-lambdas/)) ([oreilly 2](https://www.oreilly.com/content/java-8-functional-interfaces/))
     - [swing enhancements](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/enhancements-8.html)
