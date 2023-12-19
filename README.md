@@ -150,6 +150,9 @@
 </details>
 <details>
 <summary>JDK 14</summary>
+
+  - [_Features_](https://openjdk.org/projects/jdk/14/)
+    - [switch expressions](https://openjdk.org/jeps/361)
 </details>
 <details>
 <summary>JDK 15</summary>
