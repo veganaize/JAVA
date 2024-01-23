@@ -18,6 +18,12 @@
 </details>
 
 <details>
+<summary>Guides</summary>
+
+  * [Annotations](https://docs.oracle.com/javase/6/docs/technotes/guides/language/annotations.html)
+</details>
+
+<details>
 <summary>Build Tools</summary>
 
   * [javac](https://docs.oracle.com/en/java/javase/21/docs/specs/man/javac.html)
