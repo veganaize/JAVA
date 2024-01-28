@@ -21,6 +21,7 @@
 <summary>Guides</summary>
 
   * [Annotations](https://docs.oracle.com/javase/6/docs/technotes/guides/language/annotations.html)
+  * [jdb](https://docs.oracle.com/en/java/javase/21/docs/specs/man/jdb.html) - java debugger
 </details>
 
 <details>
