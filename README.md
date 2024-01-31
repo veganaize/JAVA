@@ -62,7 +62,7 @@
 <details>
 <summary>JDK 6</summary>
 
-  - [_API Documentation_](https://javadoc.allimant.org/dist/j2se6.zip) - .chm
+  - [_API Documentation_](https://docs.oracle.com/javase/6/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se6.zip))
   - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
   - _Features_
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-6.html)
