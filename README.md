@@ -13,7 +13,7 @@
 <summary>Tutorials</summary>
   
   * [Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - wikibooks
-  * [Official Tutorial](https://docs.oracle.com/javase/tutorial/) - oracle
+  * [Official Tutorial](https://docs.oracle.com/javase/tutorial/) - oracle ([_history_](https://docs.oracle.com/javase/tutorial/information/history.html))
   * [Java Tutorials](http://tutorials.jenkov.com/) - jakob jenkov
 </details>
 
