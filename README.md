@@ -55,13 +55,24 @@
 
 </details>
 
+<details>
+<summary>GUI</summary>
+
+  * [JavaFX](https://openjfx.io/)
+    - API [[2.2](https://docs.oracle.com/javafx/2/api/)] [[8](https://docs.oracle.com/javase/8/javafx/api/toc.htm)] [[11](https://openjfx.io/javadoc/11/)] [[17](https://openjfx.io/javadoc/17/)] [[21](https://openjfx.io/javadoc/21/)]
+    - Docs [[2.x](https://docs.oracle.com/javafx/2/)] [[8](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)]
+    - [FAQ](https://www.oracle.com/java/technologies/javafx/faq-javafx.html)
+    - CSS Reference [[2.2](https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html)] [[8](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/doc-files/cssref.html)] [[11](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/doc-files/cssref.html)] [[17](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/doc-files/cssref.html)] [[21](https://openjfx.io/javadoc/21/javafx.graphics/javafx/scene/doc-files/cssref.html)]
+    - [Sample Applications & Tutorials](https://docs.oracle.com/javase/8/javafx/sample-apps/index.html)
+</details>
+
 ---
 
 <img src="https://user-images.githubusercontent.com/7102064/159777738-8d923779-60d7-44e8-a6ec-4cefb6c9b0d0.png" width="16px"
 /> <a href="https://en.wikipedia.org/wiki/Java_version_history">Java Version History</a>
 
 <details>
-<summary>JDK 6</summary>
+<summary>JDK 6 </summary>
 
   - [_API Documentation_](https://docs.oracle.com/javase/6/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se6.zip))
   - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
@@ -69,6 +80,7 @@
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-6.html)
     - [writer for .gif format](https://docs.oracle.com/javase/8/docs/technotes/guides/imageio/enhancements60.html#gif)
     - [jar and zip enhancements](https://docs.oracle.com/javase/6/docs/technotes/guides/jar/changes6.html)
+    - [javafx 2.2 compatible](https://www.oracle.com/java/technologies/javafx2-archive-downloads.html)
 </details>
 
 <details>
@@ -78,6 +90,7 @@
   - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-7.html)
+    - [javafx 2.2](https://blogs.oracle.com/java/post/javafx-22-documentation) (jdk7u6)
     - [binary literals](https://docs.oracle.com/javase/7/docs/technotes/guides/language/binary-literals.html)
     - [numeric literal underscores](https://docs.oracle.com/javase/7/docs/technotes/guides/language/underscores-literals.html)
     - [strings in switch](https://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html)
@@ -101,7 +114,8 @@
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se8.zip))
   - [_Features_](https://openjdk.org/projects/jdk8/features) _/_ [_What's New_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
-    - [new date time api](https://www.threeten.org/) ([threeten supplemental guide](https://www.threeten.org/articles/index.html)) ([java mag article](https://www.oracle.com/technical-resources/articles/java/jf14-date-time.html)) ([jsr 310 guide](https://jcp.org/aboutJava/communityprocess/pfd/jsr310/JSR-310-guide.html))
+    - [date-time api](https://www.threeten.org/) ([threeten supplemental guide](https://www.threeten.org/articles/index.html)) ([java mag article](https://www.oracle.com/technical-resources/articles/java/jf14-date-time.html)) ([jsr 310 guide](https://jcp.org/aboutJava/communityprocess/pfd/jsr310/JSR-310-guide.html))
+    - [javafx 8](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
     - [lambda expressions](https://openjdk.org/projects/lambda/) ([java tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)) ([quick start](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html)) ([part 1](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html)) ([part2](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part2.html)) ([oreilly 1](https://www.oreilly.com/content/whats-new-in-java-8-lambdas/)) ([oreilly 2](https://www.oreilly.com/content/java-8-functional-interfaces/))
     - [swing enhancements](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/enhancements-8.html)
     - [unicode 6.2](https://openjdk.org/jeps/133)
@@ -151,6 +165,7 @@
     - [local-variable syntax for lambda parameters](https://openjdk.org/jeps/323)
     - [transport layer security (tls) 1.3](https://openjdk.org/jeps/332)
     - [unicode 10](https://openjdk.org/jeps/327)
+    - [javafx modules removed](https://www.oracle.com/docs/tech/java/javaclientroadmapupdate2018mar.pdf)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
 </details>
 <details>
