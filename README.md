@@ -41,6 +41,7 @@
   * [ArchUnit](https://github.com/TNG/ArchUnit)
   * [JUnit 5](https://junit.org/junit5/)
   * [JUnit 4](https://junit.org/junit4/)
+  * [TestNG](https://testng.org/)
 </details>
 
 <details>
