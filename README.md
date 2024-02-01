@@ -122,7 +122,7 @@
     - [gtk 3 on linux](https://openjdk.org/jeps/283)
     - [hidpi graphics on windows and linux](https://openjdk.org/jeps/263)
     - [jlink](https://openjdk.org/jeps/282)
-    - [jshell](https://openjdk.org/jeps/222)
+    - [jshell](https://openjdk.org/jeps/222) ([_tutorial_](https://cr.openjdk.org/~rfield/tutorial/JShellTutorial.html))
     - [milling project coin](https://openjdk.org/jeps/213)
     - [module system](https://openjdk.org/jeps/261)
     - [modular java application packaging](https://openjdk.org/jeps/275)
