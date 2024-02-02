@@ -118,6 +118,7 @@
   - [_Features_](https://openjdk.org/projects/jdk8/features) _/_ [_What's New_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
     - [date-time api](https://www.threeten.org/) ([threeten supplemental guide](https://www.threeten.org/articles/index.html)) ([java mag article](https://www.oracle.com/technical-resources/articles/java/jf14-date-time.html)) ([jsr 310 guide](https://jcp.org/aboutJava/communityprocess/pfd/jsr310/JSR-310-guide.html))
     - [javafx 8](https://pixelduke.wordpress.com/2013/08/22/whats-new-in-java-8-part-i-javafx/)
+    - [jdbc 4.2](https://openjdk.org/jeps/170)
     - [lambda expressions](https://openjdk.org/projects/lambda/) ([java tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)) ([quick start](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html)) ([part 1](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html)) ([part2](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part2.html)) ([oreilly 1](https://www.oreilly.com/content/whats-new-in-java-8-lambdas/)) ([oreilly 2](https://www.oreilly.com/content/java-8-functional-interfaces/))
     - [swing enhancements](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/enhancements-8.html)
     - [unicode 6.2](https://openjdk.org/jeps/133)
