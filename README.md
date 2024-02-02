@@ -81,6 +81,7 @@
     - [writer for .gif format](https://docs.oracle.com/javase/8/docs/technotes/guides/imageio/enhancements60.html#gif)
     - [jar and zip enhancements](https://docs.oracle.com/javase/6/docs/technotes/guides/jar/changes6.html)
     - [javafx 2.2 compatible](https://www.oracle.com/java/technologies/javafx2-archive-downloads.html)
+    - [threeten-backport (date-time) compatible](https://www.threeten.org/threetenbp/)
 </details>
 
 <details>
@@ -105,6 +106,7 @@
     - [tls 1.2](https://openjdk.org/projects/jdk7/features/#fa534339)
     - [unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
     - [nimbus theme](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html) (6u10)
+    - [threeten-backport (date-time) compatible](https://www.threeten.org/threetenbp/)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se7/html/index.html)
 
 </details>
