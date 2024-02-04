@@ -1,4 +1,4 @@
-# JAVA
+# <img src="https://github.com/veganaize/JAVA/assets/7102064/c59bd652-ce13-4195-b2c5-b51c0d19ba36" width="32" /> JAVA
 
 <details>
 <summary>Coding Conventions</summary>
