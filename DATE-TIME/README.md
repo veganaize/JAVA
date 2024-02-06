@@ -100,7 +100,7 @@ The Old Way
 
 * [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) (jdk 1.0; ***not thread-safe*** ⚠️)
     - `java.sql.Date` (extends `java.util.Date`) displays date (as effectively midnight) in jvm's default timezone.
-    - Instant on timeline.
+    - Instant on (UTC) timeline.
     - Wrapper around number of milliseconds since unix epoch but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
 
           new java.util.Date(946684800000L)
@@ -108,7 +108,7 @@ The Old Way
           new java.util.Date(946684800000L).toGMTString()
           // 1 Jan 2000 00:00:00 GMT
     - `.getTime()` returns milliseconds (UTC) since unix epoch (unintuitively).
-    - `.setTime(long milliseconds)` returns `Date` object representing (UTC) instant from unix epoch.
+    - `.setTime(long milliseconds)` mutates the `Date` object (unintuitively). ⚠️
     - Intended to reflect coordinated universal time (UTC).
     - Stores UTC milliseconds offset since epoch.
     - Stores both date & time (effectively).
