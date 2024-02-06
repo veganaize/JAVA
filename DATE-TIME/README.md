@@ -1,6 +1,9 @@
 📆 Java Date & Time
 ===================
 
+The New Way
+-----------
+
 * [`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package
     - Since jdk 8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
     - Immutable & thread-safe.
@@ -91,6 +94,8 @@
 
 ---
 
+The Old Way
+-----------
 
 * [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) (jdk 1.0; ***not thread-safe*** ⚠️)
     - `java.sql.Date` (extends `java.util.Date`) displays date (as effectively midnight) in jvm's default timezone.
@@ -143,8 +148,10 @@
 
 ---
 
+Notes
+-----
 
-* Greenwich mean time ([GMT](https://en.wikipedia.org/wiki/Greenwich_Mean_Time)) is equivalent to universal time (UT):
+* Greenwich Mean Time ([GMT](https://en.wikipedia.org/wiki/Greenwich_Mean_Time)) is equivalent to Universal Time (UT):
     - GMT is the "civil" name for the standard.
     - UT is the "scientific" name for the same standard.
     - UT is based on astronomical observations.
