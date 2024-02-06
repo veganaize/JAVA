@@ -151,7 +151,8 @@
 - [`java.sql.Date`](https://docs.oracle.com/javase/8/docs/api/java/sql/Date.html) extends `java.util.Date` and displays date (without time component) in jvm's default timezone.
 
 
-### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html) (jdk 1.1)
+### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html)
+- Since JDK 1.1
 - Convert between (internationalized) dates and time fields.
 - Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
 - `{GregorianCalendar | Calendar.set}(year + 1900, month, date, [hrs, min[, sec]])`
@@ -159,8 +160,10 @@
 - `.roll()`  Increment/decrement calendar field without changing larger fields.
 
 
-### [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html) (jdk 1.1; not synchronized ⚠️)
-- [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
+### [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html)
+- Since JDK 1.1
+- Not synchronized ⚠️
+- Concrete class: [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
 - Format and parse (internationalized) date strings.
 
       new java.text.SimpleDateFormat("MM/dd/yy h:m a, z").parse("07/10/96 4:5 PM, PDT")
