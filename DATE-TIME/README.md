@@ -101,10 +101,8 @@
 ### [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
 - Intended for an event time.
 - Using a named timezone, rather than an offset, will handle daylight savings.
-- Use a `Period` to get around daylight savings adjustments:
-    ```
-    previousDateTime.plus(Period.ofDays(3))`
-    ```
+- Use a `Period` to get around daylight savings adjustments:  
+  `previousDateTime.plus(Period.ofDays(3))`
 
 
 ### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html):
