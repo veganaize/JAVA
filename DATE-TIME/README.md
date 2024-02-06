@@ -82,6 +82,7 @@ The New Way
 
 * [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
     - Intended for an event time.
+    - Using a named timezone, rather than an offset, will handle daylight savings.
     - Use a `Period` to get around daylight savings adjustments:
         `previousDateTime.plus(Period.ofDays(3))`
 
@@ -145,6 +146,9 @@ The Old Way
           new java.text.SimpleDateFormat("MM/dd/yy h:m a, z").parse("07/10/96 4:5 PM, PDT")
           // Wed Jul 10 16:05:00 PDT 1996
 
+* ⚠️ Error-prone to use `Date` or `Calendar` class with time set to midnight to represent date without a time (_midnight doesn't exist once a year in certain timezones, due to the daylight saving time cutover_).
+    - JDK 7 (and below) have no standard class to represent concept of a date without a time, a time without a date, nor a duration. (try [threetenbp](https://www.threeten.org/threetenbp/))
+
 
 ---
 
@@ -160,15 +164,12 @@ Notes
     - [Leap seconds](https://en.wikipedia.org/wiki/Leap_second) are introduced into UTC to keep it within 0.9 seconds of UT1.
     - Global Positioning System (GPS) synchronized to UTC but not adjusted for leap seconds.
 
-* ⚠️ Error-prone to use `Date` or `Calendar` class with time set to midnight to represent date without a time (_midnight doesn't exist once a year in certain timezones, due to the daylight saving time cutover_).
-
-* JDK 7 (and below) have no standard class to represent concept of a date without a time, a time without a date, nor a duration. (try [threetenbp](https://www.threeten.org/threetenbp/))
-
 * [Unix epoch](https://en.wikipedia.org/wiki/Unix_time) measures time by number of seconds elapsed since 00:00:00 UTC on 1 January 1970 (without leap second adjustments).
 
-* Using timezone name, rather than offset, will handle daylight savings.
-
-* millisecond = one thousandth of a second.
-* microsecond = one millionth of a second.
-* nanosecond  = one billionth of a second.
-* picosecond  = one trillionth of a second.
+* Fractions of a second:
+    |               |                             |
+    |---------------|-----------------------------|
+    | _millisecond_ | one thousandth of a second. |
+    | _microsecond_ | one millionth of a second.  |
+    | _nanosecond_  | one billionth of a second.  |
+    | _picosecond_  | one trillionth of a second. |
