@@ -108,7 +108,7 @@ The Old Way
           new java.util.Date(946684800000L).toGMTString()
           // 1 Jan 2000 00:00:00 GMT
     - `.getTime()` returns milliseconds (UTC) since unix epoch (unintuitively).
-    - `.setTime(long milliseconds)` mutates the `Date` object (unintuitively). ⚠️
+    - `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
     - Intended to reflect coordinated universal time (UTC).
     - Stores UTC milliseconds offset since epoch.
     - Stores both date & time (effectively).
