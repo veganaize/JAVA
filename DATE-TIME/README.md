@@ -1,13 +1,22 @@
 📆 Java Date & Time
 ===================
 
-- [Instant](README.md#javatimeInstant)
-- [Duration](README.md#javatimeDuration)
-- [LocalDate/Time](README.md#javatimeLocalDateTime)
-- [ZonedDateTime](README.md#javatimeZonedDateTime)
+* _The New Way_ ([`java.time`](README.md#javatime-package))
+    - [`java.time.Instant`](README.md#javatimeInstant)
+    - [`java.time.Duration`](README.md#javatimeDuration)
+    - [`java.time.LocalDate/Time`](README.md#javatimeLocalDateTime)
+    - [`java.time.ZonedDateTime`](README.md#javatimeZonedDateTime)
+    - [`java.time.format.DateTimeFormatter`](README.md#javatimeformatDateTimeFormatter)
+* _The Old Way_
+    - [`java.util.Date`](README.md#javautilDate)
+    - [`java.util.Calendar`](README.md#javautilCalendar)
+    - [`java.text.DateFormat`](README.md#javatestDateFormat)
+* [_Notes_](README.md#Notes)
+    
+---
 
 
-[`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package _(the new way)_
+[`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package
 -------------
 
 - Since jdk 8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
@@ -101,65 +110,64 @@
     DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
     // "20240205-0800"
 
-
 ---
 
-The Old Way
------------
 
-* [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) (jdk 1.0; ***not thread-safe*** ⚠️)
-    - `java.sql.Date` (extends `java.util.Date`) displays date (as effectively midnight) in jvm's default timezone.
-    - Instant on (UTC) timeline.
-    - Wrapper around number of milliseconds since unix epoch but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
+### [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) (jdk 1.0; ***not thread-safe*** ⚠️)
+- `java.sql.Date` (extends `java.util.Date`) displays date (as effectively midnight) in jvm's default timezone.
+- Instant on (UTC) timeline.
+- Wrapper around number of milliseconds since unix epoch but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
 
-          new java.util.Date(946684800000L)
-          // Fri Dec 31 16:00:00 PST 1999
-          new java.util.Date(946684800000L).toGMTString()
-          // 1 Jan 2000 00:00:00 GMT
-    - `.getTime()` returns milliseconds (UTC) since unix epoch (unintuitively).
-    - `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
-    - Intended to reflect coordinated universal time (UTC).
-    - Stores UTC milliseconds offset since epoch.
-    - Stores both date & time (effectively).
-    - Year is added to 1900: ⚠️
+      new java.util.Date(946684800000L)
+      // Fri Dec 31 16:00:00 PST 1999
+      new java.util.Date(946684800000L).toGMTString()
+      // 1 Jan 2000 00:00:00 GMT
+- `.getTime()` returns milliseconds (UTC) since unix epoch (unintuitively).
+- `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
+- Intended to reflect coordinated universal time (UTC).
+- Stores UTC milliseconds offset since epoch.
+- Stores both date & time (effectively).
+- Year is added to 1900: ⚠️
 
-            new Date(2024, 0, 30)
-            // Wed Jan 30 00:00:00 PST 3924
-            new Date(2024-1900, 0, 30)
-            // Tue Jan 30 00:00:00 PST 2024
-    - Month is 0 to 11. ⚠️
-    - Date/day is 1 to 31.
-    - Hour is 0 to 23.
-    - Minute is 0 to 59.
-    - Second is 0 to 61 (60 & 61 = leap seconds).
-    - Arguments need not fall within ranges (e.g. January 32 is interpreted as February 1):
+        new Date(2024, 0, 30)
+        // Wed Jan 30 00:00:00 PST 3924
+        new Date(2024-1900, 0, 30)
+        // Tue Jan 30 00:00:00 PST 2024
+- Month is 0 to 11. ⚠️
+- Date/day is 1 to 31.
+- Hour is 0 to 23.
+- Minute is 0 to 59.
+- Second is 0 to 61 (60 & 61 = leap seconds).
+- Arguments need not fall within ranges (e.g. January 32 is interpreted as February 1):
 
-            new Date(1970-1900, 0, 1)
-            // Thu Jan 01 00:00:00 PST 1970
-            new Date(1970-1900, 120, 1)
-            // Tue Jan 01 00:00:00 PST 1980
+        new Date(1970-1900, 0, 1)
+        // Thu Jan 01 00:00:00 PST 1970
+        new Date(1970-1900, 120, 1)
+        // Tue Jan 01 00:00:00 PST 1980
 
 
-* [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html) (jdk 1.1)
-    - Convert between (internationalized) dates and time fields.
-    - Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
-    - `{GregorianCalendar | Calendar.set}(year + 1900, month, date, [hrs, min[, sec]])`
-    - `.toInstant()`  (jdk 8)
-    - `.roll()`  Increment/decrement calendar field without changing larger fields.
+### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html) (jdk 1.1)
+- Convert between (internationalized) dates and time fields.
+- Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
+- `{GregorianCalendar | Calendar.set}(year + 1900, month, date, [hrs, min[, sec]])`
+- `.toInstant()`  (jdk 8)
+- `.roll()`  Increment/decrement calendar field without changing larger fields.
 
 
-* [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html) (jdk 1.1; not synchronized ⚠️)
-    - [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
-    - Format and parse (internationalized) date strings.
+### [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html) (jdk 1.1; not synchronized ⚠️)
+- [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
+- Format and parse (internationalized) date strings.
 
-          new java.text.SimpleDateFormat("MM/dd/yy h:m a, z").parse("07/10/96 4:5 PM, PDT")
-          // Wed Jul 10 16:05:00 PDT 1996
+      new java.text.SimpleDateFormat("MM/dd/yy h:m a, z").parse("07/10/96 4:5 PM, PDT")
+      // Wed Jul 10 16:05:00 PDT 1996
+
+---
 
 * ⚠️ Error-prone to use `Date` or `Calendar` class with time set to midnight to represent date without a time (_midnight doesn't exist once a year in certain timezones, due to the daylight saving time cutover_).
     - JDK 7 (and below) have no standard class to represent concept of a date without a time, a time without a date, nor a duration. (try [threetenbp](https://www.threeten.org/threetenbp/))
 
-
 ---
+
 
 Notes
 -----
