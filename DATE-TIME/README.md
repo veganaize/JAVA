@@ -117,7 +117,7 @@
 - Since JDK 1.0
 - Mutable; Not thread-safe ⚠️
 - Intended to reflect coordinated universal time (UTC).
-- Wrapper around number of milliseconds ("instant") since unix epoch (UTC) but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
+- Wrapper around number of milliseconds ("instant") since unix epoch (UTC) but [`.toString()`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html#toString--) displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
     ```
     new java.util.Date(946684800000L)
     // Fri Dec 31 16:00:00 PST 1999
