@@ -1,96 +1,105 @@
 📆 Java Date & Time
 ===================
 
-The New Way
------------
-
-* [`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package
-    - Since jdk 8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
-    - Immutable & thread-safe.
-    - Value-based classes; avoid use of identity-sensitive operations!
-    - Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology (aka. calendar):
-        - Modern civil calendar system used today in most of the world.
-        - Greatest temporal term (typically year) placed on left; successively lesser terms placed to right of previous one.
-        - Equivalent to the proleptic Gregorian calendar system; today's leap year rules applied for all time.
-        - Not suitable for (accurate) historical dates.
-    - Core classes constructed by fluent factory methods (DDD style):
-        - `.of()` static factory constructs a value by its constituent fields.
-        - `.from()` factory for converting from another type.
-        - `.parse()` static factory method takes a string as a parameter.
-        - `.with()` immutable equivalent of a setter.
-        - `.get()` gets the value of something.
-        - `.is()` checks if something is true.
-        - `.plus()` adds an amount to an object.
-        - `.minus()` subtracts an amount from an object.
-        - `.to()` converts this object to another type.
-        - `.at()` combines this object with another, such as date.atTime(time).
-    - Exchange `java.time` objects directly with database (w/ [JDBC 4.2](https://download.oracle.com/otn-pub/jcp/jdbc-4_2-mrel2-eval-spec/jdbc4.2-fr-spec.pdf)+ compliant driver); no need for strings, nor `java.sql` classes.
+- [Instant](README.md#javatimeInstant)
+- [Duration](README.md#javatimeDuration)
+- [LocalDate/Time](README.md#javatimeLocalDateTime)
+- [ZonedDateTime](README.md#javatimeZonedDateTime)
 
 
-* [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
-    - Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
+[`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package _(the new way)_
+-------------
+
+- Since jdk 8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
+- [Immutable](https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html) & thread-safe.
+- Value-based classes; avoid use of identity-sensitive operations!
+- Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology (aka. calendar):
+    - Modern civil calendar system used today in most of the world.
+    - Greatest temporal term (typically year) placed on left; successively lesser terms placed to right of previous one.
+    - Equivalent to the proleptic Gregorian calendar system; today's leap year rules applied for all time.
+    - Not suitable for (accurate) historical dates.
+- Utilizes [Unicode Common Locale Data Repository (CLDR)](https://cldr.unicode.org/)
+    - Supports world's languages and contains world's largest collection of locale data.
+- Utilizes [IANA Time-Zone Database (TZDB)](http://www.iana.org/time-zones)
+    - Information on every timezone change globally since 1970, with history for primary timezones since concept was introduced.
+- Core classes constructed by fluent factory methods (DDD style):
+    - `.of()` static factory constructs a value by its constituent fields.
+    - `.from()` factory for converting from another type.
+    - `.parse()` static factory method takes a string as a parameter.
+    - `.with()` immutable equivalent of a setter.
+    - `.get()` gets the value of something.
+    - `.is()` checks if something is true.
+    - `.plus()` adds an amount to an object.
+    - `.minus()` subtracts an amount from an object.
+    - `.to()` converts this object to another type.
+    - `.at()` combines this object with another, such as date.atTime(time).
+- Exchange `java.time` objects directly with database (w/ [JDBC 4.2](https://download.oracle.com/otn-pub/jcp/jdbc-4_2-mrel2-eval-spec/jdbc4.2-fr-spec.pdf)+ compliant driver); no need for strings, nor `java.sql` classes.
 
 
-* [`java.time.Duration`](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html)
-    - Calculations
-        - `.plusNanos()`
-        - `.plusMillis()`
-        - `.plusSeconds()`
-        - `.plusMinutes()`
-        - `.plusHours()`
-        - `.plusDays()`
-        - `.minusNanos()`
-        - `.minusMillis()`
-        - `.minusSeconds()`
-        - `.minusMinutes()`
-        - `.minusHours()`
-        - `.minusDays()`
+### [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
+- Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
 
 
-* [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
-    - Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
-    - A description of the date/time (as seen on a wall clock).
-    - Cannot represent an instance without additional info.
-    - Intended for opening & closing times; birth dates; state holidays.
-    - Methods
-        - `.getYear()`
-        - `.getMonth()`
-        - `.getDayOfMonth()`
-        - `.getDayOfWeek()`
-        - `.getDayOfYear()`
-        - `.plusDays()`
-        - `.plusWeeks()`
-        - `.plusMonths()`
-        - `.plusYears()`
-        - `.minusDays()`
-        - `.minusWeeks()`
-        - `.minusMonths()`
-        - `.minusYears()`
-        - `.getHour()`
-        - `.getMinute()`
-        - `.getSecond()`
-        - `.getNano()`
-        - `.plusHours()`
-        - `.plusMinutes()`
-        - `.plusSeconds()`
-        - `.plusNanos()`
-        - `.minusHours()`
-        - `.minusMinutes()`
-        - `.minusSeconds()`
-        - `.minusNanos()`
+### [`java.time.Duration`](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html)
+- Calculations
+    - `.plusNanos()`
+    - `.plusMillis()`
+    - `.plusSeconds()`
+    - `.plusMinutes()`
+    - `.plusHours()`
+    - `.plusDays()`
+    - `.minusNanos()`
+    - `.minusMillis()`
+    - `.minusSeconds()`
+    - `.minusMinutes()`
+    - `.minusHours()`
+    - `.minusDays()`
 
 
-* [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
-    - Intended for an event time.
-    - Using a named timezone, rather than an offset, will handle daylight savings.
-    - Use a `Period` to get around daylight savings adjustments:
-        `previousDateTime.plus(Period.ofDays(3))`
+### [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
+- Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
+- A description of the date/time (as seen on a wall clock).
+- Cannot represent an instance without additional info.
+- Intended for opening & closing times; birth dates; state holidays.
+- Methods
+    - `.getYear()`
+    - `.getMonth()`
+    - `.getDayOfMonth()`
+    - `.getDayOfWeek()`
+    - `.getDayOfYear()`
+    - `.plusDays()`
+    - `.plusWeeks()`
+    - `.plusMonths()`
+    - `.plusYears()`
+    - `.minusDays()`
+    - `.minusWeeks()`
+    - `.minusMonths()`
+    - `.minusYears()`
+    - `.getHour()`
+    - `.getMinute()`
+    - `.getSecond()`
+    - `.getNano()`
+    - `.plusHours()`
+    - `.plusMinutes()`
+    - `.plusSeconds()`
+    - `.plusNanos()`
+    - `.minusHours()`
+    - `.minusMinutes()`
+    - `.minusSeconds()`
+    - `.minusNanos()`
 
 
-* [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
+### [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
+- Intended for an event time.
+- Using a named timezone, rather than an offset, will handle daylight savings.
+- Use a `Period` to get around daylight savings adjustments:
+    `previousDateTime.plus(Period.ofDays(3))`
 
-      DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
-      // "20240205-0800"
+
+### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
+
+    DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
+    // "20240205-0800"
 
 
 ---
