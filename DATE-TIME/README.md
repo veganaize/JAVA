@@ -68,7 +68,7 @@
 ### [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
 - Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
 - A description of the date/time (as seen on a wall clock).
-- Cannot represent an instance without additional info.
+- Cannot represent an instant without additional info.
 - Intended for opening & closing times; birth dates; state holidays.
 - Methods
     - `.getYear()`
@@ -102,10 +102,12 @@
 - Intended for an event time.
 - Using a named timezone, rather than an offset, will handle daylight savings.
 - Use a `Period` to get around daylight savings adjustments:
-    `previousDateTime.plus(Period.ofDays(3))`
+    ```
+    previousDateTime.plus(Period.ofDays(3))`
+    ```
 
 
-### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
+### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html):
 
     DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
     // "20240205-0800"
@@ -113,37 +115,40 @@
 ---
 
 
-### [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) (jdk 1.0; ***not thread-safe*** ⚠️)
-- `java.sql.Date` (extends `java.util.Date`) displays date (as effectively midnight) in jvm's default timezone.
-- Instant on (UTC) timeline.
-- Wrapper around number of milliseconds since unix epoch but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
-
-      new java.util.Date(946684800000L)
-      // Fri Dec 31 16:00:00 PST 1999
-      new java.util.Date(946684800000L).toGMTString()
-      // 1 Jan 2000 00:00:00 GMT
+### [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)
+- Since JDK 1.0
+- Mutable; Not thread-safe ⚠️
+- Intended to reflect coordinated universal time (UTC).
+- Wrapper around number of milliseconds ("instant") since unix epoch (UTC) but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
+    ```
+    new java.util.Date(946684800000L)
+    // Fri Dec 31 16:00:00 PST 1999
+    new java.util.Date(946684800000L).toGMTString()
+    // 1 Jan 2000 00:00:00 GMT
+    ```
+- Stores both date & time (effectively).
 - `.getTime()` returns milliseconds (UTC) since unix epoch (unintuitively).
 - `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
-- Intended to reflect coordinated universal time (UTC).
-- Stores UTC milliseconds offset since epoch.
-- Stores both date & time (effectively).
 - Year is added to 1900: ⚠️
-
-        new Date(2024, 0, 30)
-        // Wed Jan 30 00:00:00 PST 3924
-        new Date(2024-1900, 0, 30)
-        // Tue Jan 30 00:00:00 PST 2024
+    ```
+    new Date(2024, 0, 30)
+    // Wed Jan 30 00:00:00 PST 3924
+    new Date(2024-1900, 0, 30)
+    // Tue Jan 30 00:00:00 PST 2024
+    ```
 - Month is 0 to 11. ⚠️
 - Date/day is 1 to 31.
 - Hour is 0 to 23.
 - Minute is 0 to 59.
 - Second is 0 to 61 (60 & 61 = leap seconds).
 - Arguments need not fall within ranges (e.g. January 32 is interpreted as February 1):
-
-        new Date(1970-1900, 0, 1)
-        // Thu Jan 01 00:00:00 PST 1970
-        new Date(1970-1900, 120, 1)
-        // Tue Jan 01 00:00:00 PST 1980
+    ```
+    new Date(1970-1900, 0, 1)
+    // Thu Jan 01 00:00:00 PST 1970
+    new Date(1970-1900, 120, 1)
+    // Tue Jan 01 00:00:00 PST 1980
+    ```
+- [`java.sql.Date`](https://docs.oracle.com/javase/8/docs/api/java/sql/Date.html) extends `java.util.Date` and displays date (without time component) in jvm's default timezone.
 
 
 ### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html) (jdk 1.1)
