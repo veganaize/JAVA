@@ -10,7 +10,7 @@
 * _The Old Way_
     - [`java.util.Date`](README.md#javautilDate)
     - [`java.util.Calendar`](README.md#javautilCalendar)
-    - [`java.text.DateFormat`](README.md#javatestDateFormat)
+    - [`java.text.DateFormat`](README.md#javatextDateFormat)
 * [_Notes_](README.md#Notes)
     
 ---
