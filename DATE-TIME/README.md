@@ -1,11 +1,13 @@
-* [`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)
-    - Since jdk8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
+📆 Java Date & Time
+===================
+
+* [`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package
+    - Since jdk 8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
     - Immutable & thread-safe.
     - Value-based classes; avoid use of identity-sensitive operations!
-    - Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology:
+    - Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology (aka. calendar):
         - Modern civil calendar system used today in most of the world.
-        - Greatest temporal term (typically a year) placed on left.
-        - Each successively lesser term placed to right of previous one.
+        - Greatest temporal term (typically year) placed on left; successively lesser terms placed to right of previous one.
         - Equivalent to the proleptic Gregorian calendar system; today's leap year rules applied for all time.
         - Not suitable for (accurate) historical dates.
     - Core classes constructed by fluent factory methods (DDD style):
@@ -23,7 +25,7 @@
 
 
 * [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
-    - Stores moment as `long` seconds and `int` nanoseonds (not milliseconds) since unix epoch (UTC).
+    - Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
 
 
 * [`java.time.Duration`](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html)
@@ -43,10 +45,10 @@
 
 
 * [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
-    - Ideal for dates/times in local timezone, regardless of DST.
+    - Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
     - A description of the date/time (as seen on a wall clock).
     - Cannot represent an instance without additional info.
-    - Opening / closing times; birthdates; state holidays.
+    - Intended for opening & closing times; birth dates; state holidays.
     - Methods
         - `.getYear()`
         - `.getMonth()`
@@ -76,13 +78,15 @@
 
 
 * [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
-    - An event time.
+    - Intended for an event time.
     - Use a `Period` to get around daylight savings adjustments:
         `previousDateTime.plus(Period.ofDays(3))`
 
 
 * [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
-    - `DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())`
+
+      DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
+      // "20240205-0800"
 
 
 ---
@@ -91,7 +95,7 @@
 * [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) (jdk 1.0; ***not thread-safe*** ⚠️)
     - `java.sql.Date` (extends `java.util.Date`) displays date (as effectively midnight) in jvm's default timezone.
     - Instant on timeline.
-    - Wrapper around number of milliseconds since unix epoch but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default).
+    - Wrapper around number of milliseconds since unix epoch but `.toString()` displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
 
           new java.util.Date(946684800000L)
           // Fri Dec 31 16:00:00 PST 1999
@@ -102,7 +106,7 @@
     - Intended to reflect coordinated universal time (UTC).
     - Stores UTC milliseconds offset since epoch.
     - Stores both date & time (effectively).
-    - Year is added to 1900 ⚠️:
+    - Year is added to 1900: ⚠️
 
             new Date(2024, 0, 30)
             // Wed Jan 30 00:00:00 PST 3924
@@ -132,7 +136,9 @@
 * [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html) (jdk 1.1; not synchronized ⚠️)
     - [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
     - Format and parse (internationalized) date strings.
-    - `DateFormat.parse(String s)`
+
+          new java.text.SimpleDateFormat("MM/dd/yy h:m a, z").parse("07/10/96 4:5 PM, PDT")
+          // Wed Jul 10 16:05:00 PDT 1996
 
 
 ---
@@ -147,9 +153,9 @@
     - [Leap seconds](https://en.wikipedia.org/wiki/Leap_second) are introduced into UTC to keep it within 0.9 seconds of UT1.
     - Global Positioning System (GPS) synchronized to UTC but not adjusted for leap seconds.
 
-* Error-prone to use Date or Calendar class with the time set to midnight to represent a date without a time -⚠️- there are certain time zones where midnight doesn't exist once a year due to the daylight saving time cutover.
+* ⚠️ Error-prone to use `Date` or `Calendar` class with time set to midnight to represent date without a time (_midnight doesn't exist once a year in certain timezones, due to the daylight saving time cutover_).
 
-* JDK 7 (and below) have no standard class to represent concept of a date without a time, a time without a date, nor a duration (try [threetenbp](https://www.threeten.org/threetenbp/)).
+* JDK 7 (and below) have no standard class to represent concept of a date without a time, a time without a date, nor a duration. (try [threetenbp](https://www.threeten.org/threetenbp/))
 
 * [Unix epoch](https://en.wikipedia.org/wiki/Unix_time) measures time by number of seconds elapsed since 00:00:00 UTC on 1 January 1970 (without leap second adjustments).
 
