@@ -183,10 +183,10 @@ Notes
 -----
 
 * Greenwich Mean Time ([GMT](https://en.wikipedia.org/wiki/Greenwich_Mean_Time)) is equivalent to Universal Time (UT):
-    - GMT is the "civil" name for the standard.
+    - GMT is the "[civil](https://en.wikipedia.org/wiki/Civil_time)" name for the standard.
     - UT is the "scientific" name for the same standard.
-    - UT is based on astronomical observations.
-    - UT1 is a version of UT with certain corrections applied.
+    - [UT](https://en.wikipedia.org/wiki/Universal_Time) is based on astronomical observations.
+    - UT1 is a version of UT corrected for [polar motion](https://en.wikipedia.org/wiki/Polar_motion).
     - [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) is based on an atomic clock.
     - [Leap seconds](https://en.wikipedia.org/wiki/Leap_second) are introduced into UTC to keep it within 0.9 seconds of UT1.
     - Global Positioning System (GPS) synchronized to UTC but not adjusted for leap seconds.
