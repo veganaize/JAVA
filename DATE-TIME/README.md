@@ -190,7 +190,7 @@ Notes
     - [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) is based on an atomic clock.
     - [Leap seconds](https://en.wikipedia.org/wiki/Leap_second) are introduced into UTC to keep it within 0.9 seconds of UT1.
     - [GPS time](https://en.wikipedia.org/wiki/Global_Positioning_System#Timekeeping)
-        - Epoch: 00:00:00 UTC (00:00:19 TAI) on January 6, 1980.
+        - Epoch: 00:00:00 UTC (00:00:19 [TAI](https://en.wikipedia.org/wiki/International_Atomic_Time)) on January 6, 1980.
         - Not adjusted for leap seconds.
         - Ahead of UTC by 18 seconds (as of leap second added to UTC on December 31, 2016).
         - Date expressed as week number & seconds-into-week number.
