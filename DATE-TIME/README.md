@@ -1,23 +1,11 @@
 📆 Java Date & Time
 ===================
 
-* _The New Way_ ([`java.time`](README.md#javatime-package-1))
-    - [`java.time.Instant`](README.md#javatimeInstant-1)
-    - [`java.time.Duration`](README.md#javatimeDuration-1)
-    - [`java.time.LocalDate/Time`](README.md#javatimeLocalDateTime-1)
-    - [`java.time.ZonedDateTime`](README.md#javatimeZonedDateTime-1)
-    - [`java.time.format.DateTimeFormatter`](README.md#javatimeformatDateTimeFormatter)
-* _The Old Way_
-    - [`java.util.Date`](README.md#javautilDate--1)
-    - [`java.util.Calendar`](README.md#javautilCalendar--1)
-    - [`java.text.DateFormat`](README.md#javatextDateFormat--1)
-* [_Notes_](README.md#Notes)
-    
----
-
-
-[`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package :+1:
+_The New Way_ 🤓
 -------------
+
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html"><code>java.time</code></a> package :+1:</h3></summary>
 
 - Since JDK 8 _([ThreeTen Backport](https://www.threeten.org/threetenbp/) for JDK 6 & 7)_.
 - [Immutable](https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html) & thread-safe.
@@ -43,13 +31,19 @@
     - `.to()` converts this object to another type.
     - `.at()` combines this object with another, such as date.atTime(time).
 - Exchange `java.time` objects directly with database (w/ [JDBC 4.2](https://download.oracle.com/otn-pub/jcp/jdbc-4_2-mrel2-eval-spec/jdbc4.2-fr-spec.pdf)+ compliant driver); no need for strings, nor `java.sql` classes.
+</details>
 
 
-### [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html) :+1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html"><code>java.time.Instant</code></a> :+1:</h3></summary>
+
 - Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
+</details>
 
 
-### [`java.time.Duration`](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html) :+1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html"><code>java.time.Duration</code></a> :+1:</h3></summary>
+
 - Calculations
     - `.plusNanos()`
     - `.plusMillis()`
@@ -63,9 +57,12 @@
     - `.minusMinutes()`
     - `.minusHours()`
     - `.minusDays()`
+</details>
 
 
-### [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) :+1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html"><code>java.time.LocalDate/Time</code></a> :+1:</h3></summary>
+
 - Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
 - A description of the date/time (as seen on a wall clock).
 - Cannot represent an instant without additional info.
@@ -96,24 +93,34 @@
     - `.minusMinutes()`
     - `.minusSeconds()`
     - `.minusNanos()`
+</details>
 
 
-### [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html) :+1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html"><code>java.time.ZonedDateTime</code></a> :+1:</h3></summary>
+
 - Intended for an event time.
 - Using a named timezone, rather than an offset, will handle daylight savings.
 - Use a `Period` to get around daylight savings adjustments:  
   `previousDateTime.plus(Period.ofDays(3))`
+</details>
 
 
-### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html):  :+1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html"><code>java.time.format.DateTimeFormatter</code></a> :+1:</h3></summary>
 
     DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
     // "20240205-0800"
+</details>
 
----
 
 
-### [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) :-1:
+_The Old Way_ 🤬
+-------------
+
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Date.html"><code>java.util.Date</code></a> :-1:</h3></summary>
+
 - Since JDK 1.0
 - Mutable; Not thread-safe ⚠️
 - Intended to reflect coordinated universal time (UTC).
@@ -149,18 +156,24 @@
                         ^^^  ^^          ^^^^^^              ^^^^
     ```
 - [`java.sql.Date`](https://docs.oracle.com/javase/8/docs/api/java/sql/Date.html) extends `java.util.Date` and displays date (without time component) in jvm's default timezone.
+</details>
 
 
-### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html) :-1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html"><code>java.util.Calendar</code></a> :-1:</h3></summary>
+
 - Since JDK 1.1
 - Convert between (internationalized) dates and time fields.
 - Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
 - `{GregorianCalendar | Calendar.set}(year + 1900, month, date, [hrs, min[, sec]])`
 - `.toInstant()`  (JDK 8+)
 - `.roll()`  Increment/decrement calendar field without changing larger fields.
+</details>
 
 
-### [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html) :-1:
+<details>
+<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html"><code>java.text.DateFormat</code></a> :-1:</h3></summary>
+
 - Since JDK 1.1
 - Not synchronized ⚠️
 - Concrete class: [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
@@ -170,6 +183,8 @@
             .parse("07/10/96 4:5 PM, PDT")
     // Wed Jul 10 16:05:00 PDT 1996
     ```
+</details>
+
 
 ---
 
