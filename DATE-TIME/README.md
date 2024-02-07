@@ -36,15 +36,17 @@ _The New Way_ 🤓
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html"><code>java.time.Instant</code></a> :+1:</h3></summary>
+<summary><h3><code>java.time.Instant</code> :+1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/instant.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
 - Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
 </details>
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html"><code>java.time.Duration</code></a> :+1:</h3></summary>
+<summary><h3><code>java.time.Duration</code></a> :+1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/period.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html)
 - Calculations
     - `.plusNanos()`
     - `.plusMillis()`
@@ -62,8 +64,9 @@ _The New Way_ 🤓
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html"><code>java.time.LocalDate/Time</code></a> :+1:</h3></summary>
+<summary><h3><code>java.time.LocalDate/Time</code> :+1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/datetime.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
 - Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
 - A description of the date/time (as seen on a wall clock).
 - Cannot represent an instant without additional info.
@@ -98,8 +101,9 @@ _The New Way_ 🤓
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html"><code>java.time.ZonedDateTime</code></a> :+1:</h3></summary>
+<summary><h3><code>java.time.ZonedDateTime</code> :+1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
 - Intended for an event time.
 - Using a named timezone, rather than an offset, will handle daylight savings.
 - Use a `Period` to get around daylight savings adjustments:  
@@ -108,10 +112,12 @@ _The New Way_ 🤓
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html"><code>java.time.format.DateTimeFormatter</code></a> :+1:</h3></summary>
+<summary><h3><code>java.time.format.DateTimeFormatter</code> :+1:</h3></summary>
 
-    DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
-    // "20240205-0800"
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/format.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
+
+      DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
+      // "20240205-0800"
 </details>
 
 
@@ -120,8 +126,9 @@ _The Old Way_ 🤬
 -------------
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Date.html"><code>java.util.Date</code></a> :-1:</h3></summary>
+<summary><h3><code>java.util.Date</code> :-1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/legacy.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)
 - Since JDK 1.0
 - Mutable; Not thread-safe ⚠️
 - Intended to reflect coordinated universal time (UTC).
@@ -161,8 +168,9 @@ _The Old Way_ 🤬
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html"><code>java.util.Calendar</code></a> :-1:</h3></summary>
+<summary><h3><code>java.util.Calendar</code> :-1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/legacy.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html)
 - Since JDK 1.1
 - Convert between (internationalized) dates and time fields.
 - Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
@@ -173,8 +181,9 @@ _The Old Way_ 🤬
 
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html"><code>java.text.DateFormat</code></a> :-1:</h3></summary>
+<summary><h3><code>java.text.DateFormat</code> :-1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/legacy.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html)
 - Since JDK 1.1
 - Not synchronized ⚠️
 - Concrete class: [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
