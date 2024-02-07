@@ -117,11 +117,14 @@
 - Since JDK 1.0
 - Mutable; Not thread-safe ⚠️
 - Intended to reflect coordinated universal time (UTC).
-- Wrapper around number of milliseconds ("instant") since unix epoch (UTC) but [`.toString()`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html#toString--) displays as timezoned string (in jvm's default timezone, unintuitively, by default) ⚠️.
+- Wrapper around number of milliseconds ("instant") since unix epoch (UTC) but [`.toString()`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html#toString--) displays as timezoned string (in jvm's default timezone, unintuitively, by default): ⚠️
     ```
-    new java.util.Date(946684800000L)
+    new Date(946684800000L)
     // Fri Dec 31 16:00:00 PST 1999
-    new java.util.Date(946684800000L).toGMTString()
+    ```
+- Use [`.toGMTString()`]() to display as GMT/UTC timezoned string:
+    ```
+    new Date(946684800000L).toGMTString()
     // 1 Jan 2000 00:00:00 GMT
     ```
 - Stores both date & time (effectively).
@@ -129,9 +132,10 @@
 - `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
 - Year is added to 1900: ⚠️
     ```
-    new Date(2024, 0, 30)
+    new Date(2024, 0, 1)
     // Wed Jan 30 00:00:00 PST 3924
-    new Date(2024-1900, 0, 30)
+    
+    new Date(2024-1900, 0, 1)
     // Tue Jan 30 00:00:00 PST 2024
     ```
 - Month is 0 to 11. ⚠️
@@ -141,10 +145,8 @@
 - Second is 0 to 61 (60 & 61 = leap seconds).
 - Arguments need not fall within ranges (e.g. January 32 is interpreted as February 1):
     ```
-    new Date(1970-1900, 0, 1)
-    // Thu Jan 01 00:00:00 PST 1970
-    new Date(1970-1900, 120, 1)
-    // Tue Jan 01 00:00:00 PST 1980
+    new Date(1970-1900, 120, 32)
+    // Fri Feb 01 00:00:00 PST 1980
     ```
 - [`java.sql.Date`](https://docs.oracle.com/javase/8/docs/api/java/sql/Date.html) extends `java.util.Date` and displays date (without time component) in jvm's default timezone.
 
