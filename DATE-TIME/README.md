@@ -189,9 +189,14 @@ Notes
     - UT1 is a version of UT corrected for [polar motion](https://en.wikipedia.org/wiki/Polar_motion).
     - [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) is based on an atomic clock.
     - [Leap seconds](https://en.wikipedia.org/wiki/Leap_second) are introduced into UTC to keep it within 0.9 seconds of UT1.
-    - Global Positioning System (GPS) synchronized to UTC but not adjusted for leap seconds.
-
-* [Unix epoch](https://en.wikipedia.org/wiki/Unix_time) measures time by number of seconds elapsed since 00:00:00 UTC on 1 January 1970 (without leap second adjustments).
+    - [GPS time](https://en.wikipedia.org/wiki/Global_Positioning_System#Timekeeping)
+        - Epoch: 00:00:00 UTC (00:00:19 TAI) on January 6, 1980.
+        - Not adjusted for leap seconds.
+        - Ahead of UTC by 18 seconds (as of leap second added to UTC on December 31, 2016).
+        - Date expressed as week number & seconds-into-week number.
+        - Week number transmitted as 10-bit field (becomes zero again every 1,024 weeks [19.6 years]).
+    - [Unix epoch](https://en.wikipedia.org/wiki/Unix_time)
+        -  Number of seconds elapsed since 00:00:00 UTC on 1 January 1970 (without leap second adjustments).
 
 * Fractions of a second:
     |               |                             |
