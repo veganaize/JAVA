@@ -5,8 +5,9 @@ _The New Way_ 🤓
 -------------
 
 <details>
-<summary><h3><a href="https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html"><code>java.time</code></a> package :+1:</h3></summary>
+<summary><h3><code>java.time</code> package :+1:</h3></summary>
 
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/TOC.html); [API Docs](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)
 - Since JDK 8 _([ThreeTen Backport](https://www.threeten.org/threetenbp/) for JDK 6 & 7)_.
 - [Immutable](https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html) & thread-safe.
 - Value-based classes; avoid use of identity-sensitive operations!
@@ -21,14 +22,14 @@ _The New Way_ 🤓
     - Information on every timezone change globally since 1970, with history for primary timezones since concept was introduced.
 - Core classes constructed by fluent factory methods (DDD style):
     - `.of()` static factory constructs a value by its constituent fields.
-    - `.from()` factory for converting from another type.
+    - `.from()` static factory for converting from another type (may lose info from input).
     - `.parse()` static factory method takes a string as a parameter.
-    - `.with()` immutable equivalent of a setter.
+    - `.with()` copy of object with one element changed (immutable equivalent of a setter).
     - `.get()` gets the value of something.
     - `.is()` checks if something is true.
-    - `.plus()` adds an amount to an object.
-    - `.minus()` subtracts an amount from an object.
-    - `.to()` converts this object to another type.
+    - `.plus()` copy of object with amount added.
+    - `.minus()` copy of object with amount subtracted.
+    - `.to()` converts this object to object of another type.
     - `.at()` combines this object with another, such as date.atTime(time).
 - Exchange `java.time` objects directly with database (w/ [JDBC 4.2](https://download.oracle.com/otn-pub/jcp/jdbc-4_2-mrel2-eval-spec/jdbc4.2-fr-spec.pdf)+ compliant driver); no need for strings, nor `java.sql` classes.
 </details>
