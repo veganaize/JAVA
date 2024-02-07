@@ -16,7 +16,7 @@
 ---
 
 
-[`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package
+[`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package :+1:
 -------------
 
 - Since JDK 8 _([ThreeTen Backport](https://www.threeten.org/threetenbp/) for JDK 6 & 7)_.
@@ -45,11 +45,11 @@
 - Exchange `java.time` objects directly with database (w/ [JDBC 4.2](https://download.oracle.com/otn-pub/jcp/jdbc-4_2-mrel2-eval-spec/jdbc4.2-fr-spec.pdf)+ compliant driver); no need for strings, nor `java.sql` classes.
 
 
-### [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
+### [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html) :+1:
 - Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
 
 
-### [`java.time.Duration`](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html)
+### [`java.time.Duration`](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html) :+1:
 - Calculations
     - `.plusNanos()`
     - `.plusMillis()`
@@ -65,7 +65,7 @@
     - `.minusDays()`
 
 
-### [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
+### [`java.time.LocalDate/Time`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) :+1:
 - Ideal for dates/times in local timezone, regardless of [DST](https://en.wikipedia.org/wiki/Daylight_saving_time).
 - A description of the date/time (as seen on a wall clock).
 - Cannot represent an instant without additional info.
@@ -98,14 +98,14 @@
     - `.minusNanos()`
 
 
-### [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
+### [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html) :+1:
 - Intended for an event time.
 - Using a named timezone, rather than an offset, will handle daylight savings.
 - Use a `Period` to get around daylight savings adjustments:  
   `previousDateTime.plus(Period.ofDays(3))`
 
 
-### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html):
+### [`java.time.format.DateTimeFormatter`](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html):  :+1:
 
     DateTimeFormatter.BASIC_ISO_DATE.format(ZonedDateTime.now())
     // "20240205-0800"
@@ -113,7 +113,7 @@
 ---
 
 
-### [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)
+### [`java.util.Date`](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html) :-1:
 - Since JDK 1.0
 - Mutable; Not thread-safe ⚠️
 - Intended to reflect coordinated universal time (UTC).
@@ -151,7 +151,7 @@
 - [`java.sql.Date`](https://docs.oracle.com/javase/8/docs/api/java/sql/Date.html) extends `java.util.Date` and displays date (without time component) in jvm's default timezone.
 
 
-### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html)
+### [`java.util.Calendar`](https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html) :-1:
 - Since JDK 1.1
 - Convert between (internationalized) dates and time fields.
 - Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
@@ -160,7 +160,7 @@
 - `.roll()`  Increment/decrement calendar field without changing larger fields.
 
 
-### [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html)
+### [`java.text.DateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html) :-1:
 - Since JDK 1.1
 - Not synchronized ⚠️
 - Concrete class: [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
