@@ -19,7 +19,7 @@
 [`java.time`](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html) package
 -------------
 
-- Since jdk 8 ([ThreeTen Backport](https://www.threeten.org/threetenbp/) for jdk 6 & 7).
+- Since JDK 8 _([ThreeTen Backport](https://www.threeten.org/threetenbp/) for JDK 6 & 7)_.
 - [Immutable](https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html) & thread-safe.
 - Value-based classes; avoid use of identity-sensitive operations!
 - Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology (aka. calendar):
@@ -130,13 +130,13 @@
 - Stores both date & time (effectively).
 - `.getTime()` returns milliseconds (UTC) since unix epoch (unintuitively).
 - `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
-- Year is added to 1900: ⚠️
+- Year is added to 1900 (unintuitively): ⚠️
     ```
-    new Date(2024, 0, 1)
-    // Wed Jan 30 00:00:00 PST 3924
+    new Date(2024, 0, 1)       // Wed Jan 30 00:00:00 PST 3924
+             ^^^^                                         ^^^^
     
-    new Date(2024-1900, 0, 1)
-    // Tue Jan 30 00:00:00 PST 2024
+    new Date(2024-1900, 0, 1)  // Tue Jan 30 00:00:00 PST 2024
+             ^^^^^^^^^                                    ^^^^
     ```
 - Month is 0 to 11. ⚠️
 - Date/day is 1 to 31.
@@ -145,8 +145,8 @@
 - Second is 0 to 61 (60 & 61 = leap seconds).
 - Arguments need not fall within ranges (e.g. January 32 is interpreted as February 1):
     ```
-    new Date(1970-1900, 120, 32)
-    // Fri Feb 01 00:00:00 PST 1980
+    new Date(1970-1900, 120, 32)  // Fri Feb 01 00:00:00 PST 1980
+                        ^^^  ^^          ^^^^^^              ^^^^
     ```
 - [`java.sql.Date`](https://docs.oracle.com/javase/8/docs/api/java/sql/Date.html) extends `java.util.Date` and displays date (without time component) in jvm's default timezone.
 
@@ -156,7 +156,7 @@
 - Convert between (internationalized) dates and time fields.
 - Instant can be represented by millisecond value as offset from Epoch January 1, 1970 00:00:00.000 GMT (Gregorian).
 - `{GregorianCalendar | Calendar.set}(year + 1900, month, date, [hrs, min[, sec]])`
-- `.toInstant()`  (jdk 8)
+- `.toInstant()`  (JDK 8+)
 - `.roll()`  Increment/decrement calendar field without changing larger fields.
 
 
@@ -164,10 +164,12 @@
 - Since JDK 1.1
 - Not synchronized ⚠️
 - Concrete class: [`java.text.SimpleDateFormat`](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) (not synchronized ⚠️)
-- Format and parse (internationalized) date strings.
-
-      new java.text.SimpleDateFormat("MM/dd/yy h:m a, z").parse("07/10/96 4:5 PM, PDT")
-      // Wed Jul 10 16:05:00 PDT 1996
+- Format and parse (internationalized) date strings:
+    ```
+    new java.text.SimpleDateFormat("MM/dd/yy h:m a, z")
+            .parse("07/10/96 4:5 PM, PDT")
+    // Wed Jul 10 16:05:00 PDT 1996
+    ```
 
 ---
 
