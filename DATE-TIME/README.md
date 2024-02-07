@@ -1,16 +1,16 @@
 📆 Java Date & Time
 ===================
 
-* _The New Way_ ([`java.time`](README.md#javatime-package))
-    - [`java.time.Instant`](README.md#javatimeInstant)
-    - [`java.time.Duration`](README.md#javatimeDuration)
-    - [`java.time.LocalDate/Time`](README.md#javatimeLocalDateTime)
-    - [`java.time.ZonedDateTime`](README.md#javatimeZonedDateTime)
+* _The New Way_ ([`java.time`](README.md#javatime-package-1))
+    - [`java.time.Instant`](README.md#javatimeInstant-1)
+    - [`java.time.Duration`](README.md#javatimeDuration-1)
+    - [`java.time.LocalDate/Time`](README.md#javatimeLocalDateTime-1)
+    - [`java.time.ZonedDateTime`](README.md#javatimeZonedDateTime-1)
     - [`java.time.format.DateTimeFormatter`](README.md#javatimeformatDateTimeFormatter)
 * _The Old Way_
-    - [`java.util.Date`](README.md#javautilDate)
-    - [`java.util.Calendar`](README.md#javautilCalendar)
-    - [`java.text.DateFormat`](README.md#javatextDateFormat)
+    - [`java.util.Date`](README.md#javautilDate--1)
+    - [`java.util.Calendar`](README.md#javautilCalendar--1)
+    - [`java.text.DateFormat`](README.md#javatextDateFormat--1)
 * [_Notes_](README.md#Notes)
     
 ---
