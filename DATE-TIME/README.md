@@ -165,10 +165,10 @@ _The Old Way_ 🤬
 - `.setTime(long milliseconds)` mutates existing `Date` object. ⚠️
 - Year is added to 1900 (unintuitively): ⚠️
     ```
-    new Date(2024, 0, 1)       // Wed Jan 30 00:00:00 PST 3924
+    new Date(2024, 0, 1)       // Tue Jan 01 00:00:00 PST 3924
              ^^^^                                         ^^^^
     
-    new Date(2024-1900, 0, 1)  // Tue Jan 30 00:00:00 PST 2024
+    new Date(2024-1900, 0, 1)  // Mon Jan 01 00:00:00 PST 2024
              ^^^^^^^^^                                    ^^^^
     ```
 - Month is 0 to 11. ⚠️
