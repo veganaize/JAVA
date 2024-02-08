@@ -10,7 +10,8 @@ _The New Way_ 🤓
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/TOC.html); [API Docs](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)
 - Since JDK 8 _([ThreeTen Backport](https://www.threeten.org/threetenbp/) for JDK 6 & 7)_.
 - [Immutable](https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html) & thread-safe.
-- Value-based classes; avoid use of identity-sensitive operations!
+- Value-based classes; avoid use of identity-sensitive operations!  
+  Equals _method (not symbol)_ should be used for comparisons.
 - Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology (aka. calendar):
     - Modern civil calendar system used today in most of the world.
     - Greatest temporal term (typically year) placed on left; successively lesser terms placed to right of previous one.
@@ -39,7 +40,9 @@ _The New Way_ 🤓
 <summary><h3><code>java.time.Instant</code> :+1:</h3></summary>
 
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/instant.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
-- Stores moment as `long` seconds and `int` nanoseconds (not milliseconds) since unix epoch (UTC).
+- Stores moment as `long` seconds, and `int` nanoseconds (0 to 999,999,999), since Unix epoch (UTC).
+- Instants before epoch have negative values.
+- Ideal for recording event timestamps in application.
 </details>
 
 
@@ -47,6 +50,11 @@ _The New Way_ 🤓
 <summary><h3><code>java.time.Duration</code></a> :+1:</h3></summary>
 
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/period.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html)
+- Models a quantity of time in seconds and nanoseconds.
+- `DAYS` unit (equal to 24 hours) can be used to ignore daylight savings effects.
+- `Period` is the date-based equivalent to a `Duration`.
+- A physical duration could be of infinite length.
+- Stored with constraints similar to Instant.
 - Calculations
     - `.plusNanos()`
     - `.plusMillis()`
@@ -97,6 +105,16 @@ _The New Way_ 🤓
     - `.minusMinutes()`
     - `.minusSeconds()`
     - `.minusNanos()`
+</details>
+
+
+<details>
+<summary><h3><code>java.time.OffsetDateTime</code> :+1:</h3></summary>
+
+- [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html)
+- Adds offset from UTC/GMT to an instant, allowing the `LocalDateTime` to be obtained.
+- Doesn't add full timezone rules. (`ZonedDateTime` does)
+- `ZonedDateTime` and `Instant` are intended to model data in simpler applications.
 </details>
 
 
