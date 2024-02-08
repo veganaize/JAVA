@@ -41,7 +41,7 @@ _The New Way_ 🤓
 
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/instant.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html)
 - Stores moment as `long` seconds, and `int` nanoseconds (0 to 999,999,999), since Unix epoch (UTC).
-- Instants before epoch have negative values.
+- Instants before epoch have negative seconds. _(nanoseconds are always positive)_
 - Ideal for recording event timestamps in application.
 </details>
 
