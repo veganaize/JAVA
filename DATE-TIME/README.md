@@ -112,7 +112,7 @@ _The New Way_ 🤓
 <summary><h3><code>java.time.OffsetDateTime</code> :+1:</h3></summary>
 
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html)
-- Adds offset from UTC/GMT to an instant, allowing the `LocalDateTime` to be obtained.
+- Allows the `LocalDateTime` to be obtained by adding offset from UTC/GMT to an instant.
 - Doesn't add full timezone rules. (`ZonedDateTime` does)
 - `ZonedDateTime` and `Instant` are intended to model data in simpler applications.
 </details>
