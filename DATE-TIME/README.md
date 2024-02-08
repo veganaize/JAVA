@@ -124,8 +124,9 @@ _The New Way_ 🤓
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html); [API Doc](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html)
 - Intended for an event time.
 - Using a named timezone, rather than an offset, will handle daylight savings.
-- Use a `Period` to get around daylight savings adjustments in calculations:  
+- Use a `Period` to allow for (conceptual) daylight savings adjustments in calculations:  
   `previousDateTime.plus(Period.ofDays(3))`
+- Use a `Duration` to add an exact number of seconds (ie. a day is always 24 hours; no DST adjustment).
 </details>
 
 
