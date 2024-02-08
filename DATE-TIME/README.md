@@ -54,7 +54,7 @@ _The New Way_ 🤓
 - `DAYS` unit (equal to 24 hours) can be used to ignore daylight savings effects.
 - `Period` is the date-based equivalent to a `Duration`.
 - A physical duration could be of infinite length.
-- Stored with constraints similar to Instant.
+- Stored with constraints similar to `Instant`.
 - Calculations
     - `.plusNanos()`
     - `.plusMillis()`
