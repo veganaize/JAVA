@@ -139,7 +139,112 @@ _The New Way_ 🤓
       // "20240205-0800"
 </details>
 
+---
 
+<table>
+  <caption>
+    Interfaces Implemented by Class:
+  </caption>
+  <thead>
+    <tr>
+      <th></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/temporal/Temporal.html">
+        <code>Temporal</code>
+      </a></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/temporal/TemporalAccessor.html">
+        <code>TemporalAccessor</code>
+      </a></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/temporal/TemporalAdjuster.html">
+        <code>TemporalAdjuster</code>
+      </a></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/temporal/TemporalAmount.html">
+        <code>TemporalAmount</code>
+      </a></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/chrono/ChronoPeriod.html">
+        <code>ChronoPeriod</code>
+      </a></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/chrono/ChronoLocalDateTime.html">
+        <code>ChronoLocalDateTime</code>
+      </a></th>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/chrono/ChronoZonedDateTime.html">
+        <code>ChronoZonedDateTime</code>
+      </a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html">
+        <code>Instant</code>
+      </a></th>
+      <td>x</td>
+      <td>x</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">
+        <code>Duration</code>
+      </a></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Period.html">
+        <code>Period</code>
+      </a></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html">
+        <code>LocalDateTime</th>
+      </a></th>
+      <td>x</td>
+      <td>x</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+      <td></td>
+    </tr>
+    <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html">
+        <code>OffsetDateTime</th>
+      </a></th>
+      <td>x</td>
+      <td>x</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  <th><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html">
+        <code>ZonedDateTime</th>
+      </a></th>
+      <td>x</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+    </tr>
+</table>
+
+---
 
 _The Old Way_ 🤬
 -------------
