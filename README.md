@@ -121,6 +121,7 @@
     - [javafx 8](https://pixelduke.wordpress.com/2013/08/22/whats-new-in-java-8-part-i-javafx/)
     - [jdbc 4.2](https://openjdk.org/jeps/170)
     - [lambda expressions](https://openjdk.org/projects/lambda/) ([java tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)) ([quick start](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html)) ([part 1](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html)) ([part2](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part2.html)) ([oreilly 1](https://www.oreilly.com/content/whats-new-in-java-8-lambdas/)) ([oreilly 2](https://www.oreilly.com/content/java-8-functional-interfaces/))
+    - [method references](https://openjdk.org/jeps/126) ([java tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html))
     - [swing enhancements](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/enhancements-8.html)
     - [unicode 6.2](https://openjdk.org/jeps/133)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
