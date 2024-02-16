@@ -215,6 +215,9 @@
 </details>
 <details>
 <summary>JDK 19</summary>
+  
+  - [_Features_](https://openjdk.org/projects/jdk/19/)
+    - [linux risc-v port](https://openjdk.org/jeps/422)
 </details>
 <details>
 <summary>JDK 20</summary>
