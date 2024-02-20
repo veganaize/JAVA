@@ -10,7 +10,7 @@ _The New Way_ 🤓
 - [Tutorial](https://docs.oracle.com/javase/tutorial/datetime/TOC.html); [API Docs](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)
 - Since JDK 8 _([ThreeTen Backport](https://www.threeten.org/threetenbp/) for JDK 6 & 7)_.
 - [Immutable](https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html) & thread-safe.
-- Value-based classes; avoid use of identity-sensitive operations!  
+- [Value-based](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/doc-files/ValueBased.html) classes; avoid use of identity-sensitive operations!  
   Equals _method (not symbol)_ should be used for comparisons.
 - Classes use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard chronology (aka. calendar):
     - Modern civil calendar system used today in most of the world.
