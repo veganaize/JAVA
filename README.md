@@ -209,7 +209,7 @@
 
   - [_Features_](https://openjdk.org/projects/jdk/18/)
     - [utf-8 by default](https://openjdk.org/jeps/400)
-    - [simple web server](https://openjdk.org/jeps/408)
+    - [simple web server](https://openjdk.org/jeps/408) ([oracle blog](https://blogs.oracle.com/javamagazine/post/java-18-simple-web-server?source=:em:nw:mt::::RC_WWMK200429P00043C0056:NSL400230298))
     - [code snippets in api docs](https://openjdk.org/jeps/413)
     - [inet address resolution](https://openjdk.org/jeps/418)
 </details>
