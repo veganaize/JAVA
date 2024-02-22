@@ -32,7 +32,6 @@
 
   * [javac](https://docs.oracle.com/en/java/javase/21/docs/specs/man/javac.html)
   * [Apache Ant](https://ant.apache.org/manual/) - online docs
-
 </details>
 
 <details>
@@ -53,7 +52,12 @@
     Derby is written and implemented completely in the Java programming language. Derby provides users with a small-footprint standards-based database engine that can be tightly embedded into any Java based solution.  Derby ensures data integrity and provides sophisticated transaction support. In the default configuration there is no separate database server to be installed or maintained by the end user.
 
     The on-disk database format used by Derby is portable and platform-independent. You can move Derby databases from machine to machine without needing to modify the data. A Derby application can include a pre-built, populated database if it needs to, and that database will work in any Derby configuration. 
+</details>
 
+<details>
+<summary>Web</summary>
+
+  * [Jetty](https://eclipse.dev/jetty/) - full-featured, standards based, open source web server and servlet container, providing support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and other integrations.  It's asynchronous, embeddable, extensible, and has a small footprint.
 </details>
 
 <details>
