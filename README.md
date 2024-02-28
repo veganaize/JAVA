@@ -69,6 +69,10 @@
     - [FAQ](https://www.oracle.com/java/technologies/javafx/faq-javafx.html)
     - CSS Reference [[2.2](https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html)] [[8](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/doc-files/cssref.html)] [[11](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/doc-files/cssref.html)] [[17](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/doc-files/cssref.html)] [[21](https://openjfx.io/javadoc/21/javafx.graphics/javafx/scene/doc-files/cssref.html)]
     - [Sample Applications & Tutorials](https://docs.oracle.com/javase/8/javafx/sample-apps/index.html)
+  * [Swing](https://en.wikipedia.org/wiki/Swing_(Java))
+    - [API Docs](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html)
+    - [Swing Architecture Overview](https://www.oracle.com/java/technologies/a-swing-architecture.html)
+    - [Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/)
 </details>
 
 ---
