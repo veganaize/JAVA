@@ -71,6 +71,7 @@
     - [Sample Applications & Tutorials](https://docs.oracle.com/javase/8/javafx/sample-apps/index.html)
   * [Swing](https://en.wikipedia.org/wiki/Swing_(Java))
     - [API Docs](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html)
+    - [Event dispatch thread](https://en.wikipedia.org/wiki/Event_dispatching_thread)
     - [Swing Architecture Overview](https://www.oracle.com/java/technologies/a-swing-architecture.html)
     - [Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/)
 </details>
