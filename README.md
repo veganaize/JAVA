@@ -25,6 +25,7 @@
   * [Debugger](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/jdb.html) - jdb
   * [Java 2D](https://docs.oracle.com/javase/8/docs/technotes/guides/2d/)
   * jshell - [[_user guide_](https://docs.oracle.com/en/java/javase/21/jshell/java-shell-user-guide.pdf)] [[_man page_](https://docs.oracle.com/en/java/javase/21/docs/specs/man/jshell.html)] [[module summary](https://docs.oracle.com/en/java/javase/21/docs/api/jdk.jshell/module-summary.html)]
+  * [javadoc](https://www.oracle.com/java/technologies/javase/javadoc-tool.html) - [[_how to write_](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)] [[technotes](https://docs.oracle.com/javase/7/docs/technotes/tools/solaris/javadoc.html)]
 </details>
 
 <details>
