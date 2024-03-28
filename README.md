@@ -58,6 +58,7 @@
 
   * [GraalVM](https://openjdk.org/projects/graal/) - openjdk
   * [Java VM Architecture Explained](https://www.freecodecamp.org/news/jvm-tutorial-java-virtual-machine-architecture-explained-for-beginners/) - freecodecamp
+  * [Java VM Guide](https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-guide.pdf) - oracle
   * [Java SE VM Specifications](https://docs.oracle.com/javase/specs/) - oracle
   * [OpenJ9](https://eclipse.dev/openj9/) - eclipse
 </details>
