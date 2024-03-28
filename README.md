@@ -151,7 +151,7 @@
 <summary>JDK 9</summary>
   
   - [_Features_](https://openjdk.org/projects/jdk9/)
-    - [ahead-of-time compilation](https://openjdk.org/jeps/295)
+    - [ahead-of-time compilation (using graal backend)](https://openjdk.org/jeps/295)
     - [compile for old platform versions](https://openjdk.org/jeps/247)
     - [convenience factory methods for collections](https://openjdk.org/jeps/269)
     - [disable sha-1 certificates](https://openjdk.org/jeps/288)
@@ -174,6 +174,7 @@
   
   - [_Features_](https://openjdk.org/projects/jdk/10/)
     - [local-variable type inference](https://openjdk.org/jeps/286)
+    - [java-based graal jit compiler (experimental)](https://openjdk.org/jeps/317)
     - [root certificates](https://openjdk.org/jeps/319)
 </details>
 <details>
@@ -217,6 +218,7 @@
   
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/17/) _([release notes](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html))_
+    - [removed graal aot and jit compiler (retain JVMCI support for external compilers)](https://openjdk.org/jeps/410)
     - [sealed classes](https://openjdk.org/jeps/409)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
   - [_Download_](https://github.com/adoptium/temurin17-binaries/releases)
