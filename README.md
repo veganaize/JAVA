@@ -46,6 +46,13 @@
 </details>
 
 <details>
+<summary>Benchmark Suites</summary>
+
+  * [DaCapo](https://www.dacapobench.org/)
+  * [SPECjvm2008](https://www.spec.org/jvm2008/)
+</details>
+
+<details>
 <summary>Database</summary>
   
   * [Apache Derby](https://db.apache.org/derby/) - full-featured, open source relational database management system (RDBMS) that is based on Java technology and SQL.
