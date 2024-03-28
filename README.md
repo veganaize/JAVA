@@ -90,6 +90,12 @@
 /> <a href="https://en.wikipedia.org/wiki/Java_version_history">Java Version History</a>
 
 <details>
+<summary>JDK 5</summary>
+
+  - [_Java 1.5 grammar (ANTLR v3)_](http://web.archive.org/web/20120904064302id_/https://www.antlr.org/grammar/1152141644268/Java.g)
+</details>
+
+<details>
 <summary>JDK 6 </summary>
 
   - [_API Documentation_](https://docs.oracle.com/javase/6/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se6.zip))
