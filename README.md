@@ -54,6 +54,14 @@
 </details>
 
 <details>
+<summary>JVMs</summary>
+
+  * [GraalVM](https://openjdk.org/projects/graal/)
+  * [Java SE VM Specifications](https://docs.oracle.com/javase/specs/)
+  * [OpenJ9](https://eclipse.dev/openj9/)
+</details>
+
+<details>
 <summary>Database</summary>
   
   * [Apache Derby](https://db.apache.org/derby/) - full-featured, open source relational database management system (RDBMS) that is based on Java technology and SQL.
