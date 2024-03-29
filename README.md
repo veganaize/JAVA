@@ -191,7 +191,7 @@
   
   - [_Features_](https://openjdk.org/projects/jdk/10/)
     - [local-variable type inference](https://openjdk.org/jeps/286)
-    - [java-based graal jit compiler (experimental)](https://openjdk.org/jeps/317)
+    - [jit compiler (java-based; graal; experimental)](https://openjdk.org/jeps/317)
     - [root certificates](https://openjdk.org/jeps/319)
 </details>
 <details>
@@ -205,7 +205,8 @@
     - [local-variable syntax for lambda parameters](https://openjdk.org/jeps/323)
     - [transport layer security (tls) 1.3](https://openjdk.org/jeps/332)
     - [unicode 10](https://openjdk.org/jeps/327)
-    - [javafx modules removed](https://www.oracle.com/docs/tech/java/javaclientroadmapupdate2018mar.pdf)
+    - [removed javafx modules](https://www.oracle.com/docs/tech/java/javaclientroadmapupdate2018mar.pdf)
+    - [removed java web start (oracle)](https://www.oracle.com/technetwork/java/javase/javaclientroadmapupdate2018mar-4414431.pdf)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
 </details>
 <details>
@@ -219,6 +220,7 @@
 
   - [_Features_](https://openjdk.org/projects/jdk/14/)
     - [switch expressions](https://openjdk.org/jeps/361)
+    - [removed pack200](https://openjdk.org/jeps/367)
 </details>
 <details>
 <summary>JDK 15</summary>
@@ -227,6 +229,7 @@
 <summary>JDK 16</summary>
 
   - [_Features_](https://openjdk.org/projects/jdk/16/)
+    - [packaging tool (self-contained installers for windows/mac/linux)](https://openjdk.org/jeps/392)
     - [unix-domain socket channels](https://openjdk.org/jeps/380)
     - [records](https://openjdk.org/jeps/395) ([record classes](https://docs.oracle.com/en/java/javase/16/language/records.html)) ([serializable records](https://docs.oracle.com/en/java/javase/16/serializable-records/index.html))
 </details>
