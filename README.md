@@ -2,9 +2,10 @@
 
 <details>
 <summary>Coding Conventions</summary>
-  
-  * [Java Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) (1997)
-  * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+  * [Java Code Style Guidelines](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html) - cornell
+  * [Java Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) - sun
+  * [Java Style Guide](https://google.github.io/styleguide/javaguide.html) - google
   * [Secure Coding Guidelines](https://www.oracle.com/java/technologies/javase/seccodeguide.html) - oracle
   * [Checkstyle](https://checkstyle.org/)
 </details>
