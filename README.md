@@ -48,6 +48,8 @@
   * [JUnit 5](https://junit.org/junit5/)
   * [JUnit 4](https://junit.org/junit4/)
   * [TestNG](https://testng.org/)
+    - [maven repo](https://repo1.maven.org/maven2/org/testng/testng/)
+    - [testng-7.5.1.jar](https://repo1.maven.org/maven2/org/testng/testng/7.5.1/testng-7.5.1.jar) - last jdk8 compatible
 </details>
 
 <details>
