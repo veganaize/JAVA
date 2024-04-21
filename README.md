@@ -111,6 +111,11 @@
     - [Event dispatch thread](https://en.wikipedia.org/wiki/Event_dispatching_thread)
     - [Swing Architecture Overview](https://www.oracle.com/java/technologies/a-swing-architecture.html)
     - [Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/)
+  * [SWT](https://en.wikipedia.org/wiki/Standard_Widget_Toolkit)
+    - [github](https://github.com/eclipse-platform/eclipse.platform.swt)
+  * [AWT](https://en.wikipedia.org/wiki/Abstract_Window_Toolkit)
+    - [API Docs](https://docs.oracle.com/javase/8/docs/api/java/awt/package-summary.html)
+    - [technotes](https://docs.oracle.com/javase/8/docs/technotes/guides/awt/)
 </details>
 
 
