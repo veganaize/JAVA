@@ -58,21 +58,22 @@
 
 
 <details>
-<summary>Benchmark Suites</summary>
+<summary>JVM</summary>
 
-  * [DaCapo](https://www.dacapobench.org/)
-  * [SPECjvm2008](https://www.spec.org/jvm2008/)
-</details>
-
-
-<details>
-<summary>JVMs</summary>
-
-  * [GraalVM](https://openjdk.org/projects/graal/) - openjdk
-  * [Java VM Architecture Explained](https://www.freecodecamp.org/news/jvm-tutorial-java-virtual-machine-architecture-explained-for-beginners/) - freecodecamp
-  * [Java VM Guide](https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-guide.pdf) - oracle
-  * [Java SE VM Specifications](https://docs.oracle.com/javase/specs/) - oracle
-  * [OpenJ9](https://eclipse.dev/openj9/) - eclipse
+  * JVMs
+    - [GraalVM](https://openjdk.org/projects/graal/) - openjdk
+    - [Java VM Architecture Explained](https://www.freecodecamp.org/news/jvm-tutorial-java-virtual-machine-architecture-explained-for-beginners/) - freecodecamp
+    - [Java VM Guide](https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-guide.pdf) - oracle
+    - [Java SE VM Specifications](https://docs.oracle.com/javase/specs/) - oracle
+    - [OpenJ9](https://eclipse.dev/openj9/) - eclipse
+   
+  * Benchmark Suite
+    - [DaCapo](https://www.dacapobench.org/)
+    - [SPECjvm2008](https://www.spec.org/jvm2008/)
+   
+  * Monitor
+    - [JConsole](https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html)
+    - [VisualVM](https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/index.html) [[_intro video_](https://youtu.be/z8n7Bg7-A4I)]
 </details>
 
 
