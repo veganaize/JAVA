@@ -107,16 +107,53 @@
 /> <a href="https://en.wikipedia.org/wiki/Java_version_history">Java Version History</a>
 
 <details>
+<summary>JDK 1.0</summary>
+
+  - [The Java Language Specification 1.0](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+</details>
+
+
+<details>
+<summary>JDK 1.1</summary>
+
+  - [The Java Language Specification 1.0](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+</details>
+
+
+<details>
+<summary>JDK 1.2</summary>
+
+  - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+</details>
+
+
+<details>
+<summary>JDK 1.3</summary>
+
+  - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
+</details>
+
+
+<details>
+<summary>JDK 1.4</summary>
+
+  - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
+</details>
+
+
+<details>
 <summary>JDK 5</summary>
 
   - [_Java 1.5 grammar (ANTLR v3)_](http://web.archive.org/web/20120904064302id_/https://www.antlr.org/grammar/1152141644268/Java.g)
+  - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
 </details>
+
 
 <details>
 <summary>JDK 6 </summary>
 
   - [_API Documentation_](https://docs.oracle.com/javase/6/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se6.zip))
-  - [_Java Language Specification_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) - 3rd edition
+  - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
   - _Features_
     - [swing enhancements](https://docs.oracle.com/javase/7/docs/technotes/guides/swing/enhancements-6.html)
     - [writer for .gif format](https://docs.oracle.com/javase/8/docs/technotes/guides/imageio/enhancements60.html#gif)
@@ -148,9 +185,10 @@
     - [unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
     - [nimbus theme](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html) (6u10)
     - [threeten-backport (date-time) compatible](https://www.threeten.org/threetenbp/)
-  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se7/html/index.html)
-
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se7/html/index.html) _- 2013_
 </details>
+
+
 <details>
 <summary>JDK 8 <i>(LTS - 12/2030)</i></summary>
   
@@ -164,12 +202,14 @@
     - [method references](https://openjdk.org/jeps/126) ([java tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html))
     - [swing enhancements](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/enhancements-8.html)
     - [unicode 6.2](https://openjdk.org/jeps/133)
-  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) _- 2015_
   - [_Developer Guides_](https://docs.oracle.com/javase/8/docs/)
   - [_JDK Tools and Utilities_](https://docs.oracle.com/javase/8/docs/technotes/tools/)
   - [_Tutorial_](https://docs.oracle.com/javase/tutorial/)
   - [_Download_](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 </details>
+
+
 <details>
 <summary>JDK 9</summary>
   
@@ -200,6 +240,8 @@
     - [jit compiler (java-based; graal; experimental)](https://openjdk.org/jeps/317)
     - [root certificates](https://openjdk.org/jeps/319)
 </details>
+
+
 <details>
 <summary>JDK 11 <i>(LTS - <del>09/2026</del> 01/2032)</i></summary>
   
@@ -213,14 +255,20 @@
     - [unicode 10](https://openjdk.org/jeps/327)
     - [removed javafx modules](https://www.oracle.com/docs/tech/java/javaclientroadmapupdate2018mar.pdf)
     - [removed java web start (oracle)](https://www.oracle.com/technetwork/java/javase/javaclientroadmapupdate2018mar-4414431.pdf)
-  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se11/html/index.html) _- 2018_
 </details>
+
+
 <details>
 <summary>JDK 12</summary>
 </details>
+
+
 <details>
 <summary>JDK 13</summary>
 </details>
+
+
 <details>
 <summary>JDK 14</summary>
 
@@ -228,9 +276,13 @@
     - [switch expressions](https://openjdk.org/jeps/361)
     - [removed pack200](https://openjdk.org/jeps/367)
 </details>
+
+
 <details>
 <summary>JDK 15</summary>
 </details>
+
+
 <details>
 <summary>JDK 16</summary>
 
@@ -239,6 +291,8 @@
     - [unix-domain socket channels](https://openjdk.org/jeps/380)
     - [records](https://openjdk.org/jeps/395) ([record classes](https://docs.oracle.com/en/java/javase/16/language/records.html)) ([serializable records](https://docs.oracle.com/en/java/javase/16/serializable-records/index.html))
 </details>
+
+
 <details>
 <summary>JDK 17 <i>(LTS >= 09/2029)</i></summary>
   
@@ -246,9 +300,11 @@
   - [_Features_](https://openjdk.org/projects/jdk/17/) _([release notes](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html))_
     - [removed graal aot and jit compiler (retain JVMCI support for external compilers)](https://openjdk.org/jeps/410)
     - [sealed classes](https://openjdk.org/jeps/409)
-  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se17/html/index.html) _- 2021_
   - [_Download_](https://github.com/adoptium/temurin17-binaries/releases)
 </details>
+
+
 <details>
 <summary>JDK 18</summary>
 
@@ -258,15 +314,21 @@
     - [code snippets in api docs](https://openjdk.org/jeps/413)
     - [inet address resolution](https://openjdk.org/jeps/418)
 </details>
+
+
 <details>
 <summary>JDK 19</summary>
   
   - [_Features_](https://openjdk.org/projects/jdk/19/)
     - [linux risc-v port](https://openjdk.org/jeps/422)
 </details>
+
+
 <details>
 <summary>JDK 20</summary>
 </details>
+
+
 <details>
 <summary>JDK 21 <i>(LTS - 09/2031)</i></summary>
 
@@ -274,7 +336,7 @@
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
     - [sequenced collections](https://openjdk.org/jeps/431)
-- [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se21/html/index.html)
+- [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se21/html/index.html) _- 2023_
 - [_JDK Tools_](https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html)
 - [_Download_](https://jdk.java.net/21/)
 </details>
