@@ -51,9 +51,11 @@
   * [ArchUnit](https://github.com/TNG/ArchUnit)
   * [JUnit 5](https://junit.org/junit5/)
   * [JUnit 4](https://junit.org/junit4/)
+    - [maven repo](https://repo1.maven.org/maven2/junit/junit/)
+    - [junit-4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2/) - last in 4.x series
   * [TestNG](https://testng.org/)
     - [maven repo](https://repo1.maven.org/maven2/org/testng/testng/)
-    - [testng-7.5.1.jar](https://repo1.maven.org/maven2/org/testng/testng/7.5.1/testng-7.5.1.jar) - last jdk8 compatible
+    - [testng-7.5.1](https://repo1.maven.org/maven2/org/testng/testng/7.5.1/) - last jdk8 compatible
 </details>
 
 
