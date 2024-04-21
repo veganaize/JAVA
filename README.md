@@ -10,6 +10,7 @@
   * [Checkstyle](https://checkstyle.org/)
 </details>
 
+
 <details>
 <summary>Tutorials</summary>
   
@@ -17,6 +18,7 @@
   * [Official Tutorial](https://docs.oracle.com/javase/tutorial/) - oracle ([_history_](https://docs.oracle.com/javase/tutorial/information/history.html))
   * [Java Tutorials](http://tutorials.jenkov.com/) - jakob jenkov
 </details>
+
 
 <details>
 <summary>Guides</summary>
@@ -30,6 +32,7 @@
   * [javac](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html) - [[_hacker’s guide_](https://scg.unibe.ch/archive/projects/Erni08b.pdf)]
 </details>
 
+
 <details>
 <summary>Build Tools</summary>
 
@@ -39,6 +42,7 @@
     - [Eclipse JDT Core](https://github.com/eclipse-jdt/eclipse.jdt.core) - github
   * [Apache Ant](https://ant.apache.org/manual/) - online docs
 </details>
+
 
 <details>
 <summary>Testing</summary>
@@ -52,12 +56,14 @@
     - [testng-7.5.1.jar](https://repo1.maven.org/maven2/org/testng/testng/7.5.1/testng-7.5.1.jar) - last jdk8 compatible
 </details>
 
+
 <details>
 <summary>Benchmark Suites</summary>
 
   * [DaCapo](https://www.dacapobench.org/)
   * [SPECjvm2008](https://www.spec.org/jvm2008/)
 </details>
+
 
 <details>
 <summary>JVMs</summary>
@@ -69,6 +75,7 @@
   * [OpenJ9](https://eclipse.dev/openj9/) - eclipse
 </details>
 
+
 <details>
 <summary>Database</summary>
   
@@ -79,11 +86,13 @@
     The on-disk database format used by Derby is portable and platform-independent. You can move Derby databases from machine to machine without needing to modify the data. A Derby application can include a pre-built, populated database if it needs to, and that database will work in any Derby configuration. 
 </details>
 
+
 <details>
 <summary>Web</summary>
 
   * [Jetty](https://eclipse.dev/jetty/) - full-featured, standards based, open source web server and servlet container, providing support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and other integrations.  It's asynchronous, embeddable, extensible, and has a small footprint.
 </details>
+
 
 <details>
 <summary>GUI</summary>
@@ -101,7 +110,9 @@
     - [Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/)
 </details>
 
+
 ---
+
 
 <img src="https://user-images.githubusercontent.com/7102064/159777738-8d923779-60d7-44e8-a6ec-4cefb6c9b0d0.png" width="16px"
 /> <a href="https://en.wikipedia.org/wiki/Java_version_history">Java Version History</a>
@@ -109,14 +120,16 @@
 <details>
 <summary>JDK 1.0</summary>
 
-  - [The Java Language Specification 1.0](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+  - [_Api Documentation_](http://web.archive.org/web/19980215011741/http://java.sun.com/products/jdk/1.0.2/api/)
+  - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
 
 
 <details>
 <summary>JDK 1.1</summary>
 
-  - [The Java Language Specification 1.0](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+  - [_API Documentation_](http://web.archive.org/web/19980214234554/http://java.sun.com/products/jdk/1.1/docs/api/packages.html) [[_.hlp_](https://javadoc.allimant.org/dist/jdk118.zip)]
+  - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
 
 
