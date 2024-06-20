@@ -301,6 +301,13 @@
 
 <details>
 <summary>JDK 15</summary>
+
+  - [_Features_](https://openjdk.org/projects/jdk/15/)
+    - [eddsa signature algo](https://openjdk.org/jeps/339)
+    - [shenandoah low-pause gc](https://openjdk.org/jeps/379)
+    - [text blocks](https://openjdk.org/jeps/378)
+    - [zgc scalable low-latency gc](https://openjdk.org/jeps/377)
+    - [removed nashorn](https://openjdk.org/jeps/372)
 </details>
 
 
