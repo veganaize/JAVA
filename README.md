@@ -41,6 +41,8 @@
     - [Using the batch compiler](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-using_batch_compiler.htm) - eclipse docs
     - [Eclipse JDT Core](https://github.com/eclipse-jdt/eclipse.jdt.core) - github
   * [Apache Ant](https://ant.apache.org/manual/) - online docs
+  * [Java Archive (JAR) Files](https://docs.oracle.com/javase/8/docs/technotes/guides/jar/index.html) - oracle
+  * [javapackager](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javapackager.html) - oracle
 </details>
 
 
