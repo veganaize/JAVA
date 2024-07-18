@@ -136,6 +136,7 @@
 <details>
 <summary>JDK 1.0</summary>
 
+  - _Class File Version: 45_
   - [_Api Documentation_](http://web.archive.org/web/19980215011741/http://java.sun.com/products/jdk/1.0.2/api/)
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
@@ -144,6 +145,7 @@
 <details>
 <summary>JDK 1.1</summary>
 
+  - _Class File Version: 45.3_
   - [_API Documentation_](http://web.archive.org/web/19980214234554/http://java.sun.com/products/jdk/1.1/docs/api/packages.html) [[_.hlp_](https://javadoc.allimant.org/dist/jdk118.zip)]
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
@@ -152,6 +154,7 @@
 <details>
 <summary>JDK 1.2</summary>
 
+  - _Class File Version: 46_
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
 
@@ -159,6 +162,7 @@
 <details>
 <summary>JDK 1.3</summary>
 
+  - _Class File Version: 47_
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
 </details>
 
@@ -166,6 +170,7 @@
 <details>
 <summary>JDK 1.4</summary>
 
+  - _Class File Version: 48_
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
 </details>
 
@@ -173,6 +178,7 @@
 <details>
 <summary>JDK 5</summary>
 
+  - _Class File Version: 49_
   - [_Java 1.5 grammar (ANTLR v3)_](http://web.archive.org/web/20120904064302id_/https://www.antlr.org/grammar/1152141644268/Java.g)
   - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
 </details>
@@ -181,6 +187,7 @@
 <details>
 <summary>JDK 6 </summary>
 
+  - _Class File Version: 50_
   - [_API Documentation_](https://docs.oracle.com/javase/6/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se6.zip))
   - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
   - _Features_
@@ -193,7 +200,8 @@
 
 <details>
 <summary>JDK 7 <i>(LTS - 07/2022)</i></summary>
-  
+
+  - _Class File Version: 51_
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)  (_.chm: [tutorial](https://javadoc.allimant.org/dist/java-tutorial-2011-07-20.zip); [api docs](https://javadoc.allimant.org/dist/j2se7.zip)_)
   - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
@@ -220,7 +228,8 @@
 
 <details>
 <summary>JDK 8 <i>(LTS - 12/2030)</i></summary>
-  
+
+  - _Class File Version: 52_
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se8.zip))
   - [_Features_](https://openjdk.org/projects/jdk8/features) _/_ [_What's New_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
@@ -243,7 +252,8 @@
 
 <details>
 <summary>JDK 9</summary>
-  
+
+  - _Class File Version: 53_
   - [_Features_](https://openjdk.org/projects/jdk9/)
     - [ahead-of-time compilation (using graal backend)](https://openjdk.org/jeps/295)
     - [compile for old platform versions](https://openjdk.org/jeps/247)
@@ -266,7 +276,8 @@
 </details>
 <details>
 <summary>JDK 10</summary>
-  
+
+  - _Class File Version: 54_
   - [_Features_](https://openjdk.org/projects/jdk/10/)
     - [local-variable type inference](https://openjdk.org/jeps/286)
     - [jit compiler (java-based; graal; experimental)](https://openjdk.org/jeps/317)
@@ -276,7 +287,8 @@
 
 <details>
 <summary>JDK 11 <i>(LTS - <del>09/2026</del> 01/2032)</i></summary>
-  
+
+  - _Class File Version: 55_
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/11/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/11/)
     - [flight recorder](https://openjdk.org/jeps/328)
@@ -293,17 +305,22 @@
 
 <details>
 <summary>JDK 12</summary>
+
+  - _Class File Version: 56_
 </details>
 
 
 <details>
 <summary>JDK 13</summary>
+
+ - _Class File Version: 57_
 </details>
 
 
 <details>
 <summary>JDK 14</summary>
 
+  - _Class File Version: 58_
   - [_Features_](https://openjdk.org/projects/jdk/14/)
     - [switch expressions](https://openjdk.org/jeps/361)
     - [removed pack200](https://openjdk.org/jeps/367)
@@ -313,6 +330,7 @@
 <details>
 <summary>JDK 15</summary>
 
+  - _Class File Version: 59_
   - [_Features_](https://openjdk.org/projects/jdk/15/)
     - [eddsa signature algo](https://openjdk.org/jeps/339)
     - [shenandoah low-pause gc](https://openjdk.org/jeps/379)
@@ -325,6 +343,7 @@
 <details>
 <summary>JDK 16</summary>
 
+  - _Class File Version: 60_
   - [_Features_](https://openjdk.org/projects/jdk/16/)
     - [packaging tool (self-contained installers for windows/mac/linux)](https://openjdk.org/jeps/392)
     - [unix-domain socket channels](https://openjdk.org/jeps/380)
@@ -335,6 +354,7 @@
 <details>
 <summary>JDK 17 <i>(LTS >= 09/2029)</i></summary>
   
+  - _Class File Version: 61_
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/17/) _([release notes](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html))_
     - [removed graal aot and jit compiler (retain JVMCI support for external compilers)](https://openjdk.org/jeps/410)
@@ -347,6 +367,7 @@
 <details>
 <summary>JDK 18</summary>
 
+  - _Class File Version: 62_
   - [_Features_](https://openjdk.org/projects/jdk/18/)
     - [utf-8 by default](https://openjdk.org/jeps/400)
     - [simple web server](https://openjdk.org/jeps/408) ([oracle blog](https://blogs.oracle.com/javamagazine/post/java-18-simple-web-server?source=:em:nw:mt::::RC_WWMK200429P00043C0056:NSL400230298))
@@ -357,7 +378,8 @@
 
 <details>
 <summary>JDK 19</summary>
-  
+
+  - _Class File Version: 63_
   - [_Features_](https://openjdk.org/projects/jdk/19/)
     - [linux risc-v port](https://openjdk.org/jeps/422)
 </details>
@@ -365,12 +387,15 @@
 
 <details>
 <summary>JDK 20</summary>
+
+  - _Class File Version: 64_
 </details>
 
 
 <details>
 <summary>JDK 21 <i>(LTS - 09/2031)</i></summary>
 
+  - _Class File Version: 65_
   - [_Features_](https://openjdk.org/projects/jdk/21/) _([release notes](https://www.oracle.com/java/technologies/javase/21-relnote-issues.html))_
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
