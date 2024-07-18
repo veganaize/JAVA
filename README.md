@@ -37,12 +37,18 @@
 <summary>Build Tools</summary>
 
   * [javac](https://docs.oracle.com/en/java/javase/21/docs/specs/man/javac.html) - online man page
+    ```
+    javac -source 1.4 -target 1.4 -Xlint:-options -bootclasspath j2sdk1.4.2_19\lib\classes.zip -extdirs "" *.java
+    ```
   * [Eclipse Compiler for Java (ECJ)](http://blog.deepakazad.com/2010/05/ecj-eclipse-java-compiler.html) - coder lounge
     - [Using the batch compiler](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-using_batch_compiler.htm) - eclipse docs
     - [Eclipse JDT Core](https://github.com/eclipse-jdt/eclipse.jdt.core) - github
   * [Apache Ant](https://ant.apache.org/manual/) - online docs
   * [Java Archive (JAR) Files](https://docs.oracle.com/javase/8/docs/technotes/guides/jar/index.html) - oracle
   * [javapackager](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javapackager.html) - oracle
+    ```
+    javapackager -createjar -appclass package.ClassName -srcdir classes -outdir out -outfile outjar -v
+    ```
 </details>
 
 
