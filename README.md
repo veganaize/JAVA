@@ -56,6 +56,10 @@
 <summary>Testing</summary>
 
   * [Programming With Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) - oracle
+  * [javap](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javap.html)
+    ```
+    javap -verbose ClassName  # Get class file version
+    ```
   * [ArchUnit](https://github.com/TNG/ArchUnit)
   * [JUnit 5](https://junit.org/junit5/)
   * [JUnit 4](https://junit.org/junit4/)
