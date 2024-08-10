@@ -137,6 +137,9 @@
 <img src="https://user-images.githubusercontent.com/7102064/159777738-8d923779-60d7-44e8-a6ec-4cefb6c9b0d0.png" width="16px"
 /> <a href="https://en.wikipedia.org/wiki/Java_version_history">Java Version History</a>
 
+[The Java Version Almanac](https://javaalmanac.io/)
+
+
 <details>
 <summary>JDK 1.0</summary>
 
@@ -183,6 +186,7 @@
 <summary>JDK 5</summary>
 
   - _Class File Version: 49_
+  - [_API Documentation_](https://web.mit.edu/java_v1.5.0_22/distrib/share/docs/index.html)
   - [_Java 1.5 grammar (ANTLR v3)_](http://web.archive.org/web/20120904064302id_/https://www.antlr.org/grammar/1152141644268/Java.g)
   - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
 </details>
