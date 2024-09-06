@@ -66,7 +66,7 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
 
 ---
 
-### OpenGL ES
+### [OpenGL ES](https://www.khronos.org/opengl/wiki/OpenGL_ES)
 * _Android Developers_
   - [kitkat](https://minimum-viable-product.github.io/kitkat-docs/guide/topics/graphics/opengl.html) - es 1.0 through 3.0
   - [current](https://developer.android.com/develop/ui/views/graphics/opengl/about-opengl) - es 2.0 through 3.2
