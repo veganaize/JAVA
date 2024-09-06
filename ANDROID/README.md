@@ -72,9 +72,12 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
     - [OpenGL ES 1.1 Extension Pack](https://registry.khronos.org/OpenGL/specs/es/1.1/opengles_spec_1_1_extension_pack.pdf)
     - [OpenGL ES 1.1 Reference Pages](https://registry.khronos.org/OpenGL-Refpages/es1.1/xhtml/)
     - [OpenGL ES 2.0 API Quick Reference](https://www.khronos.org/files/opengles20-reference-card.pdf)
-    - [OpenGL ES 2.0](https://registry.khronos.org/OpenGL/specs/es/2.0/es_full_spec_2.0.pdf)
+    - [OpenGL ES 2.0](https://registry.khronos.org/OpenGL/specs/es/2.0/es_full_spec_2.0.pdf) - android 2.2 (api 8)
     - [OpenGL ES 2.0 Reference Pages](https://registry.khronos.org/OpenGL-Refpages/es2.0/)
     - [GLSL ES 1.0](https://registry.khronos.org/OpenGL/specs/es/2.0/GLSL_ES_Specification_1.00.pdf) - coincides with opengl es 2.0 and glsl 1.2 (desktop)
+    - [OpenGL ES 3.0](https://registry.khronos.org/OpenGL/specs/es/3.0/es_spec_3.0.pdf) - android 4.3 (api 18)
+    - [OpenGL ES 3.0 Reference Pages](http://www.khronos.org/registry/OpenGL-Refpages/es3.0/)
+    - [GLSL ES 3.0](https://registry.khronos.org/OpenGL/specs/es/3.0/GLSL_ES_Specification_3.00.pdf)
     
 ---
 
