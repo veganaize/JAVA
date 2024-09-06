@@ -53,6 +53,16 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
 
 ---
 
+* ndk
+  - ndk r9d (03/2014)
+    - [windows x86](https://dl.google.com/android/ndk/android-ndk-r9d-windows-x86.zip) - x86
+    - [windows x64](https://dl.google.com/android/ndk/android-ndk-r9d-windows-x86_64.zip) - x86_64
+    - [linux](https://dl.google.com/android/ndk/android-ndk-r9d-linux-x86_64.tar.bz2) - x86_64
+    - [mac](https://dl.google.com/android/ndk/android-ndk-r9d-darwin-x86_64.tar.bz2) - x86_64
+  - ndk samples - [`master-obsolete`](https://github.com/android/ndk-samples/tree/master-obsolete) branch
+
+---
+
 💻 New Skool SDK Tools
 ----------------------
 
