@@ -82,6 +82,7 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
     - [OpenGL ES 3.0](https://registry.khronos.org/OpenGL/specs/es/3.0/es_spec_3.0.pdf) - android 4.3 (api 18)
     - [OpenGL ES 3.0 Reference Pages](http://www.khronos.org/registry/OpenGL-Refpages/es3.0/)
     - [GLSL ES 3.0](https://registry.khronos.org/OpenGL/specs/es/3.0/GLSL_ES_Specification_3.00.pdf)
+    - [GLSL ES 3.2](https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.html) _(online html)_
     
 ---
 
