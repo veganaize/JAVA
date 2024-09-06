@@ -54,11 +54,23 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
 ---
 
 ### ndk
-  - ndk r9d - _03/2014_
+  - ndk r9d - _03/2014_ - supports android 4.3 (api 18) w/ gl es 3.0 since r9
     - windows ( [_x86_](https://dl.google.com/android/ndk/android-ndk-r9d-windows-x86.zip) ) ( [_x86-64_](https://dl.google.com/android/ndk/android-ndk-r9d-windows-x86_64.zip) )
     - linux ( [_x86-64_](https://dl.google.com/android/ndk/android-ndk-r9d-linux-x86_64.tar.bz2) )
     - mac ( [_x86-64_](https://dl.google.com/android/ndk/android-ndk-r9d-darwin-x86_64.tar.bz2) )
   - ndk samples - [_`master-obsolete`_](https://github.com/android/ndk-samples/tree/master-obsolete) branch
+
+---
+
+### OpenGL ES
+- [OpenGL ES 1.1 (common)](https://registry.khronos.org/OpenGL/specs/es/1.1/es_cm_spec_1.1.pdf) - compares against opengl 1.5 (desktop)
+- [OpenGL ES 1.1](https://registry.khronos.org/OpenGL/specs/es/1.1/es_full_spec_1.1.pdf) - based on opengl 1.5 (desktop)
+- [OpenGL ES 1.1 Extension Pack](https://registry.khronos.org/OpenGL/specs/es/1.1/opengles_spec_1_1_extension_pack.pdf)
+- [OpenGL ES 1.1 Reference Pages](https://registry.khronos.org/OpenGL-Refpages/es1.1/xhtml/)
+- [OpenGL ES 2.0 API Quick Reference](https://www.khronos.org/files/opengles20-reference-card.pdf)
+- [OpenGL ES 2.0](https://registry.khronos.org/OpenGL/specs/es/2.0/es_full_spec_2.0.pdf)
+- [OpenGL ES 2.0 Reference Pages](https://registry.khronos.org/OpenGL-Refpages/es2.0/)
+- [GLSL ES 1.0](https://registry.khronos.org/OpenGL/specs/es/2.0/GLSL_ES_Specification_1.00.pdf) - coincides with opengl es 2.0 and glsl 1.2 (desktop)
 
 ---
 
