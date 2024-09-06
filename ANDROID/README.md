@@ -54,10 +54,14 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
 ---
 
 ### ndk
-  - ndk r9d - _03/2014_ - supports android 4.3 (api 18) w/ gl es 3.0 since r9
+  - ***ndk r9d*** - _03/2014_ - native android 4.3 (api 18) w/ gl es 3.0 support since r9:
     - windows ( [_x86_](https://dl.google.com/android/ndk/android-ndk-r9d-windows-x86.zip) ) ( [_x86-64_](https://dl.google.com/android/ndk/android-ndk-r9d-windows-x86_64.zip) )
     - linux ( [_x86-64_](https://dl.google.com/android/ndk/android-ndk-r9d-linux-x86_64.tar.bz2) )
     - mac ( [_x86-64_](https://dl.google.com/android/ndk/android-ndk-r9d-darwin-x86_64.tar.bz2) )
+  - ***ndk r15c*** - _07/2017_ - unified headers by default; android 4 (api 14) minimum target level; native android 8 (api 26) support; yasm cmake support:
+    - windows ( [_x86_](https://dl.google.com/android/repository/android-ndk-r15c-windows-x86.zip) ) ( [_x86-64_](https://dl.google.com/android/repository/android-ndk-r15c-windows-x86_64.zip) )
+    - linux ( [_x86-64_](https://dl.google.com/android/repository/android-ndk-r15c-linux-x86_64.zip) )
+    - mac ( [_x86-64_](https://dl.google.com/android/repository/android-ndk-r15c-darwin-x86_64.zip) )
   - ndk samples - [_`master-obsolete`_](https://github.com/android/ndk-samples/tree/master-obsolete) branch
 
 ---
