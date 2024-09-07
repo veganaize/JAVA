@@ -73,6 +73,7 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
       - [About OpenGL ES](https://developer.android.com/develop/ui/views/graphics/opengl/about-opengl) - es 2.0 through 3.2
       - [Displaying Graphics with OpenGL ES](https://developer.android.com/develop/ui/views/graphics/opengl) - es 2.0
   - _API_
+      - [`android.opengl`](https://developer.android.com/reference/android/opengl/package-summary)
       - [`javax.microedition.khronos.opengles`](https://minimum-viable-product.github.io/kitkat-docs/reference/javax/microedition/khronos/opengles/package-summary.html)
       - [`javax.microedition.khronos.egl`](https://minimum-viable-product.github.io/kitkat-docs/reference/javax/microedition/khronos/egl/package-summary.html)
 * _Specifications_
