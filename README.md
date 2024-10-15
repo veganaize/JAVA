@@ -7,7 +7,10 @@
   * [Java Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) - sun
   * [Java Style Guide](https://google.github.io/styleguide/javaguide.html) - google
   * [Secure Coding Guidelines](https://www.oracle.com/java/technologies/javase/seccodeguide.html) - oracle
-  * [Checkstyle](https://checkstyle.org/)
+  * [Checkstyle](https://checkstyle.org/) _(v9.3 is last jre 8 compatible)_
+    - [Command Line](https://checkstyle.sourceforge.io/version/9.3/cmdline.html) v9.3 - documentation
+    - [GitHub](https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-9.3) v9.3 - jar release
+    - [Maven](https://repo1.maven.org/maven2/com/puppycrawl/tools/checkstyle/9.3/) v9.3 - jar release
 </details>
 
 
