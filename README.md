@@ -133,6 +133,8 @@
     - [technotes](https://docs.oracle.com/javase/8/docs/technotes/guides/awt/)
 </details>
 
+[Supplementary Characters in the Java Platform](https://www.oracle.com/technical-resources/articles/javase/supplementary.html)
+
 
 ---
 
