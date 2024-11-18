@@ -243,6 +243,8 @@
 <summary>JDK 8 <i>(LTS - 12/2030)</i></summary>
 
   - _Class File Version: 52_
+  - _Minimum Source Version: 1.2_
+  - _Minimum Target Version: 1.1_
   - [_Documentation Home_](https://docs.oracle.com/javase/8/)
   - [_API Documenation_](https://docs.oracle.com/javase/8/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se8.zip))
   - [_Features_](https://openjdk.org/projects/jdk8/features) _/_ [_What's New_](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
