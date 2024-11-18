@@ -422,6 +422,8 @@
 <summary>JDK 21 <i>(LTS - 09/2031)</i></summary>
 
   - _Class File Version: 65_
+  - _Minimum Source Version: 8_
+  - _Minimum Target Version: 8_
   - [_Features_](https://openjdk.org/projects/jdk/21/) _([release notes](https://www.oracle.com/java/technologies/javase/21-relnote-issues.html))_
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
