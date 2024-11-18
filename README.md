@@ -191,6 +191,8 @@
 <summary>JDK 5</summary>
 
   - _Class File Version: 49_
+  - _Minimum Source Version: 1.2_
+  - _Minimum Target Version: 1.1_
   - [_API Documentation_](https://web.mit.edu/java_v1.5.0_22/distrib/share/docs/index.html) ([_.chm_](https://javadoc.allimant.org/dist/jdk150.zip))
   - [_Java 1.5 grammar (ANTLR v3)_](http://web.archive.org/web/20120904064302id_/https://www.antlr.org/grammar/1152141644268/Java.g)
   - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
