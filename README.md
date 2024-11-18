@@ -175,6 +175,7 @@
 <summary>JDK 1.3</summary>
 
   - _Class File Version: 47_
+  - _Minimum Target Version: 1.1_
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
 </details>
 
