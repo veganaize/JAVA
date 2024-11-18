@@ -311,6 +311,8 @@
 <summary>JDK 11 <i>(LTS - <del>09/2026</del> 01/2032)</i></summary>
 
   - _Class File Version: 55_
+  - _Minimum Source Version: 6_
+  - _Minimum Target Version: 1.6_
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/11/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/11/)
     - [flight recorder](https://openjdk.org/jeps/328)
