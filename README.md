@@ -379,6 +379,8 @@
 <summary>JDK 17 <i>(LTS >= 09/2029)</i></summary>
   
   - _Class File Version: 61_
+  - _Minimum Source Version: 7_
+  - _Minimum Target Version: 7_
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/17/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/17/) _([release notes](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html))_
     - [removed graal aot and jit compiler (retain JVMCI support for external compilers)](https://openjdk.org/jeps/410)
