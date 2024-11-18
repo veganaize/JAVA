@@ -220,6 +220,8 @@
 <summary>JDK 7 <i>(LTS - 07/2022)</i></summary>
 
   - _Class File Version: 51_
+  - _Minimum Source Version: 1.2_
+  - _Minimum Target Version: 1.1_
   - [_API Documentation_](https://docs.oracle.com/javase/7/docs/api/)  (_.chm: [tutorial](https://javadoc.allimant.org/dist/java-tutorial-2011-07-20.zip); [api docs](https://javadoc.allimant.org/dist/j2se7.zip)_)
   - [_Developer Guides_](https://docs.oracle.com/javase/7/docs/)
   - [_Features_](https://openjdk.org/projects/jdk7/features/)
