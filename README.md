@@ -432,3 +432,23 @@
 - [_JDK Tools_](https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html)
 - [_Download_](https://jdk.java.net/21/)
 </details>
+
+
+<details>
+<summary>JDK 22</summary>
+
+  - _Class File Version: 66_
+  - [_Features_](https://openjdk.org/projects/jdk/22/)
+    - [_foreign function & memory api_](https://openjdk.org/jeps/454)
+    - [_unnamed variables & patterns_](https://openjdk.org/jeps/456)
+    - [_launch multi-file source code programs_](https://openjdk.org/jeps/458)
+</details>
+
+
+<details>
+<summary>JDK 23</summary>
+
+  - _Class File Version: 67_
+  - [_Features_](https://openjdk.org/projects/jdk/23/)
+    - [_markdown documentation comments_](https://openjdk.org/jeps/467)
+</details>
