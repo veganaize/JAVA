@@ -461,7 +461,7 @@
   - [_Features_](https://openjdk.org/projects/jdk/24/)
     - [_aot class loading & linking_](https://openjdk.org/jeps/483)
     - [_permanently disable security manager_](https://openjdk.org/jeps/486)
-    - [_quantum resistant key ecapsulation_](https://openjdk.org/jeps/496)
+    - [_quantum resistant key encapsulation_](https://openjdk.org/jeps/496)
     - [_quantum resistant digital signature algorithm_](https://openjdk.org/jeps/497)
     - [_removed windows 32-bit x86 support_](https://openjdk.org/jeps/479)
     - [_stream gatherers_](https://openjdk.org/jeps/485)
