@@ -27,7 +27,10 @@
 <summary>Guides</summary>
 
   * [Annotations](https://docs.oracle.com/javase/6/docs/technotes/guides/language/annotations.html)
-  * [Collections](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/)
+  * Collections [[8](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/)]
+    - API Design FAQ [[11](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-designfaq.html)]
+    - Framework Outline [[11](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-reference.html)]
+    - Package Summary [[11](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/package-summary.html)]
   * [Debugger](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/jdb.html) - jdb
   * [Java 2D](https://docs.oracle.com/javase/8/docs/technotes/guides/2d/)
   * jshell - [[_user guide_](https://docs.oracle.com/en/java/javase/21/jshell/java-shell-user-guide.pdf)] [[_man page_](https://docs.oracle.com/en/java/javase/21/docs/specs/man/jshell.html)] [[module summary](https://docs.oracle.com/en/java/javase/21/docs/api/jdk.jshell/module-summary.html)]
