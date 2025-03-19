@@ -19,6 +19,9 @@
   
   * [Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - wikibooks
   * [Official Tutorial](https://docs.oracle.com/javase/tutorial/) - oracle ([_history_](https://docs.oracle.com/javase/tutorial/information/history.html))
+    - [Collections](https://docs.oracle.com/javase/tutorial/collections/index.html)
+    - [Date Time](https://docs.oracle.com/javase/tutorial/datetime/index.html)
+    - [Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
   * [Java Tutorials](http://tutorials.jenkov.com/) - jakob jenkov
 </details>
 
