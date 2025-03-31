@@ -155,7 +155,7 @@
 <summary>JDK 1.0</summary>
 
   - _Class File Version: 45_
-  - [_Api Documentation_](http://web.archive.org/web/19980215011741/http://java.sun.com/products/jdk/1.0.2/api/)
+  - [_API Documentation_](http://web.archive.org/web/19980215011741/http://java.sun.com/products/jdk/1.0.2/api/)
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
 
@@ -173,6 +173,7 @@
 <summary>JDK 1.2</summary>
 
   - _Class File Version: 46_
+  - [_API Documentation_](https://javaalmanac.io/jdk/1.2/api/index.html)
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
 </details>
 
@@ -182,6 +183,7 @@
 
   - _Class File Version: 47_
   - _Minimum Target Version: 1.1_
+  - [_API Documentation_](https://javaalmanac.io/jdk/1.3/api/index.html)
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
 </details>
 
@@ -192,6 +194,7 @@
   - _Class File Version: 48_
   - _Minimum Source Version: 1.2_
   - _Minimum Target Version: 1.1_
+  - [_API Documentation_](https://javaalmanac.io/jdk/1.4/api/index.html)
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
 </details>
 
