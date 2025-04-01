@@ -6,7 +6,7 @@ _A quick reference for Java fundamentals._
 | KEYWORDS |            |           |          |
 |:---------|:-----------|:----------|:---------|
 | abstract | else       | int       | strictfp
-| assert   | enum       | interface | super
+| [assert](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)   | enum       | interface | super
 | boolean  | extends    | long      | switch
 | break    | false      | native    | synchronized
 | byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
