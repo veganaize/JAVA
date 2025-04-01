@@ -33,6 +33,16 @@ _A quick reference for Java fundamentals._
 - [`Math.pow`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#pow-double-double-)`(double base, double exponent) : double`
 
 
+[Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
+-------
+
+- [`empty`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#empty--)`() : boolean`
+- [`peek`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#peek--)`() : E`
+- [`pop`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#pop--)`() : E`
+- [`push`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#push-E-)`(E item) : E`
+- [`search`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#search-java.lang.Object-)`(Object o) : int`
+
+
 [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 --------
 
