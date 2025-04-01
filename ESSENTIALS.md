@@ -3,6 +3,23 @@ Java Essentials
 
 _A quick reference for Java fundamentals._
 
+| KEYWORDS |            |           |          |
+|:---------|:-----------|:----------|:---------|
+| abstract | else       | int       | strictfp
+| assert   | enum       | interface | super
+| boolean  | extends    | long      | switch
+| break    | false      | native    | synchronized
+| byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
+| case     | finally    | null      | throw
+| catch    | float      | package   | throws
+| char     | for        | private   | transient
+| class    | goto       | protected | true
+| const    | if         | public    | try
+| continue | implements | return    | void
+| default  | import     | short     | volatile
+| do       | instanceof | static    | while
+| double
+
 
 [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 ------
