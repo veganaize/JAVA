@@ -14,7 +14,7 @@ _A quick reference for Java fundamentals._
 ---------
 
 - [`containsKey`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#containsKey-java.lang.Object-)`(Object key) : boolean`
-- [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#get-java.lang.Object-)`(Boject key) : V`
+- [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#get-java.lang.Object-)`(Object key) : V`
 - [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V`
 - [`put`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#put-K-V-)`(K key, V value) : V`
 
