@@ -21,6 +21,14 @@ _A quick reference for Java fundamentals._
 | double
 
 
+[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+-----------
+
+
+[Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
+--------
+
+
 [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 ------
 
