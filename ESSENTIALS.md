@@ -42,6 +42,7 @@ _A quick reference for Java fundamentals._
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#get-java.lang.Object-)`(Object key) : V`
 - [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V`
 - [`put`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#put-K-V-)`(K key, V value) : V`
+- [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#size--)`() : int`
 
 
 [Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
