@@ -40,6 +40,8 @@ _A quick reference for Java fundamentals._
 [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
 --------
 
+- [`Arrays.asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a) : <T> List<T>`
+
 
 [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 ------
