@@ -91,6 +91,7 @@ _A quick reference for Java fundamentals._
 [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 --------
 
+- [`equals`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#equals-java.lang.Object-)`(Object o) : boolean`
 <details><summary><code>indexOf(..)</code></summary>
   
 - [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-int-)`(int character) : int`
@@ -98,6 +99,8 @@ _A quick reference for Java fundamentals._
 - [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-java.lang.String-)`(String string) : int`
 - [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-java.lang.String-int-)`(String string, int fromIndex) : int`
 </details>
+
+- [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#length--)`() : int`
 <details><summary><code>split(..)</code></summary>
   
 - [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-)`(String regex) : String[]`
@@ -118,6 +121,7 @@ _A quick reference for Java fundamentals._
 </details>
 
 - [`insert`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#insert-int-char:A-int-int-)`(..) : StringBuilder`
+- [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#length--)`() : int`
 <details><summary><code>substring(..)</code></summary>
 
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-)`(int start) : String`
