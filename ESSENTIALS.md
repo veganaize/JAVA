@@ -21,6 +21,18 @@ _A quick reference for Java fundamentals._
 | double
 
 
+| DATA TYPES | PRIMATIVE |   |
+|------------|-----------|---|
+| [Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)    | boolean   | true / false
+| [Byte](https://docs.oracle.com/javase/8/docs/api/java/lang/Byte.html)       | byte      | 8-bit signed (-128 - 127)
+| [Character](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html)  | char      | 16-bit unsigned (UCS-2 / UTF-16)
+| [Short](https://docs.oracle.com/javase/8/docs/api/java/lang/Short.html)      | short     | 16-bit signed (-32_768 - 32_767)
+| [Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)    | int       | 32-bit signed (-2_147_483_648 - 2_147_483_647)
+| [Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)       | long      | 64-bit signed (-9_223_372_036_854_775_808 - 9_223_372_036_854_775_807)
+| [Float](https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html)      | float     | 32-bit signed (1.4E-45 - 3.4028235E38)
+| [Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)     | double    | 64-bit signed (4.9E-324 - 1.7976931348623157E308)
+
+
 [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 -----------
 
