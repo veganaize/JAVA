@@ -36,7 +36,9 @@ _A quick reference for Java fundamentals._
 [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 -----------
 
+- [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#get-int-)`(int index) : E`
 - [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#size--)`() : int`
+
 
 [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
 --------
