@@ -79,6 +79,11 @@ _A quick reference for Java fundamentals._
 - [isUpperCase](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isUpperCase(char))`(char c) : boolean`
 - [isUpperCase](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isUpperCase(int))`(int codepoint) : boolean`
 </details>
+<details><summary><code>Character.toLowerCase(c)</code></summary>
+
+- [Character.toLowerCase](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#toLowerCase-char-)`(char c) : char`
+- [Character.toLowerCase](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#toLowerCase-int-)`(int codepoint) : int`
+</details>
 
 
 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
