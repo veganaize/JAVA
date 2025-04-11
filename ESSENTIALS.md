@@ -46,6 +46,41 @@ _A quick reference for Java fundamentals._
 - [`Arrays.asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a) : <T> List<T>`
 
 
+[Character]()
+-----------
+
+<details><summary><code>isDigit(c)</code></summary>
+
+- [isDigit](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isDigit(char))`(char c) : boolean`
+- [isDigit](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isDigit(int))`(int codepoint) : boolean`
+</details>
+<details><summary><code>isLetter(c)</code></summary>
+
+- [isLetter](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isLetter(char))`(char c) : boolean`
+- [isLetter](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isLetter(int))`(int codepoint) : boolean`
+</details>
+<details><summary><code>isLetterOrDigit(c)</code></summary>
+
+- [isLetterOrDigit](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isLetterOrDigit(char))`(char c) : boolean`
+- [isLetterOrDigit](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isLetterOrDigit(int))`(int codepoint) : boolean`
+</details>
+<details><summary><code>isLowerCase(c)</code></summary>
+
+- [isLowerCase](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isLowerCase(char))`(char c) : boolean`
+- [isLowerCase](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isLowerCase(int))`(int codepoint) : boolean`
+</details>
+<details><summary><code>isSpaceChar(c)</code></summary>
+
+- [isSpaceChar](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isSpaceChar(char))`(char c) : boolean`
+- [isSpaceChar](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isSpaceChar(int))`(int codepoint) : boolean`
+</details>
+<details><summary><code>isUpperCase(c)</code></summary>
+
+- [isUpperCase](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isUpperCase(char))`(char c) : boolean`
+- [isUpperCase](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isUpperCase(int))`(int codepoint) : boolean`
+</details>
+
+
 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
 -------------
 
