@@ -143,11 +143,8 @@ _A quick reference for Java fundamentals._
 </details>
 
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#length--)`() : int`
-<details><summary><code>split(..)</code></summary>
-  
-- [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-)`(String regex) : String[]`
-- [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-int-)`(String regex, int limit) : String[]`
-</details>
+- [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-int-)`(String regex[, int limit]) : String[]` _1.4+_
+- [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-)`(int beginAt[, int endBefore]) : String`
 
 
 [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
