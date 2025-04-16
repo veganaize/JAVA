@@ -1,5 +1,5 @@
-Java Essentials
-===============
+[Java](https://docs.oracle.com/javase/8/docs/) Essentials
+======
 
 _A quick reference for Java fundamentals._
 
