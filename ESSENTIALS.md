@@ -101,7 +101,7 @@ _A quick reference for Java fundamentals._
 
 - [`containsKey`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-)`(Object key) : boolean`
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#get-java.lang.Object-)`(Object key) : V`
-- [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V`
+- [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V` _1.8+_
 - [`put`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#put-K-V-)`(K key, V value) : V`
 - [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#size--)`() : int`
 
