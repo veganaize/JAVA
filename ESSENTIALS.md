@@ -161,6 +161,7 @@ _A quick reference for Java fundamentals._
 
 - [`insert`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#insert-int-char:A-int-int-)`(..) : StringBuilder`
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#length--)`() : int`
+- [`reverse`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#reverse--)`() : StringBuilder`
 <details><summary><code>substring(..)</code></summary>
 
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-)`(int start) : String`
