@@ -93,10 +93,11 @@ Data Types
 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>2</sup>
 -------------
 
-| Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List
-|----------------|--------------------|--------------------------|--------------------|--------------------------|-------------------------
+| Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
+|----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
 | [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>4</sup>
 | [List][List]   |                    | [ArrayList](#arraylist)  |                    | [LinkedList][LinkedList] |
+| [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
 | [Map](#map)    | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>4</sup>
 
@@ -188,9 +189,11 @@ Data Types
 
 ---
 
-<sup>2</sup> _= Since Java 1.2_  
-<sup>4</sup> _= Since Java 1.4_  
+<sup>2</sup> _= Since Java 1.2_ \
+<sup>4</sup> _= Since Java 1.4_ \
+<sup>5</sup> _= Since Java 5_ \
 <sup>6</sup> _= Since Java 6_
+
 
 [ArrayList]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 [ArrayDeque]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html
@@ -201,6 +204,8 @@ Data Types
 [LinkedHashSet]: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html
 [LinkedList]: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
 [List]: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+[PriorityQueue]: https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html
+[Queue]: https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
 [Set]: https://docs.oracle.com/javase/8/docs/api/java/util/Set.html
 [TreeMap]: https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html
 [TreeSet]: https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html
