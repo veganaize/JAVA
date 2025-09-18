@@ -3,7 +3,12 @@
 
 _A quick reference for Java fundamentals._
 
-| KEYWORDS |            |           |          |
+---
+
+Keywords
+--------
+
+|          |            |           |          |
 |:---------|:-----------|:----------|:---------|
 | abstract | else       | int       | strictfp
 | [assert](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)   | enum       | interface | super
@@ -20,8 +25,12 @@ _A quick reference for Java fundamentals._
 | do       | instanceof | static    | while
 | double
 
+---
 
-| DATA TYPES | PRIMATIVE |   |
+Data Types
+----------
+
+| Class      | Primitive |   |
 |------------|-----------|---|
 | [Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)    | boolean   | true / false
 | [Byte](https://docs.oracle.com/javase/8/docs/api/java/lang/Byte.html)       | byte      | 8-bit signed (-128 - 127)
@@ -32,13 +41,7 @@ _A quick reference for Java fundamentals._
 | [Float](https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html)      | float     | 32-bit signed (1.4E-45 - 3.4028235E38)
 | [Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)     | double    | 64-bit signed (4.9E-324 - 1.7976931348623157E308)
 
-
-[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
------------
-
-- [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#get-int-)`(int index) : E`
-- [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#size--)`() : int`
-
+---
 
 [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
 --------
@@ -85,9 +88,24 @@ _A quick reference for Java fundamentals._
 - [Character.toLowerCase](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#toLowerCase-int-)`(int codepoint) : int`
 </details>
 
+---
 
 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
 -------------
+
+| Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List
+|----------------|--------------------|--------------------------|--------------------|--------------------------|-------------------------
+| [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet]
+| [List][List]   |                    | [ArrayList](#arraylist)  |                    | [LinkedList][LinkedList] |
+| [Deque][Deque] |                    | [ArrayDeque][ArrayDeque] |                    | [LinkedList][LinkedList] |
+| [Map](#map)    | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap]
+
+
+[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+-----------
+
+- [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#get-int-)`(int index) : E`
+- [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#size--)`() : int`
 
 
 [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
@@ -167,3 +185,17 @@ _A quick reference for Java fundamentals._
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-)`(int start) : String`
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-int-)`(int start, int end) : String`
 </details>
+
+
+[ArrayList]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+[ArrayDeque]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html
+[Deque]: https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html
+[HashMap]: https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+[HashSet]: https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html
+[LinkedHashMap]: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html
+[LinkedHashSet]: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html
+[LinkedList]: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+[List]: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+[Set]: https://docs.oracle.com/javase/8/docs/api/java/util/Set.html
+[TreeMap]: https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html
+[TreeSet]: https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html
