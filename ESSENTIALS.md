@@ -90,15 +90,15 @@ Data Types
 
 ---
 
-[Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
+[Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>2</sup>
 -------------
 
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List
 |----------------|--------------------|--------------------------|--------------------|--------------------------|-------------------------
-| [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet]
+| [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>4</sup>
 | [List][List]   |                    | [ArrayList](#arraylist)  |                    | [LinkedList][LinkedList] |
-| [Deque][Deque] |                    | [ArrayDeque][ArrayDeque] |                    | [LinkedList][LinkedList] |
-| [Map](#map)    | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap]
+| [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
+| [Map](#map)    | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>4</sup>
 
 
 [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
@@ -186,6 +186,11 @@ Data Types
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-int-)`(int start, int end) : String`
 </details>
 
+---
+
+<sup>2</sup> _= Since Java 1.2_  
+<sup>4</sup> _= Since Java 1.4_  
+<sup>6</sup> _= Since Java 6_
 
 [ArrayList]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 [ArrayDeque]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html
