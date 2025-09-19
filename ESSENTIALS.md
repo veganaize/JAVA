@@ -8,10 +8,10 @@ _A quick reference for Java fundamentals._
 Keywords
 --------
 
-|          |            |           |          |
-|:---------|:-----------|:----------|:---------|
+|          |            |           |           |
+|:---------|:-----------|:----------|:----------|
 | abstract | else       | int       | strictfp
-| [assert](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)   | enum       | interface | super
+| [assert](#assertions) | enum      | interface | super
 | boolean  | extends    | long      | switch
 | break    | false      | native    | synchronized
 | byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
@@ -186,6 +186,25 @@ Data Types
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-)`(int start) : String`
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-int-)`(int start, int end) : String`
 </details>
+
+---
+
+[Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)
+------------
+
+```java
+java -ea
+java -enableassertions
+
+assert <condition> [: <detail message>];
+
+/* Ensure assertions are enabled via static initialization idiom! */
+static {
+    boolean assertsEnabled = false;
+    assert assertsEnabled = true;
+    if (! assertsEnabled) { throw new RuntimeException("\n\n ENABLE ASSERTIONS WITH -ea \n\n"); }
+} 
+```
 
 ---
 
