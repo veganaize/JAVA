@@ -11,7 +11,7 @@ Keywords
 |          |            |           |           |
 |:---------|:-----------|:----------|:----------|
 | abstract | else       | int       | strictfp
-| [assert](#assertions) | enum      | interface | super
+| [assert](#assertions-4) | enum      | interface | super
 | boolean  | extends    | long      | switch
 | break    | false      | native    | synchronized
 | byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
