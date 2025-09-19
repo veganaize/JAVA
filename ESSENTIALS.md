@@ -189,7 +189,7 @@ Data Types
 
 ---
 
-[Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)
+[Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) <sup>4</sup>
 ------------
 
 ```java
