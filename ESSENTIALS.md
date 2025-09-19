@@ -43,7 +43,7 @@ Data Types
 
 ---
 
-[Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
+[Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>2</sup>
 --------
 
 - [`Arrays.asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a) : <T> List<T>`
@@ -102,7 +102,7 @@ Data Types
 | [Map](#map)    | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>4</sup>
 
 
-[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) <sup>2</sup>
 -----------
 
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#get-int-)`(int index) : E`
@@ -115,7 +115,7 @@ Data Types
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#length--)`() : long`
 
 
-[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
+[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>2</sup>
 ---------
 
 - [`containsKey`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-)`(Object key) : boolean`
@@ -166,7 +166,7 @@ Data Types
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-)`(int beginAt[, int endBefore]) : String`
 
 
-[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
+[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) <sup>5</sup>
 ---------------
 
 - [`append`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#append-java.lang.Object-)`(..) : StringBuilder`
