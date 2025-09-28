@@ -11,7 +11,7 @@ _A quick reference for Java fundamentals._
 |          |            |           |           |
 |:---------|:-----------|:----------|:----------|
 | abstract | else       | int       | strictfp
-| [assert](#assertions-4) <sup>4</sup> | enum      | interface | super
+| [assert](#assertions-4) <sup>1.4</sup> | enum      | interface | super
 | boolean  | extends    | long      | switch
 | break    | false      | native    | synchronized
 | byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
@@ -43,7 +43,7 @@ _A quick reference for Java fundamentals._
 
 ---
 
-### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>2</sup>
+### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>1.2</sup>
 
 - [`Arrays.asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a) : <T> List<T>`
 
@@ -90,19 +90,19 @@ _A quick reference for Java fundamentals._
 ---
 
 
-📦 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>2</sup>
+📦 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>1.2</sup>
 ----------------
 
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
 |----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
-| [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>4</sup>
+| [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>1.4</sup>
 | [List][List]   |                    | [ArrayList](#arraylist-2) |                   | [LinkedList][LinkedList] |
 | [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
-| [Map](#map-2)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>4</sup>
+| [Map](#map-2)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>1.4</sup>
 
 
-### [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) <sup>2</sup>
+### [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) <sup>1.2</sup>
 
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#get-int-)`(int index) : E`
 - [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#size--)`() : int`
@@ -113,11 +113,11 @@ _A quick reference for Java fundamentals._
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#length--)`() : long`
 
 
-### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>2</sup>
+### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>1.2</sup>
 
 - [`containsKey`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-)`(Object key) : boolean`
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#get-java.lang.Object-)`(Object key) : V`
-- [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V` _1.8+_
+- [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V` <sup>v1.8+</sup>
 - [`put`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#put-K-V-)`(K key, V value) : V`
 - [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#size--)`() : int`
 
@@ -156,7 +156,7 @@ _A quick reference for Java fundamentals._
 </details>
 
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#length--)`() : int`
-- [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-int-)`(String regex[, int limit]) : String[]` _1.4+_
+- [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-int-)`(String regex[, int limit]) : String[]` <sup>v1.4+</sup>
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-)`(int beginAt[, int endBefore]) : String`
 
 
@@ -187,7 +187,7 @@ _A quick reference for Java fundamentals._
 🐛 Debugging
 ------------
 
-### [Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) <sup>4</sup>
+### [Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) <sup>1.4</sup>
 
 ```java
 java -ea
@@ -207,10 +207,11 @@ static {
 ---
 
 
-<sup>2</sup> _= Since Java 1.2_ \
-<sup>4</sup> _= Since Java 1.4_ \
+<sup>1.2</sup> _= Since Java 1.2_ \
+<sup>1.4</sup> _= Since Java 1.4_ \
 <sup>5</sup> _= Since Java 5_ \
-<sup>6</sup> _= Since Java 6_
+<sup>6</sup> _= Since Java 6_ \
+<sup>8</sup> _= Since Java 8_
 
 
 [ArrayList]: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
