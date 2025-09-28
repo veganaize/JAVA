@@ -90,7 +90,7 @@ _A quick reference for Java fundamentals._
 ---
 
 
-📦 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>1.2</sup>
+📦 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) <sup>1.2</sup>
 ----------------
 
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
