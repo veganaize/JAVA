@@ -1,12 +1,12 @@
-[Java](https://docs.oracle.com/javase/8/docs/) Essentials
-======
+[☕ Java](https://docs.oracle.com/javase/8/docs/) Essentials
+=========
 
 _A quick reference for Java fundamentals._
 
 ---
 
-Keywords
---------
+🔑 Keywords
+-----------
 
 |          |            |           |           |
 |:---------|:-----------|:----------|:----------|
@@ -27,8 +27,8 @@ Keywords
 
 ---
 
-Data Types
-----------
+🧩 Data Types
+-------------
 
 | Class      | Primitive |   |
 |------------|-----------|---|
@@ -43,14 +43,12 @@ Data Types
 
 ---
 
-[Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>2</sup>
---------
+### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>2</sup>
 
 - [`Arrays.asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a) : <T> List<T>`
 
 
-[Character](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html)
------------
+### [Character](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html)
 
 <details><summary><code>Character.isDigit(c)</code></summary>
 
@@ -88,35 +86,34 @@ Data Types
 - [Character.toLowerCase](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#toLowerCase-int-)`(int codepoint) : int`
 </details>
 
+
 ---
 
-[Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>2</sup>
--------------
+
+📦 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) <sup>2</sup>
+----------------
 
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
 |----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
 | [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>4</sup>
-| [List][List]   |                    | [ArrayList](#arraylist)  |                    | [LinkedList][LinkedList] |
+| [List][List]   |                    | [ArrayList](#arraylist-2) |                   | [LinkedList][LinkedList] |
 | [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
-| [Map](#map)    | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>4</sup>
+| [Map](#map-2)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>4</sup>
 
 
-[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) <sup>2</sup>
------------
+### [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) <sup>2</sup>
 
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#get-int-)`(int index) : E`
 - [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#size--)`() : int`
 
 
-[File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
-------
+### [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#length--)`() : long`
 
 
-[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>2</sup>
----------
+### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>2</sup>
 
 - [`containsKey`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-)`(Object key) : boolean`
 - [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#get-java.lang.Object-)`(Object key) : V`
@@ -125,8 +122,7 @@ Data Types
 - [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#size--)`() : int`
 
 
-[Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
-------
+### [Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
 <details><summary><code>Math.min(a, b)</code></summary>
 
@@ -139,8 +135,7 @@ Data Types
 - [`Math.pow`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#pow-double-double-)`(double base, double exponent) : double`
 
 
-[Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
--------
+### [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
 
 - [`empty`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#empty--)`() : boolean`
 - [`peek`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#peek--)`() : E`
@@ -149,8 +144,7 @@ Data Types
 - [`search`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#search-java.lang.Object-)`(Object o) : int`
 
 
-[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
---------
+### [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 
 - [`equals`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#equals-java.lang.Object-)`(Object o) : boolean`
 <details><summary><code>indexOf(..)</code></summary>
@@ -166,8 +160,7 @@ Data Types
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-)`(int beginAt[, int endBefore]) : String`
 
 
-[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) <sup>5</sup>
----------------
+### [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) <sup>5</sup>
 
 - [`append`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#append-java.lang.Object-)`(..) : StringBuilder`
 - [`charAt`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#charAt-int-)`(int index) : char`
@@ -187,10 +180,14 @@ Data Types
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-int-)`(int start, int end) : String`
 </details>
 
+
 ---
 
-[Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) <sup>4</sup>
+
+🐛 Debugging
 ------------
+
+### [Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) <sup>4</sup>
 
 ```java
 java -ea
@@ -206,7 +203,9 @@ static {
 } 
 ```
 
+
 ---
+
 
 <sup>2</sup> _= Since Java 1.2_ \
 <sup>4</sup> _= Since Java 1.4_ \
