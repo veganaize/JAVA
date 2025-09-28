@@ -101,6 +101,35 @@ _A quick reference for Java fundamentals._
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
 | [Map](#map-2)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>1.4</sup>
 
+```java
+.add(element)  // returns boolean; optional operation;
+               // throws UnsupportedOperationException, ClassCastException, NullPointerException, IllegalArgumentException, IllegalStateException
+.addAll(collection)  // returns boolean; optional operation;
+                     // throws UnsupportedOperationException, ClassCastException, NullPointerException, IllegalArgumentException, IllegalStateException
+.clear()  // removes all elements; optional operation; throws UnsupportedOperationException
+.contains(object)         // returns boolean; throws ClassCastException (optional), NullPointerException (optional)
+.containsAll(collection)  // returns boolean; throws ClassCastException (optional), NullPointerException (optional)
+.equals(object)   // return boolean
+.forEach(action)  // performs action for each element; throws NullPointerException; from Iterable interface; 1.8+
+.hashCode()  // returns int
+.isEmpty()   // returns boolean
+.iterator()  // returns Iterator over elements; from Iterable interface; 1.5+
+.parallelStream()  // returns possibly parallel Stream; 1.8+
+.remove(object)    // returns boolean; removes a single instance; optional operation;
+                   // throws ClassCastException, NullPointerException, UnsupportedOperationException
+.removeAll(collection)  // returns boolean; removes elements; optional operation;
+                        // throws UnsupportedOperationException, ClassCastException (optional), NullPointerException (optional)
+.removeIf(predicate)    // returns boolean; throws NullPointerException, UnsupportedOperationException; 1.8+
+.retainAll(collection)  // returns boolean; reatins only elements in collection; optional operation;
+                        // throws UnsupportedOperationException, ClassCastException (optional); NullPointerException (optional)
+.size()         // returns int; number of elements
+.spliterator()  // returns Spliterator for traversing and partitioning elements of a source; from Iterable interface; 1.8+
+.stream()   // returns sequential Stream; 1.8+
+.toArray()  // returns Object[]; array containing all elements; same as `.toArray(new Object[0])`
+.toArray(T[] array)  // returns T[]; attempts to fit elements in existing, otherwise new; end set to null;
+                     // throws ArrayStoreException, NullPointerException; `String[] a = c.toArray(new String[0]);`
+```
+
 
 ### [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) <sup>1.2</sup>
 
