@@ -299,5 +299,5 @@ _Align apk:_
 ------------
 
 * [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - Roman Nurik
-* [Creating Icons Tutorial](https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
+* [Creating Icons Tutorial](http://web.archive.org/web/20250213185010/https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
 * [Learn Android](https://www.tutorialspoint.com/android/android_overview.htm) - Tutorials Point
