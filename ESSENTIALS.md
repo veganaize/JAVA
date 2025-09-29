@@ -46,8 +46,8 @@ _A quick reference for Java fundamentals._
 | [Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)     | double    | 64-bit signed (4.9E-324 - 1.7976931348623157E308)
 
 
-Classes
--------
+⚙️ Classes
+----------
 
 ### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>1.2</sup>
 
