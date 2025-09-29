@@ -123,7 +123,7 @@ _A quick reference for Java fundamentals._
                         // throws UnsupportedOperationException, ClassCastException (optional), NullPointerException (optional)
 .removeIf(predicate)    // returns boolean; throws NullPointerException, UnsupportedOperationException; 1.8+
 .retainAll(collection)  // returns boolean; reatins only elements in collection; optional operation;
-                        // throws UnsupportedOperationException, ClassCastException (optional); NullPointerException (optional)
+                        // throws UnsupportedOperationException, ClassCastException (optional), NullPointerException (optional)
 .size()         // returns int; number of elements
 .spliterator()  // returns Spliterator for traversing and partitioning elements of a source; from Iterable interface; 1.8+
 .stream()       // returns sequential Stream; 1.8+
