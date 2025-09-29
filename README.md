@@ -479,3 +479,14 @@
     - [_removed windows 32-bit x86 support_](https://openjdk.org/jeps/479)
     - [_stream gatherers_](https://openjdk.org/jeps/485)
 </details>
+
+
+<details>
+<summary>JDK 25 <i>(LTS - 09/2033)</i></summary>
+
+  - _Class File Version: 69_
+  - [_Features_](https://openjdk.org/projects/jdk/25/)
+    - [_remove 32-bit x86 port_](https://openjdk.org/jeps/503)
+    - [_scoped values_](https://openjdk.org/jeps/506)
+  - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se25/html/index.html) _- 2025_
+</details>
