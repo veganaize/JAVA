@@ -3,7 +3,9 @@
 
 _A quick reference for Java fundamentals._
 
+
 ---
+
 
 🔑 Keywords
 -----------
@@ -25,7 +27,9 @@ _A quick reference for Java fundamentals._
 | do       | instanceof | static    | while
 | double
 
+
 ---
+
 
 🧩 Data Types
 -------------
@@ -41,7 +45,9 @@ _A quick reference for Java fundamentals._
 | [Float](https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html)      | float     | 32-bit signed (1.4E-45 - 3.4028235E38)
 | [Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)     | double    | 64-bit signed (4.9E-324 - 1.7976931348623157E308)
 
----
+
+Classes
+-------
 
 ### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>1.2</sup>
 
@@ -87,6 +93,24 @@ _A quick reference for Java fundamentals._
 </details>
 
 
+### [System](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html)
+
+```java
+/**
+ * java.lang.System  // can't be instantiated (private constructor); can't be inherited (final); all static methods
+ *
+ * System.in   // standard input stream; static field
+ * System.err  // standard error stream; static field
+ * System.out  // standard output stream; static field
+ */
+
+.arraycopy(src_array, src_index, dest_array, dest_index, length)  // throws IndexOutOfBoundsException, ArrayStoreException, NullPointerException
+.currentTimeMillis()  // returns long; current time as milliseconds since midnight, January 1, 1970 UTC
+.exit(status)  // terminates current jvm; returns status to os; throws SecurityException; same as `Runtime.getRuntime().exit(n)`
+.nanoTime()  // returns long; running jvm's current nanoseconds; arbitrary origin; only for measuring elapsed times; 1.5+
+```
+
+
 ---
 
 
@@ -102,7 +126,9 @@ _A quick reference for Java fundamentals._
 | [Map](#map-12)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>1.4</sup>
 
 ```java
-/* java.util.Collection */
+/**
+ * java.util.Collection
+ */
 
 .add(element)  // returns boolean; optional operation;
                // throws UnsupportedOperationException, ClassCastException, NullPointerException, IllegalArgumentException, IllegalStateException
