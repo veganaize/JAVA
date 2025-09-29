@@ -96,24 +96,26 @@ _A quick reference for Java fundamentals._
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
 |----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
 | [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>1.4</sup>
-| [List][List]   |                    | [ArrayList](#arraylist-2) |                   | [LinkedList][LinkedList] |
+| [List][List]   |                    | [ArrayList](#arraylist-12) |                   | [LinkedList][LinkedList] |
 | [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
-| [Map](#map-2)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>1.4</sup>
+| [Map](#map-12)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>1.4</sup>
 
 ```java
+/* java.util.Collection */
+
 .add(element)  // returns boolean; optional operation;
                // throws UnsupportedOperationException, ClassCastException, NullPointerException, IllegalArgumentException, IllegalStateException
 .addAll(collection)  // returns boolean; optional operation;
                      // throws UnsupportedOperationException, ClassCastException, NullPointerException, IllegalArgumentException, IllegalStateException
-.clear()  // removes all elements; optional operation; throws UnsupportedOperationException
+.clear()             // removes all elements; optional operation; throws UnsupportedOperationException
 .contains(object)         // returns boolean; throws ClassCastException (optional), NullPointerException (optional)
 .containsAll(collection)  // returns boolean; throws ClassCastException (optional), NullPointerException (optional)
-.equals(object)   // return boolean
-.forEach(action)  // performs action for each element; throws NullPointerException; from Iterable interface; 1.8+
-.hashCode()  // returns int
-.isEmpty()   // returns boolean
-.iterator()  // returns Iterator over elements; from Iterable interface; 1.5+
+.equals(object)    // return boolean
+.forEach(action)   // performs action for each element; throws NullPointerException; from Iterable interface; 1.8+
+.hashCode()        // returns int
+.isEmpty()         // returns boolean
+.iterator()        // returns Iterator over elements; from Iterable interface; 1.5+
 .parallelStream()  // returns possibly parallel Stream; 1.8+
 .remove(object)    // returns boolean; removes a single instance; optional operation;
                    // throws ClassCastException, NullPointerException, UnsupportedOperationException
@@ -124,8 +126,8 @@ _A quick reference for Java fundamentals._
                         // throws UnsupportedOperationException, ClassCastException (optional); NullPointerException (optional)
 .size()         // returns int; number of elements
 .spliterator()  // returns Spliterator for traversing and partitioning elements of a source; from Iterable interface; 1.8+
-.stream()   // returns sequential Stream; 1.8+
-.toArray()  // returns Object[]; array containing all elements; same as `.toArray(new Object[0])`
+.stream()       // returns sequential Stream; 1.8+
+.toArray()      // returns Object[]; array containing all elements; same as `.toArray(new Object[0])`
 .toArray(T[] array)  // returns T[]; attempts to fit elements in existing, otherwise new; end set to null;
                      // throws ArrayStoreException, NullPointerException; `String[] a = c.toArray(new String[0]);`
 ```
