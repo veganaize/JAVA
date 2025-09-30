@@ -49,11 +49,6 @@ _A quick reference for Java fundamentals._
 ⚙️ Classes
 ----------
 
-### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>1.2</sup>
-
-- [`Arrays.asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a) : <T> List<T>`
-
-
 ### [Character](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html)
 
 <details><summary><code>Character.isDigit(c)</code></summary>
@@ -156,6 +151,16 @@ _A quick reference for Java fundamentals._
 .toArray()      // returns Object[]; array containing all elements; same as `.toArray(new Object[0])`
 .toArray(T[] array)  // returns T[]; attempts to fit elements in existing, otherwise new; end set to null;
                      // throws ArrayStoreException, NullPointerException; `String[] a = c.toArray(new String[0]);`
+```
+
+
+### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>1.2</sup>
+
+```java
+/** java.util.Arrays */
+
+.asList(T... a)  // returns fixed-size <T> List<T> backed by array; returned List view implements RandomAccess
+.equals(a, b)    // returns boolean; also equal if both null
 ```
 
 
