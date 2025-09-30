@@ -88,6 +88,9 @@ _A quick reference for Java fundamentals._
 </details>
 
 
+### [Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
+
+
 ### [System](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html)
 
 ```java
