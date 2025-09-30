@@ -329,7 +329,7 @@
   - [_API Documentation_](https://docs.oracle.com/en/java/javase/11/docs/api/)
   - [_Features_](https://openjdk.org/projects/jdk/11/)
     - [flight recorder](https://openjdk.org/jeps/328)
-    - [http client](https://openjdk.org/jeps/321)
+    - [http client](https://openjdk.org/jeps/321) ([intro](https://openjdk.org/groups/net/httpclient/intro.html)) ([api](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/package-summary.html)) ([examples](https://openjdk.org/groups/net/httpclient/recipes-incubating.html))
     - [launch single-file source-code programs](https://openjdk.org/jeps/330)
     - [local-variable syntax for lambda parameters](https://openjdk.org/jeps/323)
     - [transport layer security (tls) 1.3](https://openjdk.org/jeps/332)
