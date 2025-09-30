@@ -161,6 +161,7 @@ _A quick reference for Java fundamentals._
 
 .asList(T... a)  // returns fixed-size <T> List<T> backed by array; returned List view implements RandomAccess
 .equals(a, b)    // returns boolean; also equal if both null
+.sort(a[, start, end])  // sorts array into ascending order; exclusive of end index
 ```
 
 
