@@ -93,16 +93,18 @@ _A quick reference for Java fundamentals._
 ```java
 /**
  * java.lang.Number -> java.lang.Integer
+ *
  * Wraps an `int` in its single field
+ *
+ * Integer.BYTES      // int constant; byte count used to represent int in two's complement binary form
+ * Integer.MAX_VALUE  // int constant 2^31-1; max int value
+ * Integer.MIN_VALUE  // int constant -2^31; min int value
+ * Integer.SIZE       // int constant; bit count used to represent int value in two's complement binary form
+ * Integer.TYPE       // Class<Integer> instance representing int primitive type
  */
-Integer.BYTES  // int constant; byte count used to represent int in two's complement binary form
-Integer.MAX_VALUE  // int constant 2^31-1; max int value
-Integer.MIN_VALUE  // int constant -2^31; min int value
-Integer.SIZE  // int constant; bit count used to represent int value in two's complement binary form
-Integer.TYPE  // Class<Integer> instance representing int primitive type
 
-Integer(int)     // returns `Integer` wrapped int
-Integer(string)  // `Integer` wrapped version of `Integer.parseInt(java.lang.String, 10)`
+new Integer(int)     // `Integer` wrapped int
+new Integer(string)  // `Integer` wrapped version of `Integer.parseInt(java.lang.String, 10)`
 ```
 
 
@@ -111,6 +113,7 @@ Integer(string)  // `Integer` wrapped version of `Integer.parseInt(java.lang.Str
 ```java
 /**
  * java.lang.Object
+ *
  * All objects implement these methods, including arrays
  */
 
@@ -286,6 +289,15 @@ new Object();
 
 
 ---
+
+
+⌨️ Command Line
+---------------
+
+```
+javac -Xlint:unchecked <source file(s)>
+java -ea MainClassName
+```
 
 
 🐛 Debugging
