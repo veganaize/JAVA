@@ -40,7 +40,7 @@ _A quick reference for Java fundamentals._
 | [Byte](https://docs.oracle.com/javase/8/docs/api/java/lang/Byte.html)       | byte      | 8-bit signed (-128 - 127)
 | [Character](#character)  | char      | 16-bit unsigned ([UCS](https://en.wikipedia.org/wiki/Universal_Coded_Character_Set)-2 / [UTF-16](https://en.wikipedia.org/wiki/UTF-16))
 | [Short](https://docs.oracle.com/javase/8/docs/api/java/lang/Short.html)      | short     | 16-bit signed (-32_768 - 32_767)
-| [Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)    | int       | 32-bit signed (-2_147_483_648 - 2_147_483_647)
+| [Integer](#integer)      | int       | 32-bit signed (-2_147_483_648 - 2_147_483_647)
 | [Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)       | long      | 64-bit signed (-9_223_372_036_854_775_808 - 9_223_372_036_854_775_807)
 | [Float](https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html)      | float     | 32-bit signed (1.4E-45 - 3.4028235E38)
 | [Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)     | double    | 64-bit signed (4.9E-324 - 1.7976931348623157E308)
@@ -86,6 +86,24 @@ _A quick reference for Java fundamentals._
 - [Character.toLowerCase](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#toLowerCase-char-)`(char c) : char`
 - [Character.toLowerCase](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#toLowerCase-int-)`(int codepoint) : int`
 </details>
+
+
+### [Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)
+
+```java
+/**
+ * java.lang.Number -> java.lang.Integer
+ * Wraps an `int` in its single field
+ */
+Integer.BYTES  // int constant; byte count used to represent int in two's complement binary form
+Integer.MAX_VALUE  // int constant 2^31-1; max int value
+Integer.MIN_VALUE  // int constant -2^31; min int value
+Integer.SIZE  // int constant; bit count used to represent int value in two's complement binary form
+Integer.TYPE  // Class<Integer> instance representing int primitive type
+
+Integer(int)     // returns `Integer` wrapped int
+Integer(string)  // `Integer` wrapped version of `Integer.parseInt(java.lang.String, 10)`
+```
 
 
 ### [Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
