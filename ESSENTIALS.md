@@ -90,6 +90,26 @@ _A quick reference for Java fundamentals._
 
 ### [Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
 
+```java
+/**
+ * java.lang.Object
+ * All objects implement these methods, including arrays
+ */
+
+new Object();
+.clone()         // returns Object
+.equals(object)  // returns boolean
+.finalize()      // protected method called when garbage collection determines there's no references to it
+.getClass()      // returns runtime Class<?>
+.hashCode()     // returns int
+.notify()      // wakes single thread waiting on this object
+.notifyAll()  // wakes all threads waiting on this object
+.toString()  // returns String; all subclasses should override with concise, informative & easy to read representation; default is class name & hex hash
+.wait()     // causes current thread to wait until other thread invokes notify() or notifyAll() on this object
+.wait(long timeout)  // causes current thread to wait until other thread notifies this object, or for specified duration
+.wait(long timeout, int nanos)  // causes current thread to wait until other thread notifies, other thread interrupts current, or for realtime duration
+```
+
 
 ### [System](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html)
 
