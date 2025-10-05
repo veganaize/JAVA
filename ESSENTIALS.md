@@ -105,6 +105,9 @@ _A quick reference for Java fundamentals._
 
 new Integer(int)     // `Integer` wrapped int
 new Integer(string)  // `Integer` wrapped version of `Integer.parseInt(java.lang.String, 10)`
+
+.intValue()   // return value as int
+.longValue()  // return value as long
 ```
 
 
