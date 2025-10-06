@@ -225,12 +225,28 @@ new Object();
 
 ### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>1.2</sup>
 
-- [`containsKey`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#containsKey-java.lang.Object-)`(Object key) : boolean`
-- [`get`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#get-java.lang.Object-)`(Object key) : V`
-- [`getOrDefault`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)`(Object key, V defaultValue) : V` <sup>v1.8+</sup>
-- [`put`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#put-K-V-)`(K key, V value) : V`
-- [`size`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#size--)`() : int`
+```java
+/**
+ * java.util.Map
+ *
+ * Map.Entry<K,V>   // static interface
+ */
 
+.clear()            // empties map; optional operation; throws UnsupportedOperationException
+.containsKey(key)   // returns boolean
+.containsValue(value)  // returns true if one or more keys maps to value
+.entrySet()         // Returns Set<Map.Entry<K,V>> view; use only iterator's remove/retainAll/clear operations or .setValue()
+.equals(map)        // true if `m1.entrySet().equals(m2.entrySet())`
+.forEach(function)  // `for (Map.Entry<K,V> es : map.entrySet()) { action.accept(es.getKey(), es.getValue()); }`; 1.8+
+.get(key)           // returns value; null if no mapping
+.getOrDefault(key, defaultValue)  // returns value; 1.8+
+.isEmpty()          // returns boolean
+.keySet()           // returns Set<K> view; use only iterator's remove/retainAll/clear operations
+.put(key, value)    // returns value
+.remove(key)        // returns value or null (value may also be null)
+.size()             // returns int; returns Integer.MAX_VALUE if more than Integer.MAX_VALUE elements
+.values()           // returns Collection<V> view; use only iterator's remove/retainAll/clear operations
+```
 
 ### [Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
