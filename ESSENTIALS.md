@@ -13,7 +13,7 @@ _A quick reference for Java fundamentals._
 |          |            |           |           |
 |:---------|:-----------|:----------|:----------|
 | abstract | else       | int       | strictfp
-| [assert](#assertions-14) <sup>1.4</sup> | enum | interface | super
+| [assert](#assertions-14) <sup>1.4</sup> | [enum](https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.9) <sup>5</sup> | interface | super
 | boolean  | extends    | long      | switch
 | break    | false      | native    | synchronized
 | byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
